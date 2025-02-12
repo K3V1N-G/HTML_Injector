@@ -1,9 +1,42 @@
-[
-    {
-        "project": "project_1.html",
-        "violation": "MISSING_ALT",
-        "before": "<img alt=\"An eagle\" src=\"pic.png\"/>",
-        "after": "<img src=\"pic.png\"/>",
-        "linenumber": 27
-    }
-]
+{
+    "pretty_files/project_1_pretty.html": [
+        {
+            "violation": "1.1.1.1",
+            "before": "<iframe height=\"200\" id=\"embedded-content\" src=\"https://www.example.com\" title=\"Embedded Content\" width=\"300\">\n</iframe>",
+            "after": "<iframe height=\"200\" id=\"embedded-content\" src=\"https://www.example.com\" width=\"300\">\n</iframe>",
+            "linenumber": 69
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"An eagle\" src=\"pic.png\"/>",
+            "after": "<img src=\"pic.png\"/>",
+            "linenumber": 41
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"user-input\">\n    Enter text:\n   </label>",
+            "after": "<!--Label for input element \"user-input\" removed -->",
+            "linenumber": 56
+        }
+    ],
+    "pretty_files/project_2_pretty.html": [
+        {
+            "violation": "1.1.1.1",
+            "before": "<iframe height=\"200\" id=\"site-iframe\" src=\"https://www.example.com\" title=\"Embedded Example\" width=\"300\">\n</iframe>",
+            "after": "<iframe height=\"200\" id=\"site-iframe\" src=\"https://www.example.com\" width=\"300\">\n</iframe>",
+            "linenumber": 66
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"Brand Logo\" id=\"brand-logo\" src=\"logo.png\" width=\"200\"/>",
+            "after": "<img id=\"brand-logo\" src=\"logo.png\" width=\"200\"/>",
+            "linenumber": 74
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"name-field\">\n    Enter Your Name:\n   </label>",
+            "after": "<!--Label for input element \"name-field\" removed -->",
+            "linenumber": 42
+        }
+    ]
+}

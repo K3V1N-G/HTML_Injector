@@ -53,11 +53,11 @@
      Option 2
     </option>
    </select>
-   <label for="user-input">
-    Enter text:
-   </label>
+   <!--
+    Label for input element "user-input" removed 
+    -->
    <input aria-required="true" id="user-input" name="user-input" type="text"/>
-   <button class="interactive" id="submit-btn" onmousedown="alert('Button Pressed!')">
+   <button class="interactive" id="submit-btn" onkeydown="alert('Button Pressed!')" onmousedown="alert('Button Pressed!')">
     Submit
    </button>
    <h4>
@@ -66,12 +66,12 @@
    <label for="embedded-content">
     External Content:
    </label>
-   <iframe height="200" id="embedded-content" src="https://www.example.com" title="Embedded Content" width="300">
+   <iframe height="200" id="embedded-content" src="https://www.example.com" width="300">
    </iframe>
    <h5>
     Mouse Interaction
    </h5>
-   <p class="interactive" id="mouse-event" onmouseout="this.style.color='black'" onmouseover="this.style.color='red'">
+   <p class="interactive" id="mouse-event" onblur="this.style.color='black'" onfocus="this.style.color='red'" onmouseout="this.style.color='black'" onmouseover="this.style.color='red'">
     Hover over this text to change its color.
    </p>
    <h6>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Diverse Accessible Page
+  </title>
+  <style>
+   .focus-effect:focus { color: red; }
+        .blur-effect:blur { color: black; }
+        .keydown-effect:active { background-color: lightgray; }
+  </style>
+ </head>
+ <body>
+  <h1 id="header-title">
+   Diverse Accessible Page
+  </h1>
+  <section>
+   <h2>
+    Navigation
+   </h2>
+   <nav>
+    <ul>
+     <li>
+      <a href="#main-area">
+       Jump to Main Content
+      </a>
+     </li>
+     <li>
+      <a href="https://example.com" rel="noopener noreferrer" target="_blank">
+       External Link
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </section>
+  <main id="main-area">
+   <h3>
+    Interactive Components
+   </h3>
+   <!--
+    Label for input element "name-field" removed 
+    -->
+   <input aria-required="true" id="name-field" type="text"/>
+   <label for="choice">
+    Select an Option:
+   </label>
+   <select id="choice">
+    <option value="1">
+     First Option
+    </option>
+    <option value="2">
+     Second Option
+    </option>
+   </select>
+   <button class="keydown-effect" id="action-btn" onkeydown="alert('Key Pressed!')" onmousedown="alert('Mouse Clicked!')">
+    Submit
+   </button>
+   <h4>
+    Embedded Elements
+   </h4>
+   <label for="site-iframe">
+    Embedded Content:
+   </label>
+   <iframe height="200" id="site-iframe" src="https://www.example.com" width="300">
+   </iframe>
+   <h5>
+    Visual Representation
+   </h5>
+   <label for="brand-logo">
+    Company Logo:
+   </label>
+   <img id="brand-logo" src="logo.png" width="200"/>
+  </main>
+  <aside>
+   <h6>
+    Interactive Text
+   </h6>
+   <p class="focus-effect" id="hover-text" onblur="this.style.fontSize='initial'" onfocus="this.style.fontSize='larger'" onmouseout="this.style.fontSize='initial'" onmouseover="this.style.fontSize='larger'">
+    Focus or hover over this text to see it change.
+   </p>
+  </aside>
+  <footer>
+   <p>
+    © 2025 Diverse Accessible Page
+   </p>
+  </footer>
+ </body>
+</html>
