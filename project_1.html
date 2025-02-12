@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Webpage</title>
+    <style>
+        .interactive:hover { background-color: lightblue; }
+        .interactive:active { background-color: lightgreen; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Accessible Webpage</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#content">Skip to Content</a></li>
+            <li><a href="https://example.com" target="_blank" rel="noopener noreferrer">Example Link</a></li>
+        </ul>
+    </nav>
+    
+    <main id="content">
+        <h2>Introduction</h2>
+        <p>This is a sample accessible webpage.</p>
+        <img src="pic.png" alt="An eagle" />
+        <h3>Interactive Elements</h3>
+        
+        <label for="options">Choose an option:</label>
+        <select id="options" aria-label="Select an option">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+        </select>
+        
+        <label for="user-input">Enter text:</label>
+        <input type="text" id="user-input" name="user-input" aria-required="true">
+        
+        <button id="submit-btn" class="interactive" onmousedown="alert('Button Pressed!')">Submit</button>
+        
+        <h4>Embedded Content</h4>
+        <label for="embedded-content">External Content:</label>
+        <iframe id="embedded-content" src="https://www.example.com" title="Embedded Content" width="300" height="200"></iframe>
+        
+        <h5>Mouse Interaction</h5>
+        <p id="mouse-event" class="interactive" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">
+            Hover over this text to change its color.
+        </p>
+        
+        <h6>Final Heading</h6>
+        <p>All elements meet WCAG guidelines.</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Accessible Webpage</p>
+    </footer>
+</body>
+</html>

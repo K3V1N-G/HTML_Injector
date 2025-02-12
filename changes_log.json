@@ -1,0 +1,9 @@
+[
+    {
+        "project": "project_1.html",
+        "violation": "MISSING_ALT",
+        "before": "<img alt=\"An eagle\" src=\"pic.png\"/>",
+        "after": "<img src=\"pic.png\"/>",
+        "linenumber": 27
+    }
+]
