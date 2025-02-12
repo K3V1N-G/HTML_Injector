@@ -17,6 +17,30 @@
             "before": "<label for=\"user-input\">\n    Enter text:\n   </label>",
             "after": "<!--Label for input element \"user-input\" removed -->",
             "linenumber": 56
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n    This is a sample accessible webpage.\n   </p>",
+            "after": "<font>\n    This is a sample accessible webpage.\n   </font>",
+            "linenumber": 38
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p class=\"interactive\" id=\"mouse-event\" onblur=\"this.style.color='black'\" onfocus=\"this.style.color='red'\" onmouseout=\"this.style.color='black'\" onmouseover=\"this.style.color='red'\">\n    Hover over this text to change its color.\n   </p>",
+            "after": "<font class=\"interactive\" id=\"mouse-event\" onblur=\"this.style.color='black'\" onfocus=\"this.style.color='red'\" onmouseout=\"this.style.color='black'\" onmouseover=\"this.style.color='red'\">\n    Hover over this text to change its color.\n   </font>",
+            "linenumber": 74
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n    All elements meet WCAG guidelines.\n   </p>",
+            "after": "<font>\n    All elements meet WCAG guidelines.\n   </font>",
+            "linenumber": 80
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n    \u00a9 2025 Accessible Webpage\n   </p>",
+            "after": "<font>\n    \u00a9 2025 Accessible Webpage\n   </font>",
+            "linenumber": 85
         }
     ],
     "pretty_files/project_2_pretty.html": [
@@ -37,6 +61,688 @@
             "before": "<label for=\"name-field\">\n    Enter Your Name:\n   </label>",
             "after": "<!--Label for input element \"name-field\" removed -->",
             "linenumber": 42
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p class=\"focus-effect\" id=\"hover-text\" onblur=\"this.style.fontSize='initial'\" onfocus=\"this.style.fontSize='larger'\" onmouseout=\"this.style.fontSize='initial'\" onmouseover=\"this.style.fontSize='larger'\">\n    Focus or hover over this text to see it change.\n   </p>",
+            "after": "<font class=\"focus-effect\" id=\"hover-text\" onblur=\"this.style.fontSize='initial'\" onfocus=\"this.style.fontSize='larger'\" onmouseout=\"this.style.fontSize='initial'\" onmouseover=\"this.style.fontSize='larger'\">\n    Focus or hover over this text to see it change.\n   </font>",
+            "linenumber": 80
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n    \u00a9 2025 Diverse Accessible Page\n   </p>",
+            "after": "<font>\n    \u00a9 2025 Diverse Accessible Page\n   </font>",
+            "linenumber": 85
+        }
+    ],
+    "pretty_files/project_3_pretty.html": [
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic01.jpg\"/>",
+            "after": "<img src=\"images/pic01.jpg\"/>",
+            "linenumber": 49
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic02.jpg\"/>",
+            "after": "<img src=\"images/pic02.jpg\"/>",
+            "linenumber": 68
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/01.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/01.jpg\"/>",
+            "linenumber": 138
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/02.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/02.jpg\"/>",
+            "linenumber": 141
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/03.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/03.jpg\"/>",
+            "linenumber": 144
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/04.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/04.jpg\"/>",
+            "linenumber": 147
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/05.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/05.jpg\"/>",
+            "linenumber": 165
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/06.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/06.jpg\"/>",
+            "linenumber": 168
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/07.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/07.jpg\"/>",
+            "linenumber": 171
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/08.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/08.jpg\"/>",
+            "linenumber": 189
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/09.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/09.jpg\"/>",
+            "linenumber": 192
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/10.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/10.jpg\"/>",
+            "linenumber": 195
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-name\">\n           Name\n          </label>",
+            "after": "<!--Label for input element \"demo-name\" removed -->",
+            "linenumber": 693
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-email\">\n           Email\n          </label>",
+            "after": "<!--Label for input element \"demo-email\" removed -->",
+            "linenumber": 699
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-priority-low\">\n           Low\n          </label>",
+            "after": "<!--Label for input element \"demo-priority-low\" removed -->",
+            "linenumber": 728
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-priority-high\">\n           High\n          </label>",
+            "after": "<!--Label for input element \"demo-priority-high\" removed -->",
+            "linenumber": 734
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-copy\">\n           Email me a copy\n          </label>",
+            "after": "<!--Label for input element \"demo-copy\" removed -->",
+            "linenumber": 740
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-human\">\n           Not a robot\n          </label>",
+            "after": "<!--Label for input element \"demo-human\" removed -->",
+            "linenumber": 746
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n      A free responsive site template designed by\n      <a href=\"https://twitter.com/ajlkn\">\n       @ajlkn\n      </a>\n      /\n      <a href=\"https://html5up.net\">\n       HTML5 UP\n      </a>\n</p>",
+            "after": "<font>\n      A free responsive site template designed by\n      <a href=\"https://twitter.com/ajlkn\">\n       @ajlkn\n      </a>\n      /\n      <a href=\"https://html5up.net\">\n       HTML5 UP\n      </a>\n</font>",
+            "linenumber": 27
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n<strong>\n       Lorem ipsum dolor\n      </strong>\n      sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.\n     </p>",
+            "after": "<font>\n<strong>\n       Lorem ipsum dolor\n      </strong>\n      sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.\n     </font>",
+            "linenumber": 61
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n<strong>\n       Etiam tristique libero\n      </strong>\n      eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.\n     </p>",
+            "after": "<font>\n<strong>\n       Etiam tristique libero\n      </strong>\n      eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.\n     </font>",
+            "linenumber": 80
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n      Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.\n     </p>",
+            "after": "<font>\n      Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.\n     </font>",
+            "linenumber": 106
+        },
+        {
+            "violation": "1.4.4.2",
+            "before": "<em>\n         emphasized\n        </em>",
+            "after": "<i>\n         emphasized\n        </i>",
+            "linenumber": 259
+        },
+        {
+            "violation": "1.4.4.3",
+            "before": "<strong>\n       Lorem ipsum dolor\n      </strong>",
+            "after": "<b>\n       Lorem ipsum dolor\n      </b>",
+            "linenumber": 62
+        },
+        {
+            "violation": "1.4.4.3",
+            "before": "<strong>\n       Etiam tristique libero\n      </strong>",
+            "after": "<b>\n       Etiam tristique libero\n      </b>",
+            "linenumber": 81
+        },
+        {
+            "violation": "1.4.4.3",
+            "before": "<strong>\n       Integer mollis egestas\n      </strong>",
+            "after": "<b>\n       Integer mollis egestas\n      </b>",
+            "linenumber": 120
+        },
+        {
+            "violation": "1.4.4.3",
+            "before": "<strong>\n       Proin tempus feugiat\n      </strong>",
+            "after": "<b>\n       Proin tempus feugiat\n      </b>",
+            "linenumber": 211
+        }
+    ],
+    "pretty_files/project_4_pretty.html": [
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic01.jpg\"/>",
+            "after": "<img src=\"images/pic01.jpg\"/>",
+            "linenumber": 801
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic02.jpg\"/>",
+            "after": "<img src=\"images/pic02.jpg\"/>",
+            "linenumber": 807
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic03.jpg\"/>",
+            "after": "<img src=\"images/pic03.jpg\"/>",
+            "linenumber": 812
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic04.jpg\"/>",
+            "after": "<img src=\"images/pic04.jpg\"/>",
+            "linenumber": 817
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic04.jpg\"/>",
+            "after": "<img src=\"images/pic04.jpg\"/>",
+            "linenumber": 823
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic02.jpg\"/>",
+            "after": "<img src=\"images/pic02.jpg\"/>",
+            "linenumber": 828
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic03.jpg\"/>",
+            "after": "<img src=\"images/pic03.jpg\"/>",
+            "linenumber": 833
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic03.jpg\"/>",
+            "after": "<img src=\"images/pic03.jpg\"/>",
+            "linenumber": 839
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic04.jpg\"/>",
+            "after": "<img src=\"images/pic04.jpg\"/>",
+            "linenumber": 844
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic02.jpg\"/>",
+            "after": "<img src=\"images/pic02.jpg\"/>",
+            "linenumber": 849
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic08.jpg\"/>",
+            "after": "<img src=\"images/pic08.jpg\"/>",
+            "linenumber": 859
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic09.jpg\"/>",
+            "after": "<img src=\"images/pic09.jpg\"/>",
+            "linenumber": 865
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-priority-low\">\n         Low\n        </label>",
+            "after": "<!--Label for input element \"demo-priority-low\" removed -->",
+            "linenumber": 746
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-priority-normal\">\n         Normal\n        </label>",
+            "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
+            "linenumber": 752
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-priority-high\">\n         High\n        </label>",
+            "after": "<!--Label for input element \"demo-priority-high\" removed -->",
+            "linenumber": 758
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-copy\">\n         Email me a copy\n        </label>",
+            "after": "<!--Label for input element \"demo-copy\" removed -->",
+            "linenumber": 765
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"demo-human\">\n         I am a human\n        </label>",
+            "after": "<!--Label for input element \"demo-human\" removed -->",
+            "linenumber": 771
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"name\">\n         Name\n        </label>",
+            "after": "<!--Label for input element \"name\" removed -->",
+            "linenumber": 902
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"email\">\n         Email\n        </label>",
+            "after": "<!--Label for input element \"email\" removed -->",
+            "linenumber": 909
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n      This is\n      <b>\n       bold\n      </b>\n      and this is\n      <strong>\n       strong\n      </strong>\n      . This is\n      <i>\n       italic\n      </i>\n      and this is\n      <em>\n       emphasized\n      </em>\n      .\n\t\t\t\t\t\t\t\t\tThis is\n      <sup>\n       superscript\n      </sup>\n      text and this is\n      <sub>\n       subscript\n      </sub>\n      text.\n\t\t\t\t\t\t\t\t\tThis is\n      <u>\n       underlined\n      </u>\n      and this is code:\n      <code>\n       for (;;) { ... }\n      </code>\n      .\n\t\t\t\t\t\t\t\t\tFinally, this is a\n      <a href=\"#\">\n       link\n      </a>\n      .\n     </p>",
+            "after": "<font>\n      This is\n      <b>\n       bold\n      </b>\n      and this is\n      <strong>\n       strong\n      </strong>\n      . This is\n      <i>\n       italic\n      </i>\n      and this is\n      <em>\n       emphasized\n      </em>\n      .\n\t\t\t\t\t\t\t\t\tThis is\n      <sup>\n       superscript\n      </sup>\n      text and this is\n      <sub>\n       subscript\n      </sub>\n      text.\n\t\t\t\t\t\t\t\t\tThis is\n      <u>\n       underlined\n      </u>\n      and this is code:\n      <code>\n       for (;;) { ... }\n      </code>\n      .\n\t\t\t\t\t\t\t\t\tFinally, this is a\n      <a href=\"#\">\n       link\n      </a>\n      .\n     </font>",
+            "linenumber": 93
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n       Lorem ipsum dolor sit amet nullam id egestas urna aliquam\n      </p>",
+            "after": "<font>\n       Lorem ipsum dolor sit amet nullam id egestas urna aliquam\n      </font>",
+            "linenumber": 156
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n      Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.\n     </p>",
+            "after": "<font>\n      Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.\n     </font>",
+            "linenumber": 160
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n       Lorem ipsum dolor sit amet nullam id egestas urna aliquam\n      </p>",
+            "after": "<font>\n       Lorem ipsum dolor sit amet nullam id egestas urna aliquam\n      </font>",
+            "linenumber": 167
+        },
+        {
+            "violation": "1.4.4.2",
+            "before": "<em>\n       emphasized\n      </em>",
+            "after": "<i>\n       emphasized\n      </i>",
+            "linenumber": 107
+        },
+        {
+            "violation": "1.4.4.3",
+            "before": "<strong>\n       strong\n      </strong>",
+            "after": "<b>\n       strong\n      </b>",
+            "linenumber": 99
+        }
+    ],
+    "pretty_files/project_5_pretty.html": [
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic01.jpg\"/>",
+            "after": "<img src=\"images/pic01.jpg\"/>",
+            "linenumber": 100
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"name\">\n         Name\n        </label>",
+            "after": "<!--Label for input element \"name\" removed -->",
+            "linenumber": 116
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"email\">\n         Email\n        </label>",
+            "after": "<!--Label for input element \"email\" removed -->",
+            "linenumber": 122
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n       Aenean ornare velit lacus varius enim ullamcorper proin aliquam\n       <br/>\n       facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor\n       <br/>\n       amet nullam sed etiam veroeros.\n      </p>",
+            "after": "<font>\n       Aenean ornare velit lacus varius enim ullamcorper proin aliquam\n       <br/>\n       facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor\n       <br/>\n       amet nullam sed etiam veroeros.\n      </font>",
+            "linenumber": 91
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n      Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.\n     </p>",
+            "after": "<font>\n      Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.\n     </font>",
+            "linenumber": 102
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.\n     </p>",
+            "after": "<font>\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.\n     </font>",
+            "linenumber": 105
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n       1234 Somewhere Road #87257\n       <br/>\n       Nashville, TN 00000-0000\n      </p>",
+            "after": "<font>\n       1234 Somewhere Road #87257\n       <br/>\n       Nashville, TN 00000-0000\n      </font>",
+            "linenumber": 146
+        }
+    ],
+    "pretty_files/project_6_pretty.html": [
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic01.jpg\"/>",
+            "after": "<img src=\"images/pic01.jpg\"/>",
+            "linenumber": 133
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic02.jpg\"/>",
+            "after": "<img src=\"images/pic02.jpg\"/>",
+            "linenumber": 159
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic03.jpg\"/>",
+            "after": "<img src=\"images/pic03.jpg\"/>",
+            "linenumber": 186
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic04.jpg\"/>",
+            "after": "<img src=\"images/pic04.jpg\"/>",
+            "linenumber": 213
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic05.jpg\"/>",
+            "after": "<img src=\"images/pic05.jpg\"/>",
+            "linenumber": 240
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic06.jpg\"/>",
+            "after": "<img src=\"images/pic06.jpg\"/>",
+            "linenumber": 267
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic07.jpg\"/>",
+            "after": "<img src=\"images/pic07.jpg\"/>",
+            "linenumber": 294
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"name\">\n         Name\n        </label>",
+            "after": "<!--Label for input element \"name\" removed -->",
+            "linenumber": 345
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"email\">\n         Email\n        </label>",
+            "after": "<!--Label for input element \"email\" removed -->",
+            "linenumber": 351
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n     A free, fully responsive HTML5 + CSS3 site template designed by\n     <a href=\"https://twitter.com/ajlkn\">\n      @ajlkn\n     </a>\n     for\n     <a href=\"https://html5up.net\">\n      HTML5 UP\n     </a>\n<br/>\n     and released for free under the\n     <a href=\"https://html5up.net/license\">\n      Creative Commons license\n     </a>\n     .\n    </p>",
+            "after": "<font>\n     A free, fully responsive HTML5 + CSS3 site template designed by\n     <a href=\"https://twitter.com/ajlkn\">\n      @ajlkn\n     </a>\n     for\n     <a href=\"https://html5up.net\">\n      HTML5 UP\n     </a>\n<br/>\n     and released for free under the\n     <a href=\"https://html5up.net/license\">\n      Creative Commons license\n     </a>\n     .\n    </font>",
+            "linenumber": 29
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n       Aenean ornare velit lacus varius enim ullamcorper proin aliquam\n       <br/>\n       facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor\n       <br/>\n       amet nullam sed etiam veroeros.\n      </p>",
+            "after": "<font>\n       Aenean ornare velit lacus varius enim ullamcorper proin aliquam\n       <br/>\n       facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor\n       <br/>\n       amet nullam sed etiam veroeros.\n      </font>",
+            "linenumber": 124
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n       Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.\n      </p>",
+            "after": "<font>\n       Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.\n      </font>",
+            "linenumber": 161
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n       Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.\n      </p>",
+            "after": "<font>\n       Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.\n      </font>",
+            "linenumber": 188
+        }
+    ],
+    "pretty_files/project_7_pretty.html": [
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/banner.jpg\"/>",
+            "after": "<img src=\"images/banner.jpg\"/>",
+            "linenumber": 73
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/spotlight01.jpg\"/>",
+            "after": "<img src=\"images/spotlight01.jpg\"/>",
+            "linenumber": 114
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/spotlight02.jpg\"/>",
+            "after": "<img src=\"images/spotlight02.jpg\"/>",
+            "linenumber": 155
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/spotlight03.jpg\"/>",
+            "after": "<img src=\"images/spotlight03.jpg\"/>",
+            "linenumber": 196
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/01.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/01.jpg\"/>",
+            "linenumber": 237
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/02.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/02.jpg\"/>",
+            "linenumber": 257
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/03.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/03.jpg\"/>",
+            "linenumber": 277
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/04.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/04.jpg\"/>",
+            "linenumber": 297
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/05.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/05.jpg\"/>",
+            "linenumber": 317
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/06.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/06.jpg\"/>",
+            "linenumber": 337
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/07.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/07.jpg\"/>",
+            "linenumber": 357
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/08.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/08.jpg\"/>",
+            "linenumber": 377
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/09.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/09.jpg\"/>",
+            "linenumber": 397
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/10.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/10.jpg\"/>",
+            "linenumber": 417
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/11.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/11.jpg\"/>",
+            "linenumber": 437
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/gallery/thumbs/12.jpg\"/>",
+            "after": "<img src=\"images/gallery/thumbs/12.jpg\"/>",
+            "linenumber": 457
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/banner.jpg\"/>",
+            "after": "<img src=\"images/banner.jpg\"/>",
+            "linenumber": 1469
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic01.jpg\"/>",
+            "after": "<img src=\"images/pic01.jpg\"/>",
+            "linenumber": 1476
+        },
+        {
+            "violation": "1.1.1.2",
+            "before": "<img alt=\"\" src=\"images/pic02.jpg\"/>",
+            "after": "<img src=\"images/pic02.jpg\"/>",
+            "linenumber": 1485
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"name\">\n            Name\n           </label>",
+            "after": "<!--Label for input element \"name\" removed -->",
+            "linenumber": 1197
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"email\">\n            Email\n           </label>",
+            "after": "<!--Label for input element \"email\" removed -->",
+            "linenumber": 1203
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"priority-low\">\n            Low Priority\n           </label>",
+            "after": "<!--Label for input element \"priority-low\" removed -->",
+            "linenumber": 1232
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"priority-normal\">\n            Normal Priority\n           </label>",
+            "after": "<!--Label for input element \"priority-normal\" removed -->",
+            "linenumber": 1238
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"priority-high\">\n            High Priority\n           </label>",
+            "after": "<!--Label for input element \"priority-high\" removed -->",
+            "linenumber": 1244
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"copy\">\n            Email me a copy of this message\n           </label>",
+            "after": "<!--Label for input element \"copy\" removed -->",
+            "linenumber": 1256
+        },
+        {
+            "violation": "1.3.1.2",
+            "before": "<label for=\"human\">\n            I am a human and not a robot\n           </label>",
+            "after": "<!--Label for input element \"human\" removed -->",
+            "linenumber": 1262
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p class=\"major\">\n      A (modular, highly tweakable) responsive one-page template designed by\n      <a href=\"https://html5up.net\">\n       HTML5 UP\n      </a>\n      and released for free under the\n      <a href=\"https://html5up.net/license\">\n       Creative Commons\n      </a>\n      .\n     </p>",
+            "after": "<font class=\"major\">\n      A (modular, highly tweakable) responsive one-page template designed by\n      <a href=\"https://html5up.net\">\n       HTML5 UP\n      </a>\n      and released for free under the\n      <a href=\"https://html5up.net/license\">\n       Creative Commons\n      </a>\n      .\n     </font>",
+            "linenumber": 30
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n      This is a\n      <strong>\n       Banner\n      </strong>\n      element, and it's generally used as an introduction or opening statement. You can customize its\n      <span class=\"demo-controls\">\n       appearance with a number of modifiers\n      </span>\n      , as well as assign it an optional\n      <code>\n       onload\n      </code>\n      or\n      <code>\n       onscroll\n      </code>\n      transition modifier (\n      <a href=\"#reference-banner\">\n       details\n      </a>\n      ).\n     </p>",
+            "after": "<font>\n      This is a\n      <strong>\n       Banner\n      </strong>\n      element, and it's generally used as an introduction or opening statement. You can customize its\n      <span class=\"demo-controls\">\n       appearance with a number of modifiers\n      </span>\n      , as well as assign it an optional\n      <code>\n       onload\n      </code>\n      or\n      <code>\n       onscroll\n      </code>\n      transition modifier (\n      <a href=\"#reference-banner\">\n       details\n      </a>\n      ).\n     </font>",
+            "linenumber": 41
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n      This is a\n      <strong>\n       Spotlight\n      </strong>\n      element, and it's generally used \u2013 as its name implies \u2013 to spotlight a particular feature, subject, or pretty much whatever. You can customize its\n      <span class=\"demo-controls\">\n       appearance with a number of modifiers\n      </span>\n      , as well as assign it an optional\n      <code>\n       onload\n      </code>\n      or\n      <code>\n       onscroll\n      </code>\n      transition modifier (\n      <a href=\"#reference-spotlight\">\n       details\n      </a>\n      ).\n     </p>",
+            "after": "<font>\n      This is a\n      <strong>\n       Spotlight\n      </strong>\n      element, and it's generally used \u2013 as its name implies \u2013 to spotlight a particular feature, subject, or pretty much whatever. You can customize its\n      <span class=\"demo-controls\">\n       appearance with a number of modifiers\n      </span>\n      , as well as assign it an optional\n      <code>\n       onload\n      </code>\n      or\n      <code>\n       onscroll\n      </code>\n      transition modifier (\n      <a href=\"#reference-spotlight\">\n       details\n      </a>\n      ).\n     </font>",
+            "linenumber": 82
+        },
+        {
+            "violation": "1.4.4.1",
+            "before": "<p>\n      This is also a\n      <strong>\n       Spotlight\n      </strong>\n      element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its\n      <span class=\"demo-controls\">\n       appearance with a number of modifiers\n      </span>\n      , as well as assign it an optional\n      <code>\n       onload\n      </code>\n      or\n      <code>\n       onscroll\n      </code>\n      transition modifier (\n      <a href=\"#reference-spotlight\">\n       details\n      </a>\n      ).\n     </p>",
+            "after": "<font>\n      This is also a\n      <strong>\n       Spotlight\n      </strong>\n      element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its\n      <span class=\"demo-controls\">\n       appearance with a number of modifiers\n      </span>\n      , as well as assign it an optional\n      <code>\n       onload\n      </code>\n      or\n      <code>\n       onscroll\n      </code>\n      transition modifier (\n      <a href=\"#reference-spotlight\">\n       details\n      </a>\n      ).\n     </font>",
+            "linenumber": 123
+        },
+        {
+            "violation": "1.4.4.2",
+            "before": "<em>\n       might\n      </em>",
+            "after": "<i>\n       might\n      </i>",
+            "linenumber": 638
+        },
+        {
+            "violation": "1.4.4.2",
+            "before": "<em>\n          emphasized\n         </em>",
+            "after": "<i>\n          emphasized\n         </i>",
+            "linenumber": 670
+        },
+        {
+            "violation": "1.4.4.2",
+            "before": "<em>(N)</em>",
+            "after": "<i>(N)</i>",
+            "linenumber": 1530
+        },
+        {
+            "violation": "1.4.4.2",
+            "before": "<em>(optional modifiers)</em>",
+            "after": "<i>(optional modifiers)</i>",
+            "linenumber": 1530
+        },
+        {
+            "violation": "1.4.4.3",
+            "before": "<strong>\n       Banner\n      </strong>",
+            "after": "<b>\n       Banner\n      </b>",
+            "linenumber": 43
+        },
+        {
+            "violation": "1.4.4.3",
+            "before": "<strong>\n       Spotlight\n      </strong>",
+            "after": "<b>\n       Spotlight\n      </b>",
+            "linenumber": 84
+        },
+        {
+            "violation": "1.4.4.3",
+            "before": "<strong>\n       Spotlight\n      </strong>",
+            "after": "<b>\n       Spotlight\n      </b>",
+            "linenumber": 125
+        },
+        {
+            "violation": "1.4.4.3",
+            "before": "<strong>\n       Spotlight\n      </strong>",
+            "after": "<b>\n       Spotlight\n      </b>",
+            "linenumber": 166
         }
     ]
 }

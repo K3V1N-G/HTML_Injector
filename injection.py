@@ -3,6 +3,85 @@ from bs4 import BeautifulSoup
 import os
 from bs4 import Comment
 
+def insert_font(soup, html_file):
+    changes = []
+    num_to_inject = 3
+    i = 0
+
+    for p in soup.find_all('p'):
+        if i > num_to_inject:
+            break
+
+        line_number = p.sourceline
+        before = str(p)  # Store original tag
+        p.name = 'font'
+        after = str(p)  # Store modified tag
+
+        # Log the change
+        changes.append({
+            "violation": "1.4.4.1",  # Example guideline code
+            "before": before,
+            "after": after,
+            "linenumber": line_number
+        })
+        
+        i += 1
+    
+    return changes
+
+def insert_bold(soup, html_file):
+    changes = []
+    num_to_inject = 3
+    i = 0
+
+    for strong in soup.find_all('strong'):
+        if i > num_to_inject:
+            break
+
+        line_number = strong.sourceline
+        before = str(strong)  # Store original tag
+        strong.name = 'b'
+        after = str(strong)  # Store modified tag
+
+        # Log the change
+        changes.append({
+            "violation": "1.4.4.3",  # Example guideline code
+            "before": before,
+            "after": after,
+            "linenumber": line_number
+        })
+        
+        i += 1
+    
+    return changes
+
+def insert_ital(soup, html_file):
+    changes = []
+    num_to_inject = 3
+    i = 0
+
+    for ital in soup.find_all('em'):
+        if i > num_to_inject:
+            break
+
+        line_number = ital.sourceline
+        before = str(ital)  # Store original tag
+        ital.name = 'i'
+        after = str(ital)  # Store modified tag
+
+        # Log the change
+        changes.append({
+            "violation": "1.4.4.2",  # Example guideline code
+            "before": before,
+            "after": after,
+            "linenumber": line_number
+        })
+        
+        i += 1
+    
+    return changes
+
+
 def remove_img_alt(soup, html_file):
     changes = []
     for img in soup.find_all('img'):
@@ -124,7 +203,7 @@ def update_html(projects, json_log):
             soup = BeautifulSoup(file, 'html.parser')
 
         # Track changes specific to this file
-        modification_functions = [remove_iframe_alt, remove_img_alt, remove_label, empty_label]
+        modification_functions = [remove_iframe_alt, remove_img_alt, remove_label_input, empty_label_input, insert_font, insert_ital, insert_bold]
 
         file_changes = []
         for func in modification_functions:
@@ -141,7 +220,7 @@ def update_html(projects, json_log):
         with open(json_log, 'w', encoding='utf-8') as json_file:
             json.dump(changes, json_file, indent=4)
 
-projects = ['project_1_pretty.html', 'project_2_pretty.html']
+projects = ['project_1_pretty.html', 'project_2_pretty.html', 'project_3_pretty.html', 'project_4_pretty.html', 'project_5_pretty.html', 'project_6_pretty.html', 'project_7_pretty.html']
 
 # Example usage
 update_html(projects, 'changes_log.json')
