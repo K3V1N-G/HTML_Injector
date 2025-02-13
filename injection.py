@@ -2,6 +2,7 @@ import json
 from bs4 import BeautifulSoup
 import os
 from bs4 import Comment
+import random
 
 def insert_font(soup, html_file):
     changes = []
@@ -81,6 +82,33 @@ def insert_ital(soup, html_file):
     
     return changes
 
+def update_title(soup, html_file):
+    odds = random.random()
+    changes = []
+    for title in soup.find_all('title'):
+        line_number = title.sourceline
+        before = str(title)  # Store original tag
+        if odds > .5:
+
+            comment = Comment(f"""
+            Title element removed 
+            """)
+
+            title.insert_before(comment)
+            title.decompose()
+            after = f"<!--Title element removed -->"
+        else:
+            title.text = ""
+            after = str(title)
+
+        changes.append({
+            "violation": "2.4.2.1",
+            "before": before,
+            "after": after,
+            "linenumber": line_number
+        })
+    
+    return changes
 
 def remove_img_alt(soup, html_file):
     changes = []
@@ -98,6 +126,24 @@ def remove_img_alt(soup, html_file):
                 "after": after,
                 "linenumber": line_number
             })
+    
+    return changes
+
+def remove_a_text(soup, html_file):
+    changes = []
+    for a in soup.find_all('a'):
+        line_number = a.sourceline
+        before = str(a)  # Store original tag
+        a.text = ""
+        after = str(a)  # Store modified tag
+
+        # Log the change
+        changes.append({
+            "violation": "2.4.4.1",  # Example guideline code
+            "before": before,
+            "after": after,
+            "linenumber": line_number
+        })
     
     return changes
 
@@ -220,7 +266,7 @@ def update_html(projects, json_log):
         with open(json_log, 'w', encoding='utf-8') as json_file:
             json.dump(changes, json_file, indent=4)
 
-projects = ['project_1_pretty.html', 'project_2_pretty.html', 'project_3_pretty.html', 'project_4_pretty.html', 'project_5_pretty.html', 'project_6_pretty.html', 'project_7_pretty.html']
+projects = ['project_1_pretty.html', 'project_2_pretty.html', 'project_3_pretty.html', 'project_4_pretty.html', 'project_5_pretty.html', 'project_6_pretty.html', 'project_7_pretty.html', 'project_8_pretty.html', 'project_9_pretty.html', 'project_10_pretty.html', 'project_11_pretty.html', 'project_12_pretty.html', 'project_13_pretty.html', 'project_14_pretty.html', 'project_15_pretty.html']
 
-# Example usage
+# run the program
 update_html(projects, 'changes_log.json')
