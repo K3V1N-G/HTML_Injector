@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Diverse Accessible Page
+   <!--Text for title element removed-->
   </title>
   <style>
    .focus-effect:focus { color: red; }
@@ -24,12 +24,12 @@
     <ul>
      <li>
       <a href="#main-area">
-       Jump to Main Content
+       <!--Text for anchor element removed-->
       </a>
      </li>
      <li>
       <a href="https://example.com" rel="noopener noreferrer" target="_blank">
-       External Link
+       <!--Text for anchor element removed-->
       </a>
      </li>
     </ul>
@@ -39,12 +39,12 @@
    <h3>
     Interactive Components
    </h3>
-   <!--
-    Label for input element "name-field" removed 
-    -->
+   <label for="name-field">
+    <!--Text removed from input element "{id}" label-->
+   </label>
    <input aria-required="true" id="name-field" type="text"/>
    <label for="choice">
-    Select an Option:
+    <!--Text removed from select element "choice" label-->
    </label>
    <select id="choice">
     <option value="1">
@@ -54,8 +54,8 @@
      Second Option
     </option>
    </select>
-   <button class="keydown-effect" id="action-btn" onkeydown="alert('Key Pressed!')" onmousedown="alert('Mouse Clicked!')">
-    Submit
+   <button class="keydown-effect" id="action-btn" onmousedown="alert('Mouse Clicked!')">
+    <!--Text removed from button element "action-btn"-->
    </button>
    <h4>
     Embedded Elements
@@ -77,7 +77,7 @@
    <h6>
     Interactive Text
    </h6>
-   <font class="focus-effect" id="hover-text" onblur="this.style.fontSize='initial'" onfocus="this.style.fontSize='larger'" onmouseout="this.style.fontSize='initial'" onmouseover="this.style.fontSize='larger'">
+   <font class="focus-effect" id="hover-text" onmouseout="this.style.fontSize='initial'" onmouseover="this.style.fontSize='larger'">
     Focus or hover over this text to see it change.
    </font>
   </aside>

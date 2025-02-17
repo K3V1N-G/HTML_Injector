@@ -15,7 +15,7 @@ for html_file in projects:
     
     if os.path.exists(html_file):
         with open(html_file, 'r', encoding='utf-8') as file:
-                soup = BeautifulSoup(file, 'html.parser')
+                soup = BeautifulSoup(file, 'lxml')
     
         
         print(output_file)

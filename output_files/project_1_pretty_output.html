@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Accessible Webpage
+   <!--Text for title element removed-->
   </title>
   <style>
    .interactive:hover { background-color: lightblue; }
@@ -21,12 +21,12 @@
    <ul>
     <li>
      <a href="#content">
-      Skip to Content
+      <!--Text for anchor element removed-->
      </a>
     </li>
     <li>
      <a href="https://example.com" rel="noopener noreferrer" target="_blank">
-      Example Link
+      <!--Text for anchor element removed-->
      </a>
     </li>
    </ul>
@@ -43,7 +43,7 @@
     Interactive Elements
    </h3>
    <label for="options">
-    Choose an option:
+    <!--Text removed from select element "options" label-->
    </label>
    <select aria-label="Select an option" id="options">
     <option value="1">
@@ -53,12 +53,12 @@
      Option 2
     </option>
    </select>
-   <!--
-    Label for input element "user-input" removed 
-    -->
+   <label for="user-input">
+    <!--Text removed from input element "{id}" label-->
+   </label>
    <input aria-required="true" id="user-input" name="user-input" type="text"/>
-   <button class="interactive" id="submit-btn" onkeydown="alert('Button Pressed!')" onmousedown="alert('Button Pressed!')">
-    Submit
+   <button class="interactive" id="submit-btn" onmousedown="alert('Button Pressed!')">
+    <!--Text removed from button element "submit-btn"-->
    </button>
    <h4>
     Embedded Content
@@ -71,7 +71,7 @@
    <h5>
     Mouse Interaction
    </h5>
-   <font class="interactive" id="mouse-event" onblur="this.style.color='black'" onfocus="this.style.color='red'" onmouseout="this.style.color='black'" onmouseover="this.style.color='red'">
+   <font class="interactive" id="mouse-event" onmouseout="this.style.color='black'" onmouseover="this.style.color='red'">
     Hover over this text to change its color.
    </font>
    <h6>

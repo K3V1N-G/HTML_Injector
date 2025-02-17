@@ -3,225 +3,9 @@ from bs4 import BeautifulSoup
 import os
 from bs4 import Comment
 import random
+import targets
 
-def insert_font(soup, html_file):
-    changes = []
-    num_to_inject = 3
-    i = 0
 
-    for p in soup.find_all('p'):
-        if i > num_to_inject:
-            break
-
-        line_number = p.sourceline
-        before = str(p)  # Store original tag
-        p.name = 'font'
-        after = str(p)  # Store modified tag
-
-        # Log the change
-        changes.append({
-            "violation": "1.4.4.1",  # Example guideline code
-            "before": before,
-            "after": after,
-            "linenumber": line_number
-        })
-        
-        i += 1
-    
-    return changes
-
-def insert_bold(soup, html_file):
-    changes = []
-    num_to_inject = 3
-    i = 0
-
-    for strong in soup.find_all('strong'):
-        if i > num_to_inject:
-            break
-
-        line_number = strong.sourceline
-        before = str(strong)  # Store original tag
-        strong.name = 'b'
-        after = str(strong)  # Store modified tag
-
-        # Log the change
-        changes.append({
-            "violation": "1.4.4.3",  # Example guideline code
-            "before": before,
-            "after": after,
-            "linenumber": line_number
-        })
-        
-        i += 1
-    
-    return changes
-
-def insert_ital(soup, html_file):
-    changes = []
-    num_to_inject = 3
-    i = 0
-
-    for ital in soup.find_all('em'):
-        if i > num_to_inject:
-            break
-
-        line_number = ital.sourceline
-        before = str(ital)  # Store original tag
-        ital.name = 'i'
-        after = str(ital)  # Store modified tag
-
-        # Log the change
-        changes.append({
-            "violation": "1.4.4.2",  # Example guideline code
-            "before": before,
-            "after": after,
-            "linenumber": line_number
-        })
-        
-        i += 1
-    
-    return changes
-
-def update_title(soup, html_file):
-    odds = random.random()
-    changes = []
-    for title in soup.find_all('title'):
-        line_number = title.sourceline
-        before = str(title)  # Store original tag
-        if odds > .5:
-
-            comment = Comment(f"""
-            Title element removed 
-            """)
-
-            title.insert_before(comment)
-            title.decompose()
-            after = f"<!--Title element removed -->"
-        else:
-            title.text = ""
-            after = str(title)
-
-        changes.append({
-            "violation": "2.4.2.1",
-            "before": before,
-            "after": after,
-            "linenumber": line_number
-        })
-    
-    return changes
-
-def remove_img_alt(soup, html_file):
-    changes = []
-    for img in soup.find_all('img'):
-        if img.has_attr('alt'):
-            line_number = img.sourceline
-            before = str(img)  # Store original tag
-            del img['alt']
-            after = str(img)  # Store modified tag
-
-            # Log the change
-            changes.append({
-                "violation": "1.1.1.2",  # Example guideline code
-                "before": before,
-                "after": after,
-                "linenumber": line_number
-            })
-    
-    return changes
-
-def remove_a_text(soup, html_file):
-    changes = []
-    for a in soup.find_all('a'):
-        line_number = a.sourceline
-        before = str(a)  # Store original tag
-        a.text = ""
-        after = str(a)  # Store modified tag
-
-        # Log the change
-        changes.append({
-            "violation": "2.4.4.1",  # Example guideline code
-            "before": before,
-            "after": after,
-            "linenumber": line_number
-        })
-    
-    return changes
-
-def remove_iframe_alt(soup, html_file):
-    changes = []
-    for iframe in soup.find_all('iframe'):
-        if iframe.has_attr('title'):
-            line_number = iframe.sourceline
-            before = str(iframe)  # Store original tag
-            del iframe['title']
-            after = str(iframe)  # Store modified tag
-
-            # Log the change
-            changes.append({
-                "violation": "1.1.1.1",
-                "before": before,
-                "after": after,
-                "linenumber": line_number
-            })
-    
-    return changes
-
-def empty_label_input(soup, html_file):
-    changes = []
-    count = 0
-
-    for label in soup.find_all('label'):
-        if count == 1:
-            break
-        associated_element = soup.find(id=label['for'])
-
-        if associated_element:
-            if associated_element.name == 'input':
-                line_number = label.sourceline
-                before = str(label)
-                label.string = ""
-                after = str(label)
-
-                changes.append({
-                    "violation": "1.3.1.1",
-                    "before": before,
-                    "after": after,
-                    "linenumber": line_number
-                })
-        
-        count += 1
-        
-    return changes
-        
-def remove_label_input(soup, html_file):
-    changes = []
-
-    for label in soup.find_all('label'):
-        total_elements = len(soup.find_all(id=label['for']))
-        associated_element = soup.find(id=label['for'])
-
-        if associated_element:
-            if associated_element.name == 'input':
-                line_number = label.sourceline
-                before = str(label)
-                id = label['for']
-
-                comment = Comment(f"""
-    Label for input element \"{id}\" removed 
-    """)
-
-                label.insert_before(comment)
-                label.decompose()
-                after = f"<!--Label for input element \"{id}\" removed -->"
-
-                changes.append({
-                    "violation": "1.3.1.2",
-                    "before": before,
-                    "after": after,
-                    "linenumber": line_number
-                })
-        
-    return changes   
 
 def update_html(projects, json_log):
     changes = {}
@@ -245,11 +29,14 @@ def update_html(projects, json_log):
         output_file = f"output_files/{name}_output{ext}"
         input_file = 'pretty_files/' + html_file
 
-        with open(input_file, 'r', encoding='utf-8') as file:
-            soup = BeautifulSoup(file, 'html.parser')
+        if os.path.exists(input_file):
+            with open(input_file, 'r', encoding='utf-8') as file:
+                soup = BeautifulSoup(file, 'html.parser')
+        else:
+            continue
 
         # Track changes specific to this file
-        modification_functions = [remove_iframe_alt, remove_img_alt, remove_label_input, empty_label_input, insert_font, insert_ital, insert_bold]
+        modification_functions = [targets.remove_iframe_alt, targets.remove_img_alt, targets.update_label_input, targets.update_label_select, targets.update_label_button, targets.insert_font, targets.insert_ital, targets.insert_bold, targets.update_mouse_attr, targets.insert_marquee, targets.update_title, targets.remove_a_text]
 
         file_changes = []
         for func in modification_functions:
