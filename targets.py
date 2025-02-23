@@ -307,8 +307,7 @@ def update_label_button(soup, html_file):
 
         line_number = button.sourceline
         before = str(button)
-        id = button['id']
-        button.string = Comment(f"Text removed from button element \"{id}\"")
+        button.string = Comment(f"Text removed from button element")
         after = str(button)
 
         changes.append({
@@ -326,16 +325,16 @@ def update_label_button(soup, html_file):
 
 def update_mouse_attr(soup, html_file):
     changes = []
-    count = 0
+    i = 0
+    j = 0
+    k = 0
     num_to_inject = 4
 
     for mouse in soup.find_all(True):
-        if count > 4:
-            break
-
-
         if mouse.has_attr('onmouseover') and mouse.has_attr('onfocus'):
-            count += 1
+            if i > num_to_inject:
+                continue
+            i += 1
             line_number = mouse.sourceline
             before = str(mouse)
             del(mouse['onfocus'])
@@ -349,7 +348,9 @@ def update_mouse_attr(soup, html_file):
             "linenumber": line_number
             }) 
         if mouse.has_attr('onmouseout') and mouse.has_attr('onblur'):
-            count += 1
+            if j > num_to_inject:
+                continue
+            j += 1
             line_number = mouse.sourceline
             before = str(mouse)
             del(mouse['onblur'])
@@ -363,7 +364,9 @@ def update_mouse_attr(soup, html_file):
             "linenumber": line_number
             })          
         if mouse.has_attr('onmousedown') and mouse.has_attr('onkeydown'):
-            count += 1
+            if k > num_to_inject:
+                continue
+            k += 1
             line_number = mouse.sourceline
             before = str(mouse)
             del(mouse['onkeydown'])
@@ -417,10 +420,10 @@ def update_html_lang(soup, html_file):
     odds = random.random()
     if html.has_attr('lang'):
         line_number = html.sourceline
-        before = str(html)  # Store original tag
+        before = str(html).split('>', 1)[0] + '>'  # Store original tag
         if odds > .5:
             del html['lang']
-            after = str(html)  # Store modified tag
+            after = str(html).split('>', 1)[0] + '>'  # Store modified tag
 
             # Log the change
             changes.append({
@@ -432,7 +435,7 @@ def update_html_lang(soup, html_file):
             })
         else:
             html['lang'] = 'xyz'
-            after = str(html)
+            after = str(html).split('>', 1)[0] + '>'
 
             changes.append({
                 "guideline": "Document language not identified or is invalid",

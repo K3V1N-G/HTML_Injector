@@ -4,86 +4,328 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Diverse Accessible Page
+   Project 2
   </title>
-  <style>
-   .focus-effect:focus { color: red; }
-        .blur-effect:blur { color: black; }
-        .keydown-effect:active { background-color: lightgray; }
-  </style>
  </head>
  <body>
-  <h1 id="header-title">
-   Diverse Accessible Page
-  </h1>
-  <section>
-   <h2>
-    Navigation
-   </h2>
-   <nav>
-    <ul>
-     <li>
-      <a href="#main-area">
-       Jump to Main Content
-      </a>
-     </li>
-     <li>
-      <a href="https://example.com" rel="noopener noreferrer" target="_blank">
-       External Link
-      </a>
-     </li>
-    </ul>
-   </nav>
-  </section>
-  <main id="main-area">
-   <h3>
-    Interactive Components
-   </h3>
-   <label for="name-field">
-    Enter Your Name:
-   </label>
-   <input aria-required="true" id="name-field" type="text"/>
-   <label for="choice">
-    Select an Option:
-   </label>
-   <select id="choice">
-    <option value="1">
-     First Option
-    </option>
-    <option value="2">
-     Second Option
-    </option>
-   </select>
-   <button class="keydown-effect" id="action-btn" onkeydown="alert('Key Pressed!')" onmousedown="alert('Mouse Clicked!')">
-    Submit
-   </button>
-   <h4>
-    Embedded Elements
-   </h4>
-   <label for="site-iframe">
-    Embedded Content:
-   </label>
-   <iframe height="200" id="site-iframe" src="https://www.example.com" title="Embedded Example" width="300">
-   </iframe>
-   <h5>
-    Visual Representation
-   </h5>
-   <label for="brand-logo">
-    Company Logo:
-   </label>
-   <img alt="Brand Logo" id="brand-logo" src="logo.png" width="200"/>
+  <header>
+   <h1>
+    Accessible Web Page
+   </h1>
+  </header>
+  <main>
+   <section>
+    <h2>
+     Navigation
+    </h2>
+    <nav>
+     <a aria-label="Go to home page" href="#">
+      Home
+     </a>
+     <a aria-label="Visit about us page" href="#">
+      About
+     </a>
+     <a aria-label="Read our blog" href="#">
+      Blog
+     </a>
+     <a aria-label="Contact us" href="#">
+      Contact
+     </a>
+     <a aria-label="Frequently asked questions" href="#">
+      FAQ
+     </a>
+    </nav>
+   </section>
+   <section>
+    <h2>
+     Text Content
+    </h2>
+    <p>
+     This is a paragraph with
+     <em>
+      emphasized text
+     </em>
+     and
+     <strong>
+      strong text
+     </strong>
+     .
+    </p>
+    <p>
+     <em>
+      Another
+     </em>
+     paragraph here.
+    </p>
+    <img alt="A scenic mountain view" src="image1.jpg"/>
+    <p>
+     Yet
+     <strong>
+      another
+     </strong>
+     paragraph.
+    </p>
+    <iframe src="https://example.com" title="Example website">
+    </iframe>
+    <p>
+     <em>
+      More
+     </em>
+     content follows.
+    </p>
+    <img alt="A close-up of a beautiful flower" src="image2.jpg"/>
+    <p>
+     Final paragraph in
+     <em>
+      this
+     </em>
+     section.
+    </p>
+    <label for="search">
+     Search:
+    </label>
+    <input id="search" name="search" type="search"/>
+    <p>
+     Adding
+     <strong>
+      more
+     </strong>
+     paragraphs to meet
+     <strong>
+      requirements
+     </strong>
+    </p>
+    <iframe src="https://example.com" title="Example website 2">
+    </iframe>
+    <p>
+     This paragraph contains
+     <em>
+      highlighted
+     </em>
+     information.
+    </p>
+    <img alt="A group of people enjoying a picnic" src="image3.jpg"/>
+    <iframe src="https://example.com" title="Example website 3">
+    </iframe>
+    <p>
+     One more paragraph.
+    </p>
+    <p>
+     Last paragraph with
+     <strong>
+      important details
+     </strong>
+     .
+    </p>
+   </section>
+   <section>
+    <h2>
+     Forms
+    </h2>
+    <form>
+     <label for="name">
+      Name:
+     </label>
+     <input id="name" name="name" required="" type="text"/>
+     <img alt="A city skyline at sunset" src="image4.jpg"/>
+     <label for="options">
+      Options:
+     </label>
+     <select id="options" name="options">
+      <option value="opt1">
+       Option 1
+      </option>
+      <option value="opt2">
+       Option 2
+      </option>
+      <option value="opt3">
+       Option 3
+      </option>
+     </select>
+     <iframe src="https://example.com" title="Example website 4">
+     </iframe>
+     <label for="email">
+      Email:
+     </label>
+     <input id="email" name="email" required="" type="email"/>
+     <label for="password">
+      Password:
+     </label>
+     <input id="password" name="password" required="" type="password"/>
+     <label for="gender">
+      Gender:
+     </label>
+     <select id="gender" name="gender">
+      <option value="male">
+       Male
+      </option>
+      <option value="female">
+       Female
+      </option>
+      <option value="other">
+       Other
+      </option>
+     </select>
+     <label for="dob">
+      Date of Birth:
+     </label>
+     <input id="dob" name="dob" type="date"/>
+     <label for="country">
+      Country:
+     </label>
+     <select id="country" name="country">
+      <option value="usa">
+       USA
+      </option>
+      <option value="uk">
+       UK
+      </option>
+      <option value="canada">
+       Canada
+      </option>
+     </select>
+     <label for="color">
+      Favorite Color:
+     </label>
+     <input id="color" name="color" type="color"/>
+     <button type="submit">
+      Submit
+     </button>
+     <label for="state">
+      State:
+     </label>
+     <select id="state" name="state">
+      <option value="california">
+       California
+      </option>
+      <option value="texas">
+       Texas
+      </option>
+      <option value="florida">
+       Florida
+      </option>
+     </select>
+     <img alt="A cute puppy playing in the grass" src="image5.jpg"/>
+     <label for="phone">
+      Phone:
+     </label>
+     <input id="phone" name="phone" type="tel"/>
+     <label for="city">
+      City:
+     </label>
+     <select id="city" name="city">
+      <option value="nyc">
+       New York
+      </option>
+      <option value="la">
+       Los Angeles
+      </option>
+      <option value="chicago">
+       Chicago
+      </option>
+     </select>
+     <button type="reset">
+      Reset
+     </button>
+     <iframe src="https://example.com" title="Example website 5">
+     </iframe>
+     <label for="number">
+      Lucky Number:
+     </label>
+     <input id="number" name="number" type="number"/>
+     <label for="choices">
+      Choices
+     </label>
+     <select id="choices" name="choices">
+      <option value="opt1">
+       Choices 1
+      </option>
+      <option value="opt2">
+       Choices 2
+      </option>
+      <option value="opt3">
+       Choices 3
+      </option>
+     </select>
+     <label for="colors">
+      Colors:
+     </label>
+     <select id="colors" name="colors">
+      <option value="blue">
+       Blue
+      </option>
+      <option value="red">
+       Red
+      </option>
+      <option value="green">
+       Green
+      </option>
+     </select>
+     <label for="lucky">
+      Lucky Number
+     </label>
+     <select id="lucky" name="lucky number">
+      <option value="1">
+       1
+      </option>
+      <option value="5">
+       5
+      </option>
+      <option value="7">
+       7
+      </option>
+     </select>
+     <label for="drink">
+      Drink
+     </label>
+     <select id="drink" name="drink">
+      <option value="coke">
+       Coke
+      </option>
+      <option value="dr pepper">
+       Dr. Pepper
+      </option>
+      <option value="root beer">
+       Root Beer
+      </option>
+     </select>
+     <label for="team">
+      Sports Team
+     </label>
+     <select id="team" name="Sports Team">
+      <option value="rangers">
+       Texas Rangers
+      </option>
+      <option value="astros">
+       Houston Astros
+      </option>
+      <option value="as">
+       Oakland A's
+      </option>
+     </select>
+     <button type="button">
+      Click Me
+     </button>
+     <label for="url">
+      Website:
+     </label>
+     <input id="url" name="url" type="url"/>
+     <button type="button">
+      More Info
+     </button>
+     <label for="file">
+      Upload File:
+     </label>
+     <input id="file" name="file" type="file"/>
+     <button type="button">
+      Help
+     </button>
+    </form>
+   </section>
   </main>
-  <aside>
-   <h6>
-    Interactive Text
-   </h6>
-   <p class="focus-effect" id="hover-text" onblur="this.style.fontSize='initial'" onfocus="this.style.fontSize='larger'" onmouseout="this.style.fontSize='initial'" onmouseover="this.style.fontSize='larger'">
-    Focus or hover over this text to see it change.
-   </p>
-  </aside>
   <footer>
    <p>
-    © 2025 Diverse Accessible Page
+    © 2025 Accessible Web Page. All rights reserved.
    </p>
   </footer>
  </body>

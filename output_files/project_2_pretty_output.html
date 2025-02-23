@@ -1,90 +1,332 @@
 <!DOCTYPE html>
-<html>
+<html lang="xyz">
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <!--
-            Title element removed 
-            -->
-  <style>
-   .focus-effect:focus { color: red; }
-        .blur-effect:blur { color: black; }
-        .keydown-effect:active { background-color: lightgray; }
-  </style>
+  <title>
+   <!--Text for title element removed-->
+  </title>
  </head>
  <body>
-  <h1 id="header-title">
-   Diverse Accessible Page
-  </h1>
-  <section>
-   <h2>
-    Navigation
-   </h2>
-   <nav>
-    <ul>
-     <li>
-      <a href="#main-area">
-       <!--Text for anchor element removed-->
-      </a>
-     </li>
-     <li>
-      <a href="https://example.com" rel="noopener noreferrer" target="_blank">
-       <!--Text for anchor element removed-->
-      </a>
-     </li>
-    </ul>
-   </nav>
-  </section>
-  <main id="main-area">
-   <h3>
-    Interactive Components
-   </h3>
-   <label for="name-field">
-    <!--Text removed from input element "{id}" label-->
-   </label>
-   <input aria-required="true" id="name-field" type="text"/>
-   <label for="choice">
-    <!--Text removed from select element "choice" label-->
-   </label>
-   <select id="choice">
-    <option value="1">
-     First Option
-    </option>
-    <option value="2">
-     Second Option
-    </option>
-   </select>
-   <button class="keydown-effect" id="action-btn" onmousedown="alert('Mouse Clicked!')">
-    <!--Text removed from button element "action-btn"-->
-   </button>
-   <h4>
-    Embedded Elements
-   </h4>
-   <label for="site-iframe">
-    Embedded Content:
-   </label>
-   <iframe height="200" id="site-iframe" src="https://www.example.com" width="300">
-   </iframe>
-   <h5>
-    Visual Representation
-   </h5>
-   <label for="brand-logo">
-    Company Logo:
-   </label>
-   <img id="brand-logo" src="logo.png" width="200"/>
+  <header>
+   <h1>
+    Accessible Web Page
+   </h1>
+  </header>
+  <main>
+   <section>
+    <h2>
+     Navigation
+    </h2>
+    <nav>
+     <a aria-label="Go to home page" href="#">
+      <!--Text for anchor element removed-->
+     </a>
+     <a aria-label="Visit about us page" href="#">
+      <!--Text for anchor element removed-->
+     </a>
+     <a aria-label="Read our blog" href="#">
+      <!--Text for anchor element removed-->
+     </a>
+     <a aria-label="Contact us" href="#">
+      <!--Text for anchor element removed-->
+     </a>
+     <a aria-label="Frequently asked questions" href="#">
+      <!--Text for anchor element removed-->
+     </a>
+    </nav>
+   </section>
+   <section>
+    <h2>
+     Text Content
+    </h2>
+    <font>
+     This is a paragraph with
+     <i>
+      emphasized text
+     </i>
+     and
+     <b>
+      strong text
+     </b>
+     .
+    </font>
+    <font>
+     <i>
+      Another
+     </i>
+     paragraph here.
+    </font>
+    <img src="image1.jpg"/>
+    <font>
+     Yet
+     <b>
+      another
+     </b>
+     paragraph.
+    </font>
+    <iframe src="https://example.com">
+    </iframe>
+    <font>
+     <i>
+      More
+     </i>
+     content follows.
+    </font>
+    <img src="image2.jpg"/>
+    <font>
+     Final paragraph in
+     <i>
+      this
+     </i>
+     section.
+    </font>
+    <label for="search">
+     <!--Text removed from input element "{id}" label-->
+    </label>
+    <input id="search" name="search" type="search"/>
+    <marquee behavior="scroll" direction="left">
+     Adding
+     <b>
+      more
+     </b>
+     paragraphs to meet
+     <b>
+      requirements
+     </b>
+    </marquee>
+    <iframe src="https://example.com">
+    </iframe>
+    <marquee behavior="scroll" direction="left">
+     This paragraph contains
+     <i>
+      highlighted
+     </i>
+     information.
+    </marquee>
+    <img src="image3.jpg"/>
+    <iframe src="https://example.com">
+    </iframe>
+    <marquee behavior="scroll" direction="left">
+     One more paragraph.
+    </marquee>
+    <marquee behavior="scroll" direction="left">
+     Last paragraph with
+     <b>
+      important details
+     </b>
+     .
+    </marquee>
+   </section>
+   <section>
+    <h2>
+     Forms
+    </h2>
+    <form>
+     <!--
+                Label for input element "name" removed 
+                -->
+     <input id="name" name="name" required="" type="text"/>
+     <img src="image4.jpg"/>
+     <label for="options">
+      <!--Text removed from select element "options" label-->
+     </label>
+     <select id="options" name="options">
+      <option value="opt1">
+       Option 1
+      </option>
+      <option value="opt2">
+       Option 2
+      </option>
+      <option value="opt3">
+       Option 3
+      </option>
+     </select>
+     <iframe src="https://example.com">
+     </iframe>
+     <label for="email">
+      <!--Text removed from input element "{id}" label-->
+     </label>
+     <input id="email" name="email" required="" type="email"/>
+     <!--
+                Label for input element "password" removed 
+                -->
+     <input id="password" name="password" required="" type="password"/>
+     <!--
+                Label for select element "gender" removed 
+                -->
+     <select id="gender" name="gender">
+      <option value="male">
+       Male
+      </option>
+      <option value="female">
+       Female
+      </option>
+      <option value="other">
+       Other
+      </option>
+     </select>
+     <label for="dob">
+      <!--Text removed from input element "{id}" label-->
+     </label>
+     <input id="dob" name="dob" type="date"/>
+     <label for="country">
+      <!--Text removed from select element "country" label-->
+     </label>
+     <select id="country" name="country">
+      <option value="usa">
+       USA
+      </option>
+      <option value="uk">
+       UK
+      </option>
+      <option value="canada">
+       Canada
+      </option>
+     </select>
+     <!--
+                Label for input element "color" removed 
+                -->
+     <input id="color" name="color" type="color"/>
+     <button type="submit">
+      <!--Text removed from button element-->
+     </button>
+     <!--
+                Label for select element "state" removed 
+                -->
+     <select id="state" name="state">
+      <option value="california">
+       California
+      </option>
+      <option value="texas">
+       Texas
+      </option>
+      <option value="florida">
+       Florida
+      </option>
+     </select>
+     <img src="image5.jpg"/>
+     <label for="phone">
+      <!--Text removed from input element "{id}" label-->
+     </label>
+     <input id="phone" name="phone" type="tel"/>
+     <label for="city">
+      <!--Text removed from select element "city" label-->
+     </label>
+     <select id="city" name="city">
+      <option value="nyc">
+       New York
+      </option>
+      <option value="la">
+       Los Angeles
+      </option>
+      <option value="chicago">
+       Chicago
+      </option>
+     </select>
+     <button type="reset">
+      <!--Text removed from button element-->
+     </button>
+     <iframe src="https://example.com">
+     </iframe>
+     <!--
+                Label for input element "number" removed 
+                -->
+     <input id="number" name="number" type="number"/>
+     <!--
+                Label for select element "choices" removed 
+                -->
+     <select id="choices" name="choices">
+      <option value="opt1">
+       Choices 1
+      </option>
+      <option value="opt2">
+       Choices 2
+      </option>
+      <option value="opt3">
+       Choices 3
+      </option>
+     </select>
+     <label for="colors">
+      <!--Text removed from select element "colors" label-->
+     </label>
+     <select id="colors" name="colors">
+      <option value="blue">
+       Blue
+      </option>
+      <option value="red">
+       Red
+      </option>
+      <option value="green">
+       Green
+      </option>
+     </select>
+     <!--
+                Label for select element "lucky" removed 
+                -->
+     <select id="lucky" name="lucky number">
+      <option value="1">
+       1
+      </option>
+      <option value="5">
+       5
+      </option>
+      <option value="7">
+       7
+      </option>
+     </select>
+     <label for="drink">
+      <!--Text removed from select element "drink" label-->
+     </label>
+     <select id="drink" name="drink">
+      <option value="coke">
+       Coke
+      </option>
+      <option value="dr pepper">
+       Dr. Pepper
+      </option>
+      <option value="root beer">
+       Root Beer
+      </option>
+     </select>
+     <!--
+                Label for select element "team" removed 
+                -->
+     <select id="team" name="Sports Team">
+      <option value="rangers">
+       Texas Rangers
+      </option>
+      <option value="astros">
+       Houston Astros
+      </option>
+      <option value="as">
+       Oakland A's
+      </option>
+     </select>
+     <button type="button">
+      <!--Text removed from button element-->
+     </button>
+     <label for="url">
+      <!--Text removed from input element "{id}" label-->
+     </label>
+     <input id="url" name="url" type="url"/>
+     <button type="button">
+      <!--Text removed from button element-->
+     </button>
+     <!--
+                Label for input element "file" removed 
+                -->
+     <input id="file" name="file" type="file"/>
+     <button type="button">
+      <!--Text removed from button element-->
+     </button>
+    </form>
+   </section>
   </main>
-  <aside>
-   <h6>
-    Interactive Text
-   </h6>
-   <font class="focus-effect" id="hover-text" onmouseout="this.style.fontSize='initial'" onmouseover="this.style.fontSize='larger'">
-    Focus or hover over this text to see it change.
-   </font>
-  </aside>
   <footer>
-   <font>
-    © 2025 Diverse Accessible Page
-   </font>
+   <marquee behavior="scroll" direction="left">
+    © 2025 Accessible Web Page. All rights reserved.
+   </marquee>
   </footer>
  </body>
 </html>

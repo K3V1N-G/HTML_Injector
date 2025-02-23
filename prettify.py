@@ -8,17 +8,18 @@ projects = [
     "project_13.html", "project_14.html", "project_15.html"
 ]
 
-for html_file in projects:
-    name, ext = os.path.splitext(html_file)
-    output_file = f"pretty_files/{name}_pretty{ext}"
-    html_file = 'original_files/' + html_file
-    
-    if os.path.exists(html_file):
-        with open(html_file, 'r', encoding='utf-8') as file:
-                soup = BeautifulSoup(file, 'lxml')
-    
+def run_prettify():
+    for html_file in projects:
+        name, ext = os.path.splitext(html_file)
+        output_file = f"pretty_files/{name}_pretty{ext}"
+        html_file = 'original_files/' + html_file
         
-        print(output_file)
+        if os.path.exists(html_file):
+            with open(html_file, 'r', encoding='utf-8') as file:
+                    soup = BeautifulSoup(file, 'lxml')
         
-        with open(output_file, 'w', encoding='utf-8') as file:
-                file.write(soup.prettify())
+            
+            print(output_file)
+            
+            with open(output_file, 'w', encoding='utf-8') as file:
+                    file.write(soup.prettify())

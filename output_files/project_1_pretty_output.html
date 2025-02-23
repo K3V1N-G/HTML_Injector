@@ -3,88 +3,349 @@
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   <!--Text for title element removed-->
-  </title>
-  <style>
-   .interactive:hover { background-color: lightblue; }
-        .interactive:active { background-color: lightgreen; }
-  </style>
+  <!--
+            Title element removed 
+            -->
  </head>
  <body>
   <header>
-   <h1 id="main-title">
-    Accessible Webpage
+   <h1>
+    Accessible Web Page
    </h1>
   </header>
-  <nav>
-   <ul>
-    <li>
-     <a href="#content">
+  <main>
+   <section>
+    <h2>
+     Images
+    </h2>
+    <img src="image1.jpg"/>
+    <img src="image2.jpg"/>
+    <img src="image3.jpg"/>
+    <img src="image4.jpg"/>
+    <img src="image5.jpg"/>
+   </section>
+   <section>
+    <h2>
+     Embedded Content
+    </h2>
+    <iframe src="https://example.com">
+    </iframe>
+    <iframe src="https://example.com">
+    </iframe>
+    <iframe src="https://example.com">
+    </iframe>
+    <iframe src="https://example.com">
+    </iframe>
+    <iframe src="https://example.com">
+    </iframe>
+   </section>
+   <section>
+    <h2>
+     Forms
+    </h2>
+    <form>
+     <label for="name">
+      <!--Text removed from input element "{id}" label-->
+     </label>
+     <input id="name" name="name" onmouseout="myFunction()" required="" type="text"/>
+     <!--
+                Label for input element "email" removed 
+                -->
+     <input id="email" name="email" onmouseout="myFunction()" required="" type="email"/>
+     <label for="password">
+      <!--Text removed from input element "{id}" label-->
+     </label>
+     <input id="password" name="password" onmouseout="myFunction()" required="" type="password"/>
+     <!--
+                Label for input element "dob" removed 
+                -->
+     <input id="dob" name="dob" onmouseout="myFunction()" type="date"/>
+     <label for="phone">
+      <!--Text removed from input element "{id}" label-->
+     </label>
+     <input id="phone" name="phone" onmouseout="myFunction()" type="tel"/>
+     <label for="color">
+      Favorite Animal:
+     </label>
+     <input id="animal" name="animal" type="text"/>
+     <!--
+                Label for input element "file" removed 
+                -->
+     <input id="file" name="file" type="file"/>
+     <label for="number">
+      <!--Text removed from input element "{id}" label-->
+     </label>
+     <input id="number" name="number" type="number"/>
+     <!--
+                Label for input element "url" removed 
+                -->
+     <input id="url" name="url" type="url"/>
+     <label for="search">
+      <!--Text removed from input element "{id}" label-->
+     </label>
+     <input id="search" name="search" type="search"/>
+     <!--Select element has no text in label-->
+     <label for="options">
+      <!--Text removed from select element "options" label-->
+     </label>
+     <select id="options" name="options">
+      <option value="opt1">
+       Option 1
+      </option>
+      <option value="opt2">
+       Option 2
+      </option>
+      <option value="opt3">
+       Option 3
+      </option>
+     </select>
+     <!--
+                Label for select element "gender" removed 
+                -->
+     <select id="gender" name="gender">
+      <option value="male">
+       Male
+      </option>
+      <option value="female">
+       Female
+      </option>
+      <option value="other">
+       Other
+      </option>
+     </select>
+     <label for="country">
+      <!--Text removed from select element "country" label-->
+     </label>
+     <select id="country" name="country">
+      <option value="usa">
+       USA
+      </option>
+      <option value="uk">
+       UK
+      </option>
+      <option value="canada">
+       Canada
+      </option>
+     </select>
+     <!--
+                Label for select element "state" removed 
+                -->
+     <select id="state" name="state">
+      <option value="california">
+       California
+      </option>
+      <option value="texas">
+       Texas
+      </option>
+      <option value="florida">
+       Florida
+      </option>
+     </select>
+     <label for="city">
+      <!--Text removed from select element "city" label-->
+     </label>
+     <select id="city" name="city">
+      <option value="nyc">
+       New York
+      </option>
+      <option value="la">
+       Los Angeles
+      </option>
+      <option value="chicago">
+       Chicago
+      </option>
+     </select>
+     <!--Select element missing label-->
+     <!--
+                Label for select element "choices" removed 
+                -->
+     <select id="choices" name="choices">
+      <option value="opt1">
+       Choices 1
+      </option>
+      <option value="opt2">
+       Choices 2
+      </option>
+      <option value="opt3">
+       Choices 3
+      </option>
+     </select>
+     <label for="colors">
+      <!--Text removed from select element "colors" label-->
+     </label>
+     <select id="colors" name="colors">
+      <option value="blue">
+       Blue
+      </option>
+      <option value="red">
+       Red
+      </option>
+      <option value="green">
+       Green
+      </option>
+     </select>
+     <!--
+                Label for select element "lucky" removed 
+                -->
+     <select id="lucky" name="lucky number">
+      <option value="1">
+       1
+      </option>
+      <option value="5">
+       5
+      </option>
+      <option value="7">
+       7
+      </option>
+     </select>
+     <label for="drink">
+      <!--Text removed from select element "drink" label-->
+     </label>
+     <select id="drink" name="drink">
+      <option value="coke">
+       Coke
+      </option>
+      <option value="dr pepper">
+       Dr. Pepper
+      </option>
+      <option value="root beer">
+       Root Beer
+      </option>
+     </select>
+     <!--
+                Label for select element "team" removed 
+                -->
+     <select id="team" name="Sports Team">
+      <option value="rangers">
+       Texas Rangers
+      </option>
+      <option value="astros">
+       Houston Astros
+      </option>
+      <option value="as">
+       Oakland A's
+      </option>
+     </select>
+     <!--Buttons to remove text & with onmousedown-->
+     <button onmousedown="myFunction()" type="submit">
+      <!--Text removed from button element-->
+     </button>
+     <button onmousedown="myFunction()" type="reset">
+      <!--Text removed from button element-->
+     </button>
+     <button onmousedown="myFunction()" type="button">
+      <!--Text removed from button element-->
+     </button>
+     <button onmousedown="myFunction()" type="button">
+      <!--Text removed from button element-->
+     </button>
+     <button onmousedown="myFunction()" type="button">
+      <!--Text removed from button element-->
+     </button>
+    </form>
+   </section>
+   <section>
+    <h2>
+     Text Content
+    </h2>
+    <font>
+     This is a paragraph with
+     <i>
+      emphasized text
+     </i>
+     and
+     <b>
+      strong text
+     </b>
+     .
+    </font>
+    <font>
+     Another paragraph here.
+    </font>
+    <font>
+     Yet
+     <i>
+      another
+     </i>
+     paragraph.
+    </font>
+    <font>
+     More content follows.
+    </font>
+    <font>
+     Final paragraph in this section.
+    </font>
+    <marquee behavior="scroll" direction="left">
+     Another
+     <b>
+      paragraph
+     </b>
+     with
+     <i>
+      italic text
+     </i>
+     and
+     <b>
+      bold text
+     </b>
+     .
+    </marquee>
+    <marquee behavior="scroll" direction="left">
+     Adding more
+     <i>
+      paragraphs
+     </i>
+     to meet requirements.
+    </marquee>
+    <marquee behavior="scroll" direction="left">
+     This paragraph contains
+     <i>
+      highlighted
+     </i>
+     information.
+    </marquee>
+    <marquee behavior="scroll" direction="left">
+     One
+     <b>
+      more
+     </b>
+     paragraph.
+    </marquee>
+    <marquee behavior="scroll" direction="left">
+     Last paragraph with
+     <b>
+      important details
+     </b>
+     .
+    </marquee>
+   </section>
+   <section>
+    <h2>
+     Navigation
+    </h2>
+    <nav>
+     <a aria-label="Go to home page" href="#" onmouseover="myFunction()">
       <!--Text for anchor element removed-->
      </a>
-    </li>
-    <li>
-     <a href="https://example.com" rel="noopener noreferrer" target="_blank">
+     <a aria-label="Visit about us page" href="#" onmouseover="myFunction()">
       <!--Text for anchor element removed-->
      </a>
-    </li>
-   </ul>
-  </nav>
-  <main id="content">
-   <h2>
-    Introduction
-   </h2>
-   <font>
-    This is a sample accessible webpage.
-   </font>
-   <img src="pic.png"/>
-   <h3>
-    Interactive Elements
-   </h3>
-   <label for="options">
-    <!--Text removed from select element "options" label-->
-   </label>
-   <select aria-label="Select an option" id="options">
-    <option value="1">
-     Option 1
-    </option>
-    <option value="2">
-     Option 2
-    </option>
-   </select>
-   <label for="user-input">
-    <!--Text removed from input element "{id}" label-->
-   </label>
-   <input aria-required="true" id="user-input" name="user-input" type="text"/>
-   <button class="interactive" id="submit-btn" onmousedown="alert('Button Pressed!')">
-    <!--Text removed from button element "submit-btn"-->
-   </button>
-   <h4>
-    Embedded Content
-   </h4>
-   <label for="embedded-content">
-    External Content:
-   </label>
-   <iframe height="200" id="embedded-content" src="https://www.example.com" width="300">
-   </iframe>
-   <h5>
-    Mouse Interaction
-   </h5>
-   <font class="interactive" id="mouse-event" onmouseout="this.style.color='black'" onmouseover="this.style.color='red'">
-    Hover over this text to change its color.
-   </font>
-   <h6>
-    Final Heading
-   </h6>
-   <font>
-    All elements meet WCAG guidelines.
-   </font>
+     <a aria-label="Read our blog" href="#" onmouseover="myFunction()">
+      <!--Text for anchor element removed-->
+     </a>
+     <a aria-label="Contact us" href="#" onmouseover="myFunction()">
+      <!--Text for anchor element removed-->
+     </a>
+     <a aria-label="Frequently asked questions" href="#" onmouseover="myFunction()">
+      <!--Text for anchor element removed-->
+     </a>
+    </nav>
+   </section>
   </main>
   <footer>
-   <font>
-    © 2025 Accessible Webpage
-   </font>
+   <p>
+    © 2025 Accessible Web Page. All rights reserved.
+   </p>
   </footer>
  </body>
 </html>

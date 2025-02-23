@@ -4,8 +4,10 @@ import os
 from bs4 import Comment
 import random
 import targets
+import prettify
 
 
+prettify.run_prettify()
 
 def update_html(projects, json_log):
     changes = {}
