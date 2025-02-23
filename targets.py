@@ -401,7 +401,7 @@ def insert_marquee(soup, html_file):
         # Log the change
         changes.append({
             "guideline": "marquee element used",
-            "violation": "2.2.2.1",  # Example guideline code
+            "violation": "2.2.2.1",
             "before": before,
             "after": after,
             "linenumber": line_number
@@ -409,4 +409,37 @@ def insert_marquee(soup, html_file):
         
         i += 1
     
+    return changes
+
+def update_html_lang(soup, html_file):
+    changes = []
+    html = soup.find('html')
+    odds = random.random()
+    if html.has_attr('lang'):
+        line_number = html.sourceline
+        before = str(html)  # Store original tag
+        if odds > .5:
+            del html['lang']
+            after = str(html)  # Store modified tag
+
+            # Log the change
+            changes.append({
+                "guideline": "Document language not identified or is invalid",
+                "violation": "3.1.1.1",
+                "before": before,
+                "after": after,
+                "linenumber": line_number
+            })
+        else:
+            html['lang'] = 'xyz'
+            after = str(html)
+
+            changes.append({
+                "guideline": "Document language not identified or is invalid",
+                "violation": "3.1.1.1",
+                "before": before,
+                "after": after,
+                "linenumber": line_number
+            })
+
     return changes

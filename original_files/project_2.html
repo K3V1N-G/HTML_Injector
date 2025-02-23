@@ -3,58 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diverse Accessible Page</title>
-    <style>
-        .focus-effect:focus { color: red; }
-        .blur-effect:blur { color: black; }
-        .keydown-effect:active { background-color: lightgray; }
-    </style>
+    <title>Accessible HTML Example</title>
 </head>
 <body>
-    <h1 id="header-title">Diverse Accessible Page</h1>
+    <header>
+        <h1>Accessible Web Page</h1>
+    </header>
     
-    <section>
-        <h2>Navigation</h2>
-        <nav>
-            <ul>
-                <li><a href="#main-area">Jump to Main Content</a></li>
-                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer">External Link</a></li>
-            </ul>
-        </nav>
-    </section>
-    
-    <main id="main-area">
-        <h3>Interactive Components</h3>
+    <main>
+        <section>
+            <h2>Navigation</h2>
+            <nav>
+                <a href="#" aria-label="Go to home page">Home</a>
+                <a href="#" aria-label="Visit about us page">About</a>
+                <a href="#" aria-label="Read our blog">Blog</a>
+                <a href="#" aria-label="Contact us">Contact</a>
+                <a href="#" aria-label="Frequently asked questions">FAQ</a>
+            </nav>
+        </section>
         
-        <label for="name-field">Enter Your Name:</label>
-        <input type="text" id="name-field" aria-required="true">
+        <section>
+            <h2>Text Content</h2>
+            <p>This is a paragraph with <em>emphasized text</em> and <strong>strong text</strong>.</p>
+            <p>Another paragraph here.</p>
+            <img src="image1.jpg" alt="A scenic mountain view">
+            <p>Yet another paragraph.</p>
+            <iframe src="https://example.com" title="Example website"></iframe>
+            <p>More content follows.</p>
+            <img src="image2.jpg" alt="A close-up of a beautiful flower">
+            <p>Final paragraph in this section.</p>
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search">
+            <p>Adding more paragraphs to meet requirements.</p>
+            <iframe src="https://example.com" title="Example website 2"></iframe>
+            <p>This paragraph contains <em>highlighted</em> information.</p>
+            <img src="image3.jpg" alt="A group of people enjoying a picnic">
+            <iframe src="https://example.com" title="Example website 3"></iframe>
+            <p>One more paragraph.</p>
+            <p>Last paragraph with <strong>important details</strong>.</p>
+        </section>
         
-        <label for="choice">Select an Option:</label>
-        <select id="choice">
-            <option value="1">First Option</option>
-            <option value="2">Second Option</option>
-        </select>
-        
-        <button id="action-btn" class="keydown-effect" onmousedown="alert('Mouse Clicked!')" onkeydown="alert('Key Pressed!')">Submit</button>
-        
-        <h4>Embedded Elements</h4>
-        <label for="site-iframe">Embedded Content:</label>
-        <iframe id="site-iframe" src="https://www.example.com" title="Embedded Example" width="300" height="200"></iframe>
-        
-        <h5>Visual Representation</h5>
-        <label for="brand-logo">Company Logo:</label>
-        <img id="brand-logo" src="logo.png" alt="Brand Logo" width="200">
+        <section>
+            <h2>Forms</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <img src="image4.jpg" alt="A city skyline at sunset">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <iframe src="https://example.com" title="Example website 4"></iframe>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+                <label for="options">Choose an option:</label>
+                <select id="options" name="options">
+                    <option value="opt1">Option 1</option>
+                    <option value="opt2">Option 2</option>
+                    <option value="opt3">Option 3</option>
+                </select>
+                <label for="color">Favorite Color:</label>
+                <input type="color" id="color" name="color">
+                <button type="submit">Submit</button>
+                <img src="image5.jpg" alt="A cute puppy playing in the grass">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+                <button type="reset">Reset</button>
+                <iframe src="https://example.com" title="Example website 5"></iframe>
+                <label for="number">Lucky Number:</label>
+                <input type="number" id="number" name="number">
+                <button type="button">Click Me</button>
+                <label for="url">Website:</label>
+                <input type="url" id="url" name="url">
+                <button type="button">More Info</button>
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file">
+                <button type="button">Help</button>
+            </form>
+        </section>
     </main>
     
-    <aside>
-        <h6>Interactive Text</h6>
-        <p id="hover-text" class="focus-effect" onmouseover="this.style.fontSize='larger'" onfocus="this.style.fontSize='larger'" onmouseout="this.style.fontSize='initial'" onblur="this.style.fontSize='initial'">
-            Focus or hover over this text to see it change.
-        </p>
-    </aside>
-    
     <footer>
-        <p>&copy; 2025 Diverse Accessible Page</p>
+        <p>&copy; 2025 Accessible Web Page. All rights reserved.</p>
     </footer>
 </body>
 </html>

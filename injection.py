@@ -36,7 +36,7 @@ def update_html(projects, json_log):
             continue
 
         # Track changes specific to this file
-        modification_functions = [targets.remove_iframe_alt, targets.remove_img_alt, targets.update_label_input, targets.update_label_select, targets.update_label_button, targets.insert_font, targets.insert_ital, targets.insert_bold, targets.update_mouse_attr, targets.insert_marquee, targets.update_title, targets.remove_a_text]
+        modification_functions = [targets.remove_iframe_alt, targets.remove_img_alt, targets.update_label_input, targets.update_label_select, targets.update_label_button, targets.insert_font, targets.insert_ital, targets.insert_bold, targets.update_mouse_attr, targets.insert_marquee, targets.update_title, targets.remove_a_text, targets.update_html_lang]
 
         file_changes = []
         for func in modification_functions:

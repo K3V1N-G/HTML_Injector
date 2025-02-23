@@ -104,6 +104,13 @@
             "before": "<a href=\"https://example.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n      Example Link\n     </a>",
             "after": "<a href=\"https://example.com\" rel=\"noopener noreferrer\" target=\"_blank\"><!--Text for anchor element removed--></a>",
             "linenumber": 28
+        },
+        {
+            "guideline": "Document language is invalid",
+            "violation": "3.1.1.2",
+            "before": "<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\"/>\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\"/>\n<title><!--Text for title element removed--></title>\n<style>\n   .interactive:hover { background-color: lightblue; }\n        .interactive:active { background-color: lightgreen; }\n  </style>\n</head>\n<body>\n<header>\n<h1 id=\"main-title\">\n    Accessible Webpage\n   </h1>\n</header>\n<nav>\n<ul>\n<li>\n<a href=\"#content\"><!--Text for anchor element removed--></a>\n</li>\n<li>\n<a href=\"https://example.com\" rel=\"noopener noreferrer\" target=\"_blank\"><!--Text for anchor element removed--></a>\n</li>\n</ul>\n</nav>\n<main id=\"content\">\n<h2>\n    Introduction\n   </h2>\n<font>\n    This is a sample accessible webpage.\n   </font>\n<img src=\"pic.png\"/>\n<h3>\n    Interactive Elements\n   </h3>\n<label for=\"options\"><!--Text removed from select element \"options\" label--></label>\n<select aria-label=\"Select an option\" id=\"options\">\n<option value=\"1\">\n     Option 1\n    </option>\n<option value=\"2\">\n     Option 2\n    </option>\n</select>\n<label for=\"user-input\"><!--Text removed from input element \"{id}\" label--></label>\n<input aria-required=\"true\" id=\"user-input\" name=\"user-input\" type=\"text\"/>\n<button class=\"interactive\" id=\"submit-btn\" onmousedown=\"alert('Button Pressed!')\"><!--Text removed from button element \"submit-btn\"--></button>\n<h4>\n    Embedded Content\n   </h4>\n<label for=\"embedded-content\">\n    External Content:\n   </label>\n<iframe height=\"200\" id=\"embedded-content\" src=\"https://www.example.com\" width=\"300\">\n</iframe>\n<h5>\n    Mouse Interaction\n   </h5>\n<font class=\"interactive\" id=\"mouse-event\" onmouseout=\"this.style.color='black'\" onmouseover=\"this.style.color='red'\">\n    Hover over this text to change its color.\n   </font>\n<h6>\n    Final Heading\n   </h6>\n<font>\n    All elements meet WCAG guidelines.\n   </font>\n</main>\n<footer>\n<font>\n    \u00a9 2025 Accessible Webpage\n   </font>\n</footer>\n</body>\n</html>",
+            "after": "<html lang=\"xyz\">\n<head>\n<meta charset=\"utf-8\"/>\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\"/>\n<title><!--Text for title element removed--></title>\n<style>\n   .interactive:hover { background-color: lightblue; }\n        .interactive:active { background-color: lightgreen; }\n  </style>\n</head>\n<body>\n<header>\n<h1 id=\"main-title\">\n    Accessible Webpage\n   </h1>\n</header>\n<nav>\n<ul>\n<li>\n<a href=\"#content\"><!--Text for anchor element removed--></a>\n</li>\n<li>\n<a href=\"https://example.com\" rel=\"noopener noreferrer\" target=\"_blank\"><!--Text for anchor element removed--></a>\n</li>\n</ul>\n</nav>\n<main id=\"content\">\n<h2>\n    Introduction\n   </h2>\n<font>\n    This is a sample accessible webpage.\n   </font>\n<img src=\"pic.png\"/>\n<h3>\n    Interactive Elements\n   </h3>\n<label for=\"options\"><!--Text removed from select element \"options\" label--></label>\n<select aria-label=\"Select an option\" id=\"options\">\n<option value=\"1\">\n     Option 1\n    </option>\n<option value=\"2\">\n     Option 2\n    </option>\n</select>\n<label for=\"user-input\"><!--Text removed from input element \"{id}\" label--></label>\n<input aria-required=\"true\" id=\"user-input\" name=\"user-input\" type=\"text\"/>\n<button class=\"interactive\" id=\"submit-btn\" onmousedown=\"alert('Button Pressed!')\"><!--Text removed from button element \"submit-btn\"--></button>\n<h4>\n    Embedded Content\n   </h4>\n<label for=\"embedded-content\">\n    External Content:\n   </label>\n<iframe height=\"200\" id=\"embedded-content\" src=\"https://www.example.com\" width=\"300\">\n</iframe>\n<h5>\n    Mouse Interaction\n   </h5>\n<font class=\"interactive\" id=\"mouse-event\" onmouseout=\"this.style.color='black'\" onmouseover=\"this.style.color='red'\">\n    Hover over this text to change its color.\n   </font>\n<h6>\n    Final Heading\n   </h6>\n<font>\n    All elements meet WCAG guidelines.\n   </font>\n</main>\n<footer>\n<font>\n    \u00a9 2025 Accessible Webpage\n   </font>\n</footer>\n</body>\n</html>",
+            "linenumber": 2
         }
     ],
     "pretty_files/project_2_pretty.html": [
@@ -181,7 +188,7 @@
             "guideline": "title element is empty or document is missing title element",
             "violation": "2.4.2.1",
             "before": "<title>\n   Diverse Accessible Page\n  </title>",
-            "after": "<title><!--Text for title element removed--></title>",
+            "after": "<!--Title element removed -->",
             "linenumber": 6
         },
         {
@@ -197,6 +204,13 @@
             "before": "<a href=\"https://example.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n       External Link\n      </a>",
             "after": "<a href=\"https://example.com\" rel=\"noopener noreferrer\" target=\"_blank\"><!--Text for anchor element removed--></a>",
             "linenumber": 31
+        },
+        {
+            "guideline": "Document language not identified",
+            "violation": "3.1.1.1",
+            "before": "<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\"/>\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\"/>\n<!--\n            Title element removed \n            -->\n<style>\n   .focus-effect:focus { color: red; }\n        .blur-effect:blur { color: black; }\n        .keydown-effect:active { background-color: lightgray; }\n  </style>\n</head>\n<body>\n<h1 id=\"header-title\">\n   Diverse Accessible Page\n  </h1>\n<section>\n<h2>\n    Navigation\n   </h2>\n<nav>\n<ul>\n<li>\n<a href=\"#main-area\"><!--Text for anchor element removed--></a>\n</li>\n<li>\n<a href=\"https://example.com\" rel=\"noopener noreferrer\" target=\"_blank\"><!--Text for anchor element removed--></a>\n</li>\n</ul>\n</nav>\n</section>\n<main id=\"main-area\">\n<h3>\n    Interactive Components\n   </h3>\n<label for=\"name-field\"><!--Text removed from input element \"{id}\" label--></label>\n<input aria-required=\"true\" id=\"name-field\" type=\"text\"/>\n<label for=\"choice\"><!--Text removed from select element \"choice\" label--></label>\n<select id=\"choice\">\n<option value=\"1\">\n     First Option\n    </option>\n<option value=\"2\">\n     Second Option\n    </option>\n</select>\n<button class=\"keydown-effect\" id=\"action-btn\" onmousedown=\"alert('Mouse Clicked!')\"><!--Text removed from button element \"action-btn\"--></button>\n<h4>\n    Embedded Elements\n   </h4>\n<label for=\"site-iframe\">\n    Embedded Content:\n   </label>\n<iframe height=\"200\" id=\"site-iframe\" src=\"https://www.example.com\" width=\"300\">\n</iframe>\n<h5>\n    Visual Representation\n   </h5>\n<label for=\"brand-logo\">\n    Company Logo:\n   </label>\n<img id=\"brand-logo\" src=\"logo.png\" width=\"200\"/>\n</main>\n<aside>\n<h6>\n    Interactive Text\n   </h6>\n<font class=\"focus-effect\" id=\"hover-text\" onmouseout=\"this.style.fontSize='initial'\" onmouseover=\"this.style.fontSize='larger'\">\n    Focus or hover over this text to see it change.\n   </font>\n</aside>\n<footer>\n<font>\n    \u00a9 2025 Diverse Accessible Page\n   </font>\n</footer>\n</body>\n</html>",
+            "after": "<html>\n<head>\n<meta charset=\"utf-8\"/>\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\"/>\n<!--\n            Title element removed \n            -->\n<style>\n   .focus-effect:focus { color: red; }\n        .blur-effect:blur { color: black; }\n        .keydown-effect:active { background-color: lightgray; }\n  </style>\n</head>\n<body>\n<h1 id=\"header-title\">\n   Diverse Accessible Page\n  </h1>\n<section>\n<h2>\n    Navigation\n   </h2>\n<nav>\n<ul>\n<li>\n<a href=\"#main-area\"><!--Text for anchor element removed--></a>\n</li>\n<li>\n<a href=\"https://example.com\" rel=\"noopener noreferrer\" target=\"_blank\"><!--Text for anchor element removed--></a>\n</li>\n</ul>\n</nav>\n</section>\n<main id=\"main-area\">\n<h3>\n    Interactive Components\n   </h3>\n<label for=\"name-field\"><!--Text removed from input element \"{id}\" label--></label>\n<input aria-required=\"true\" id=\"name-field\" type=\"text\"/>\n<label for=\"choice\"><!--Text removed from select element \"choice\" label--></label>\n<select id=\"choice\">\n<option value=\"1\">\n     First Option\n    </option>\n<option value=\"2\">\n     Second Option\n    </option>\n</select>\n<button class=\"keydown-effect\" id=\"action-btn\" onmousedown=\"alert('Mouse Clicked!')\"><!--Text removed from button element \"action-btn\"--></button>\n<h4>\n    Embedded Elements\n   </h4>\n<label for=\"site-iframe\">\n    Embedded Content:\n   </label>\n<iframe height=\"200\" id=\"site-iframe\" src=\"https://www.example.com\" width=\"300\">\n</iframe>\n<h5>\n    Visual Representation\n   </h5>\n<label for=\"brand-logo\">\n    Company Logo:\n   </label>\n<img id=\"brand-logo\" src=\"logo.png\" width=\"200\"/>\n</main>\n<aside>\n<h6>\n    Interactive Text\n   </h6>\n<font class=\"focus-effect\" id=\"hover-text\" onmouseout=\"this.style.fontSize='initial'\" onmouseover=\"this.style.fontSize='larger'\">\n    Focus or hover over this text to see it change.\n   </font>\n</aside>\n<footer>\n<font>\n    \u00a9 2025 Diverse Accessible Page\n   </font>\n</footer>\n</body>\n</html>",
+            "linenumber": 2
         }
     ],
     "pretty_files/project_3_pretty.html": [
@@ -719,7 +733,7 @@
             "guideline": "title element is empty or document is missing title element",
             "violation": "2.4.2.1",
             "before": "<title>\n   Generic Page - Massively by HTML5 UP\n  </title>",
-            "after": "<!--Title element removed -->",
+            "after": "<title><!--Text for title element removed--></title>",
             "linenumber": 9
         },
         {
@@ -882,7 +896,7 @@
             "guideline": "title element is empty or document is missing title element",
             "violation": "2.4.2.1",
             "before": "<title>\n   Massively by HTML5 UP\n  </title>",
-            "after": "<!--Title element removed -->",
+            "after": "<title><!--Text for title element removed--></title>",
             "linenumber": 9
         },
         {
