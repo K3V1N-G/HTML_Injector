@@ -19,9 +19,9 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<a onmouseover="myFunction()" onfocus="myFunction()" href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
 						<nav>
-							<a href="#menu">Menu</a>
+							<a onmouseout="myFunction()" onblur="myFunction()" href="#menu">Menu</a>
 						</nav>
 					</header>
 
@@ -57,12 +57,91 @@
 
 				<!-- Main -->
 					<div id="main">
+						<label for="options">Choose an option:</label>
+						<select onmouseover="myFunction()" onfocus="myFunction()" id="options" name="options">
+							<option value="opt1">Option 1</option>
+							<option value="opt2">Option 2</option>
+							<option value="opt3">Option 3</option>
+						</select>
+						
+						<button onmousedown="myFunction()" onkeydown="myFunction()" type="submit">Submit</button>
 
+						<label for="gender">Gender:</label>
+						<select onmouseout="myFunction()" onblur="myFunction()" id="gender" name="gender">
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="other">Other</option>
+						</select>
+						
+						<button onmouseout="myFunction()" onblur="myFunction()" type="reset">Reset</button>
+
+						<label for="country">Country:</label>
+						<select id="country" name="country">
+							<option value="usa">USA</option>
+							<option value="uk">UK</option>
+							<option value="canada">Canada</option>
+						</select>
+						
+						<button type="button">Click Me</button>
+
+						<label for="state">State:</label>
+						<select onmousedown="myFunction()" onkeydown="myFunction()" id="state" name="state">
+							<option value="california">California</option>
+							<option value="texas">Texas</option>
+							<option value="florida">Florida</option>
+						</select>
+						
+						<button onmouseover="myFunction()" onfocus="myFunction()" type="button">More Info</button>
+
+						<label for="city">City:</label>
+						<select id="city" name="city">
+							<option value="nyc">New York</option>
+							<option value="la">Los Angeles</option>
+							<option value="chicago">Chicago</option>
+						</select>
+						
+						<button type="button">Help</button>
+
+						<!--Select element missing label-->
+						<label for="choices">Choices</label>
+						<select id="choices" name="choices">
+							<option value="opt1">Choices 1</option>
+							<option value="opt2">Choices 2</option>
+							<option value="opt3">Choices 3</option>
+						</select>
+						
+						<label for="colors">Colors:</label>
+						<select id="colors" name="colors">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+						</select>
+						
+						<label for="lucky">Lucky Number</label>
+						<select id="lucky" name="lucky number">
+							<option value="1">1</option>
+							<option value="5">5</option>
+							<option value="7">7</option>
+						</select>
+						
+						<label for="drink">Drink</label>
+						<select onmouseout="myFunction()" onblur="myFunction()" id="drink" name="drink">
+							<option value="coke">Coke</option>
+							<option value="dr pepper">Dr. Pepper</option>
+							<option value="root beer">Root Beer</option>
+						</select>
+						
+						<label for="team">Sports Team</label>
+						<select id="team" name="Sports Team">
+							<option value="rangers">Texas Rangers</option>
+							<option value="astros">Houston Astros</option>
+							<option value="as">Oakland A's</option>
+						</select>
 						<!-- One -->
 							<section id="one" class="tiles">
 								<article>
 									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
+										<img src="images/pic01.jpg" alt="descriptive text" />
 									</span>
 									<header class="major">
 										<h3><a href="landing.html" class="link">Aliquam</a></h3>
@@ -71,7 +150,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
+										<img src="images/pic02.jpg" alt="descriptive text" />
 									</span>
 									<header class="major">
 										<h3><a href="landing.html" class="link">Tempus</a></h3>
@@ -80,16 +159,26 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
+										<img src="images/pic03.jpg" alt="descriptive text" />
 									</span>
 									<header class="major">
 										<h3><a href="landing.html" class="link">Magna</a></h3>
 										<p>Lorem etiam nullam</p>
+										<p>This is a paragraph with <em>emphasized text</em> and <strong>strong text</strong>.</p>
+										<p>Another paragraph here.</p>
+										<p>Yet <em>another</em> paragraph.</p>
+										<p>More content follows.</p>
+										<p>Final paragraph in this section.</p>
+										<p>Another <strong>paragraph</strong> with <em>italic text</em> and <strong>bold text</strong>.</p>
+										<p>Adding more <em>paragraphs</em> to meet requirements.</p>
+										<p>This paragraph contains <em>highlighted</em> information.</p>
+										<p>One <strong>more</strong> paragraph.</p>
+										<p>Last paragraph with <strong>important details</strong>.</p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
+										<img src="images/pic04.jpg" alt="descriptive text" />
 									</span>
 									<header class="major">
 										<h3><a href="landing.html" class="link">Ipsum</a></h3>
@@ -98,7 +187,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
+										<img src="images/pic05.jpg" alt="descriptive text" />
 									</span>
 									<header class="major">
 										<h3><a href="landing.html" class="link">Consequat</a></h3>
@@ -107,7 +196,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
+										<img src="images/pic06.jpg" alt="descriptive text" />
 									</span>
 									<header class="major">
 										<h3><a href="landing.html" class="link">Etiam</a></h3>
@@ -128,7 +217,11 @@
 									</ul>
 								</div>
 							</section>
-
+							<iframe src="https://example.com" title="Example website"></iframe>
+							<iframe src="https://example.com" title="Example website 2"></iframe>
+							<iframe src="https://example.com" title="Example website 3"></iframe>
+							<iframe src="https://example.com" title="Example website 4"></iframe>
+							<iframe src="https://example.com" title="Example website 5"></iframe>
 					</div>
 
 				<!-- Contact -->
@@ -139,7 +232,7 @@
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input onmouseover="myFunction()" onfocus="myFunction()" type="text" name="name" id="name" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
@@ -149,10 +242,33 @@
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="6"></textarea>
 										</div>
+										<label for="password">Password:</label>
+										<input onmouseout="myFunction()" onblur="myFunction()" type="password" id="password" name="password" required>
+
+										<label for="dob">Date of Birth:</label>
+										<input onmousedown="myFunction()" onkeydown="myFunction()" type="date" id="dob" name="dob">
+
+										<label for="phone">Phone:</label>
+										<input type="tel" id="phone" name="phone">
+
+										<label for="animal">Favorite Animal:</label>
+										<input type="text" id="animal" name="animal">
+
+										<label for="file">Upload File:</label>
+										<input type="file" id="file" name="file">
+
+										<label for="number">Lucky Number:</label>
+										<input type="number" id="number" name="number">
+
+										<label for="url">Website:</label>
+										<input type="url" id="url" name="url">
+
+										<label for="search">Search:</label>
+										<input type="search" id="search" name="search">
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
+										<li><input onmousedown="myFunction()" onkeydown="myFunction()" type="reset" value="Clear" /></li>
 									</ul>
 								</form>
 							</section>
@@ -161,7 +277,7 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
+										<a onmouseover="myFunction()" onfocus="myFunction()" href="#">information@untitled.tld</a>
 									</div>
 								</section>
 								<section>
@@ -190,7 +306,7 @@
 							<ul class="icons">
 								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a onmousedown="myFunction()" onkeydown="myFunction()" href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>

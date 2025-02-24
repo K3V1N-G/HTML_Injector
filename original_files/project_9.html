@@ -25,7 +25,7 @@
 						<li><a href="#one" class="button icon solid fa-chevron-down scrolly">Learn More</a></li>
 					</ul>
 				</div>
-				<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div></div>
+				<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="descriptive text" /></div></div>
 			</header>
 
 		<!-- One -->
@@ -40,26 +40,41 @@
 					<li><span class="icon solid fa-cloud"><span class="label">Upload</span></span></li>
 				</ul>
 			</section>
+			<button onmouseover="myFunction()" onfocus="myFunction()" type="submit">Submit</button>
+			<button type="reset">Reset</button>
+			<button type="button">Click Me</button>
+			<button type="button">More Info</button>
+			<button type="button">Help</button>
 
 		<!-- Two -->
 			<section id="two" class="wrapper">
 				<div class="inner alt">
 					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div>
+						<div class="image"><img src="images/pic01.jpg" alt="descriptive text" /></div>
 						<div class="content">
 							<h3>Magna sed ultrices</h3>
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
 						</div>
 					</section>
 					<section class="spotlight">
-						<div class="image"><img src="images/pic02.jpg" alt="" /></div>
+						<div class="image"><img src="images/pic02.jpg" alt="descriptive text" /></div>
 						<div class="content">
 							<h3>Ultrices nullam aliquam</h3>
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							<p>This is a paragraph with <em>emphasized text</em> and <strong>strong text</strong>.</p>
+							<p>Another paragraph here.</p>
+							<p>Yet <em>another</em> paragraph.</p>
+							<p>More content follows.</p>
+							<p>Final paragraph in this section.</p>
+							<p>Another <strong>paragraph</strong> with <em>italic text</em> and <strong>bold text</strong>.</p>
+							<p>Adding more <em>paragraphs</em> to meet requirements.</p>
+							<p>This paragraph contains <em>highlighted</em> information.</p>
+							<p>One <strong>more</strong> paragraph.</p>
+							<p>Last paragraph with <strong>important details</strong>.</p>
 						</div>
 					</section>
 					<section class="spotlight">
-						<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+						<div class="image"><img src="images/pic03.jpg" alt="descriptive text" /></div>
 						<div class="content">
 							<h3>Aliquam sed magna</h3>
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
@@ -76,6 +91,76 @@
 					</section>
 				</div>
 			</section>
+			<label for="options">Choose an option:</label>
+			<select onmouseover="myFunction()" onfocus="myFunction()" id="options" name="options">
+				<option value="opt1">Option 1</option>
+				<option value="opt2">Option 2</option>
+				<option value="opt3">Option 3</option>
+			</select>
+
+			<label for="gender">Gender:</label>
+			<select id="gender" name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select>
+
+			<label for="country">Country:</label>
+			<select id="country" name="country">
+				<option value="usa">USA</option>
+				<option value="uk">UK</option>
+				<option value="canada">Canada</option>
+			</select>
+
+			<label for="state">State:</label>
+			<select id="state" name="state">
+				<option value="california">California</option>
+				<option value="texas">Texas</option>
+				<option value="florida">Florida</option>
+			</select>
+
+			<label for="city">City:</label>
+			<select id="city" name="city">
+				<option value="nyc">New York</option>
+				<option value="la">Los Angeles</option>
+				<option value="chicago">Chicago</option>
+			</select>
+
+			<!--Select element missing label-->
+			<label for="choices">Choices</label>
+			<select id="choices" name="choices">
+				<option value="opt1">Choices 1</option>
+				<option value="opt2">Choices 2</option>
+				<option value="opt3">Choices 3</option>
+			</select>
+
+			<label for="colors">Colors:</label>
+			<select onmousedown="myFunction()" onkeydown="myFunction()" id="colors" name="colors">
+				<option value="blue">Blue</option>
+				<option value="red">Red</option>
+				<option value="green">Green</option>
+			</select>
+
+			<label for="lucky">Lucky Number</label>
+			<select onmouseover="myFunction()" onfocus="myFunction()" id="lucky" name="lucky number">
+				<option value="1">1</option>
+				<option value="5">5</option>
+				<option value="7">7</option>
+			</select>
+
+			<label for="drink">Drink</label>
+			<select id="drink" name="drink">
+				<option value="coke">Coke</option>
+				<option value="dr pepper">Dr. Pepper</option>
+				<option value="root beer">Root Beer</option>
+			</select>
+
+			<label for="team">Sports Team</label>
+			<select id="team" name="Sports Team">
+				<option value="rangers">Texas Rangers</option>
+				<option value="astros">Houston Astros</option>
+				<option value="as">Oakland A's</option>
+			</select>
 
 		<!-- Three -->
 			<section id="three" class="wrapper style2 special">
@@ -91,7 +176,6 @@
 			</section>
 
 		<!-- Four -->
-		<!--
 			<section id="four" class="wrapper">
 				<div class="inner">
 
@@ -176,7 +260,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<div class="row">
 							<div class="col-6 col-12-medium">
 								<ul class="actions">
-									<li><a href="#" class="button primary">Default</a></li>
+									<li><a onmouseover="myFunction()" onfocus="myFunction()" href="#" class="button primary">Default</a></li>
 									<li><a href="#" class="button">Default</a></li>
 								</ul>
 								<ul class="actions small">
@@ -308,17 +392,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</ul>
 						<ul class="actions">
 							<li><a href="#" class="button large">Large</a></li>
-							<li><a href="#" class="button">Default</a></li>
+							<li><a onmouseout="myFunction()" onblur="myFunction()" href="#" class="button">Default</a></li>
 							<li><a href="#" class="button small">Small</a></li>
 						</ul>
 						<ul class="actions fit">
 							<li><a href="#" class="button fit">Fit</a></li>
-							<li><a href="#" class="button primary fit">Fit</a></li>
+							<li><a onmouseover="myFunction()" onfocus="myFunction()" href="#" class="button primary fit">Fit</a></li>
 							<li><a href="#" class="button fit">Fit</a></li>
 						</ul>
 						<ul class="actions fit small">
 							<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-							<li><a href="#" class="button fit small">Fit + Small</a></li>
+							<li><a onmousedown="myFunction()" onkeydown="myFunction()" href="#" class="button fit small">Fit + Small</a></li>
 							<li><a href="#" class="button primary fit small">Fit + Small</a></li>
 						</ul>
 						<ul class="actions">
@@ -342,7 +426,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
 								</div>
 								<div class="col-12">
-									<select name="demo-category" id="demo-category">
+									<select onmouseout="myFunction()" onblur="myFunction()" name="demo-category" id="demo-category">
 										<option value="">- Category -</option>
 										<option value="1">Manufacturing</option>
 										<option value="1">Shipping</option>
@@ -355,7 +439,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									<label for="demo-priority-low">Low</label>
 								</div>
 								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-normal" name="demo-priority">
+									<input onmouseout="myFunction()" onblur="myFunction()" type="radio" id="demo-priority-normal" name="demo-priority">
 									<label for="demo-priority-normal">Normal</label>
 								</div>
 								<div class="col-4 col-12-small">
@@ -373,10 +457,24 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<div class="col-12">
 									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 								</div>
+								<label for="animal">Favorite Animal:</label>
+								<input onmouseout="myFunction()" onblur="myFunction()" type="text" id="animal" name="animal">
+
+								<label for="file">Upload File:</label>
+								<input onmousedown="myFunction()" onkeydown="myFunction()" type="file" id="file" name="file">
+
+								<label for="number">Lucky Number:</label>
+								<input type="number" id="number" name="number">
+
+								<label for="url">Website:</label>
+								<input type="url" id="url" name="url">
+
+								<label for="search">Search:</label>
+								<input type="search" id="search" name="search">
 								<div class="col-12">
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
+										<li><input onmousedown="myFunction()" onkeydown="myFunction()" type="reset" value="Reset" /></li>
 									</ul>
 								</div>
 							</div>
@@ -388,33 +486,38 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<h5>Fit</h5>
 						<div class="box alt">
 							<div class="row gtr-uniform">
-								<div class="col-12"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="col-12"><span class="image fit"><img src="images/pic04.jpg" alt="descriptive text" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="descriptive text" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="descriptive text" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="descriptive text" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="descriptive text" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="descriptive text" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="descriptive text" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="descriptive text" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="descriptive text" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="descriptive text" /></span></div>
 							</div>
 						</div>
+						<iframe src="https://example.com" title="Example website"></iframe>
+						<iframe src="https://example.com" title="Example website 2"></iframe>
+						<iframe src="https://example.com" title="Example website 3"></iframe>
+						<iframe src="https://example.com" title="Example website 4"></iframe>
+						<iframe src="https://example.com" title="Example website 5"></iframe>
+
 						<h5>Left &amp; Right</h5>
-						<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						<p><span class="image left"><img src="images/pic05.jpg" alt="descriptive text" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						<p><span class="image right"><img src="images/pic05.jpg" alt="descriptive text" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 					</section>
 
 				</div>
 			</section>
-		-->
 
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a onmouseout="myFunction()" onblur="myFunction()" href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a onmousedown="myFunction()" onkeydown="myFunction()" href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 				</ul>
 				<p class="copyright">&copy; Untitled. Credits: <a href="http://html5up.net">HTML5 UP</a></p>
 			</footer>

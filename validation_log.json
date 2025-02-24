@@ -722,55 +722,55 @@
     "project_9": [
         {
             "element": "img",
-            "valid elements": "0/5",
-            "remaining": 5,
-            "missing alt text": 4
+            "valid elements": "16/5",
+            "remaining": 0,
+            "missing alt text": 0
         },
         {
             "element": "iframe",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing alt text": 0
         },
         {
             "element": "input",
-            "valid elements": "0/10",
-            "remaining": 10,
-            "missing label": 0
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 4
         },
         {
             "element": "select",
-            "valid elements": "0/10",
-            "remaining": 10,
-            "missing label": 0
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 1
         },
         {
             "element": "button",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing label": 0
         },
         {
             "element": "label",
-            "valid elements": "0/20",
-            "remaining": 20,
+            "valid elements": "20/20",
+            "remaining": 0,
             "missing associated element": 0,
             "labels for non-relevant elements": 0
         },
         {
             "element": "p",
-            "valid elements": "6/10",
-            "remaining": 4
+            "valid elements": "23/10",
+            "remaining": 0
         },
         {
             "element": "em",
-            "valid elements": "0/5",
-            "remaining": 5
+            "valid elements": "6/5",
+            "remaining": 0
         },
         {
             "element": "strong",
-            "valid elements": "0/5",
-            "remaining": 5
+            "valid elements": "6/5",
+            "remaining": 0
         },
         {
             "element": "html",
@@ -786,81 +786,81 @@
         },
         {
             "element": "a",
-            "valid elements": "10/5",
+            "valid elements": "40/5",
             "remaining": 0,
             "missing label text": 0
         },
         {
             "element": "onmouseover/onfocus",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing onfocus": 0
         },
         {
             "element": "onmouseover/onfocus",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing onblur": 0
         },
         {
             "element": "onmousedown/onkeydown",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing onkeydown": 0
         }
     ],
     "project_10": [
         {
             "element": "img",
-            "valid elements": "0/5",
-            "remaining": 5,
-            "missing alt text": 6
+            "valid elements": "6/5",
+            "remaining": 0,
+            "missing alt text": 0
         },
         {
             "element": "iframe",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing alt text": 0
         },
         {
             "element": "input",
-            "valid elements": "2/10",
-            "remaining": 8,
+            "valid elements": "10/10",
+            "remaining": 0,
             "missing label": 2
         },
         {
             "element": "select",
-            "valid elements": "0/10",
-            "remaining": 10,
+            "valid elements": "10/10",
+            "remaining": 0,
             "missing label": 0
         },
         {
             "element": "button",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing label": 0
         },
         {
             "element": "label",
-            "valid elements": "2/20",
-            "remaining": 18,
+            "valid elements": "20/20",
+            "remaining": 0,
             "missing associated element": 0,
             "labels for non-relevant elements": 1
         },
         {
             "element": "p",
-            "valid elements": "8/10",
-            "remaining": 2
+            "valid elements": "18/10",
+            "remaining": 0
         },
         {
             "element": "em",
-            "valid elements": "0/5",
-            "remaining": 5
+            "valid elements": "5/5",
+            "remaining": 0
         },
         {
             "element": "strong",
-            "valid elements": "1/5",
-            "remaining": 4
+            "valid elements": "6/5",
+            "remaining": 0
         },
         {
             "element": "html",
@@ -882,20 +882,20 @@
         },
         {
             "element": "onmouseover/onfocus",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing onfocus": 0
         },
         {
             "element": "onmouseover/onfocus",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing onblur": 0
         },
         {
             "element": "onmousedown/onkeydown",
-            "valid elements": "0/5",
-            "remaining": 5,
+            "valid elements": "5/5",
+            "remaining": 0,
             "missing onkeydown": 0
         }
     ],
