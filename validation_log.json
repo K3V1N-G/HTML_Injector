@@ -1,0 +1,1352 @@
+{
+    "project_1": [
+        {
+            "element": "img",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "iframe",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "select",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "20/20",
+            "remaining": 0,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 0
+        },
+        {
+            "element": "p",
+            "valid elements": "11/10",
+            "remaining": 0
+        },
+        {
+            "element": "em",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "strong",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_2": [
+        {
+            "element": "img",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "iframe",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "select",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "20/20",
+            "remaining": 0,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 0
+        },
+        {
+            "element": "p",
+            "valid elements": "10/10",
+            "remaining": 0
+        },
+        {
+            "element": "em",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "strong",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_3": [
+        {
+            "element": "img",
+            "valid elements": "12/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "iframe",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 5
+        },
+        {
+            "element": "select",
+            "valid elements": "11/10",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "21/20",
+            "remaining": 0,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 1
+        },
+        {
+            "element": "p",
+            "valid elements": "11/10",
+            "remaining": 0
+        },
+        {
+            "element": "em",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "strong",
+            "valid elements": "10/5",
+            "remaining": 0
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "30/5",
+            "remaining": 0,
+            "missing label text": 10
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "9/5",
+            "remaining": 0,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_4": [
+        {
+            "element": "img",
+            "valid elements": "12/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "iframe",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 3
+        },
+        {
+            "element": "select",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "20/20",
+            "remaining": 0,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 1
+        },
+        {
+            "element": "p",
+            "valid elements": "16/10",
+            "remaining": 0
+        },
+        {
+            "element": "em",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "strong",
+            "valid elements": "6/5",
+            "remaining": 0
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "49/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_5": [
+        {
+            "element": "img",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "iframe",
+            "valid elements": "6/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "12/10",
+            "remaining": 0,
+            "missing label": 1
+        },
+        {
+            "element": "select",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "22/20",
+            "remaining": 0,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 1
+        },
+        {
+            "element": "p",
+            "valid elements": "16/10",
+            "remaining": 0
+        },
+        {
+            "element": "em",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "strong",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "15/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_6": [
+        {
+            "element": "img",
+            "valid elements": "6/5",
+            "remaining": 0,
+            "missing alt text": 1
+        },
+        {
+            "element": "iframe",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 1
+        },
+        {
+            "element": "select",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "20/20",
+            "remaining": 0,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 1
+        },
+        {
+            "element": "p",
+            "valid elements": "21/10",
+            "remaining": 0
+        },
+        {
+            "element": "em",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "strong",
+            "valid elements": "5/5",
+            "remaining": 0
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "33/5",
+            "remaining": 0,
+            "missing label text": 7
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_7": [
+        {
+            "element": "img",
+            "valid elements": "19/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "iframe",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 1
+        },
+        {
+            "element": "select",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "20/20",
+            "remaining": 0,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 1
+        },
+        {
+            "element": "p",
+            "valid elements": "62/10",
+            "remaining": 0
+        },
+        {
+            "element": "em",
+            "valid elements": "32/5",
+            "remaining": 0
+        },
+        {
+            "element": "strong",
+            "valid elements": "7/5",
+            "remaining": 0
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "52/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_8": [
+        {
+            "element": "img",
+            "valid elements": "12/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "iframe",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 6
+        },
+        {
+            "element": "select",
+            "valid elements": "10/10",
+            "remaining": 0,
+            "missing label": 1
+        },
+        {
+            "element": "button",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "20/20",
+            "remaining": 0,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 1
+        },
+        {
+            "element": "p",
+            "valid elements": "24/10",
+            "remaining": 0
+        },
+        {
+            "element": "em",
+            "valid elements": "6/5",
+            "remaining": 0
+        },
+        {
+            "element": "strong",
+            "valid elements": "7/5",
+            "remaining": 0
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "57/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "5/5",
+            "remaining": 0,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_9": [
+        {
+            "element": "img",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 4
+        },
+        {
+            "element": "iframe",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "0/10",
+            "remaining": 10,
+            "missing label": 0
+        },
+        {
+            "element": "select",
+            "valid elements": "0/10",
+            "remaining": 10,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "0/20",
+            "remaining": 20,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 0
+        },
+        {
+            "element": "p",
+            "valid elements": "6/10",
+            "remaining": 4
+        },
+        {
+            "element": "em",
+            "valid elements": "0/5",
+            "remaining": 5
+        },
+        {
+            "element": "strong",
+            "valid elements": "0/5",
+            "remaining": 5
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "10/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_10": [
+        {
+            "element": "img",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 6
+        },
+        {
+            "element": "iframe",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "2/10",
+            "remaining": 8,
+            "missing label": 2
+        },
+        {
+            "element": "select",
+            "valid elements": "0/10",
+            "remaining": 10,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "2/20",
+            "remaining": 18,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 1
+        },
+        {
+            "element": "p",
+            "valid elements": "8/10",
+            "remaining": 2
+        },
+        {
+            "element": "em",
+            "valid elements": "0/5",
+            "remaining": 5
+        },
+        {
+            "element": "strong",
+            "valid elements": "1/5",
+            "remaining": 4
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "22/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_11": [
+        {
+            "element": "img",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 4
+        },
+        {
+            "element": "iframe",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "2/10",
+            "remaining": 8,
+            "missing label": 2
+        },
+        {
+            "element": "select",
+            "valid elements": "0/10",
+            "remaining": 10,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "2/20",
+            "remaining": 18,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 1
+        },
+        {
+            "element": "p",
+            "valid elements": "6/10",
+            "remaining": 4
+        },
+        {
+            "element": "em",
+            "valid elements": "0/5",
+            "remaining": 5
+        },
+        {
+            "element": "strong",
+            "valid elements": "1/5",
+            "remaining": 4
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "18/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_12": [
+        {
+            "element": "img",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 12
+        },
+        {
+            "element": "iframe",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "5/10",
+            "remaining": 5,
+            "missing label": 4
+        },
+        {
+            "element": "select",
+            "valid elements": "0/10",
+            "remaining": 10,
+            "missing label": 1
+        },
+        {
+            "element": "button",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "5/20",
+            "remaining": 15,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 0
+        },
+        {
+            "element": "p",
+            "valid elements": "4/10",
+            "remaining": 6
+        },
+        {
+            "element": "em",
+            "valid elements": "1/5",
+            "remaining": 4
+        },
+        {
+            "element": "strong",
+            "valid elements": "1/5",
+            "remaining": 4
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "36/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_13": [
+        {
+            "element": "img",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 12
+        },
+        {
+            "element": "iframe",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "9/10",
+            "remaining": 1,
+            "missing label": 3
+        },
+        {
+            "element": "select",
+            "valid elements": "1/10",
+            "remaining": 9,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "10/20",
+            "remaining": 10,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 2
+        },
+        {
+            "element": "p",
+            "valid elements": "5/10",
+            "remaining": 5
+        },
+        {
+            "element": "em",
+            "valid elements": "1/5",
+            "remaining": 4
+        },
+        {
+            "element": "strong",
+            "valid elements": "1/5",
+            "remaining": 4
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "49/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_14": [
+        {
+            "element": "img",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 12
+        },
+        {
+            "element": "iframe",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "5/10",
+            "remaining": 5,
+            "missing label": 4
+        },
+        {
+            "element": "select",
+            "valid elements": "0/10",
+            "remaining": 10,
+            "missing label": 1
+        },
+        {
+            "element": "button",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "5/20",
+            "remaining": 15,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 0
+        },
+        {
+            "element": "p",
+            "valid elements": "7/10",
+            "remaining": 3
+        },
+        {
+            "element": "em",
+            "valid elements": "1/5",
+            "remaining": 4
+        },
+        {
+            "element": "strong",
+            "valid elements": "1/5",
+            "remaining": 4
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "45/5",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onkeydown": 0
+        }
+    ],
+    "project_15": [
+        {
+            "element": "img",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 3
+        },
+        {
+            "element": "iframe",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing alt text": 0
+        },
+        {
+            "element": "input",
+            "valid elements": "2/10",
+            "remaining": 8,
+            "missing label": 0
+        },
+        {
+            "element": "select",
+            "valid elements": "0/10",
+            "remaining": 10,
+            "missing label": 0
+        },
+        {
+            "element": "button",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing label": 0
+        },
+        {
+            "element": "label",
+            "valid elements": "2/20",
+            "remaining": 18,
+            "missing associated element": 0,
+            "labels for non-relevant elements": 1
+        },
+        {
+            "element": "p",
+            "valid elements": "12/10",
+            "remaining": 0
+        },
+        {
+            "element": "em",
+            "valid elements": "0/5",
+            "remaining": 5
+        },
+        {
+            "element": "strong",
+            "valid elements": "0/5",
+            "remaining": 5
+        },
+        {
+            "element": "html",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing lang attribute": 0
+        },
+        {
+            "element": "title",
+            "valid elements": "1/1",
+            "remaining": 0,
+            "missing label text": 0
+        },
+        {
+            "element": "a",
+            "valid elements": "19/5",
+            "remaining": 0,
+            "missing label text": 3
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onfocus": 0
+        },
+        {
+            "element": "onmouseover/onfocus",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onblur": 0
+        },
+        {
+            "element": "onmousedown/onkeydown",
+            "valid elements": "0/5",
+            "remaining": 5,
+            "missing onkeydown": 0
+        }
+    ]
+}

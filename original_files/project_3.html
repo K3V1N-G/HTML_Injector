@@ -115,7 +115,7 @@
 											<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg" alt="descriptive text" /></a>
 											<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg" alt="descriptive text" /></a>
 										</div>
-										<button type="button" onmouseout="myFunction()" onblur="myFunction()">Click Me</button>
+										<button type="button" onmouseout="myFunction()" onblur="myFunction()">Click me!</button>
 									</div>
 								</section>
 
@@ -465,11 +465,27 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 													<label for="demo-message">Message</label>
 													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 												</div>
+												<div class="field half">
+													<input onmousedown="myfunction()" onkeydown="myfunction()" type="radio" id="demo-color-1" name="demo-color-1" checked>
+													<label for="demo-color-1">Red</label>
+												</div>
+												<div class="field half">
+													<input onmousedown="myfunction()" onkeydown="myfunction()" type="radio" id="demo-color-2" name="demo-color-2">
+													<label for="demo-color-2">Blue</label>
+												</div>
+												<div class="field half">
+													<input onmousedown="myfunction()" onkeydown="myfunction()" type="checkbox" id="demo-show-color" name="demo-show-color">
+													<label for="demo-show-color">Display colors</label>
+												</div>
+												<div class="field half">
+													<input onmousedown="myfunction()" onkeydown="myfunction()" type="radio" id="demo-robot" name="demo-robot" checked>
+													<label for="demo-robot">I am a robot</label>
+												</div>
 											</div>
 										</div>
 										<ul class="actions">
 											<li><input onmousedown="myfunction()" onkeydown="myfunction()" type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
+											<li><input type="button" value="Reset" /></li>
 										</ul>
 									</form>
 								</div>

@@ -19,6 +19,11 @@
 
 				<!-- Intro -->
 					<div id="intro">
+						<button onmouseout="myFunction()" onblur="myFunction()" type="submit">Submit</button>
+						<button onmousedown="myFunction()" onkeydown="myFunction()" type="reset">Reset</button>
+						<button onmousedown="myFunction()" onkeydown="myFunction()" type="button">Click Me</button>
+						<button type="button">More Info</button>
+						<button type="button">Help</button>
 						<h1>This is<br />
 						Massively</h1>
 						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
@@ -41,10 +46,10 @@
 							<li><a href="elements.html">Elements Reference</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a onmouseout="myFunction()" onblur="myFunction()" href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a onmousedown="myFunction()" onkeydown="myFunction()" href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
@@ -60,12 +65,23 @@
 									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
 									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
 									amet nullam sed etiam veroeros.</p>
+									<p>This is a paragraph with <em>emphasized text</em> and <strong>strong text</strong>.</p>
+									<p>Another paragraph here.</p>
+									<p>Yet <em>another</em> paragraph.</p>
+									<p>More content follows.</p>
+									<p>Final paragraph in this section.</p>
+									<p>Another <strong>paragraph</strong> with <em>italic text</em> and <strong>bold text</strong>.</p>
+									<p>Adding more <em>paragraphs</em> to meet requirements.</p>
+									<p>This paragraph contains <em>highlighted</em> information.</p>
+									<p>One <strong>more</strong> paragraph.</p>
+									<p>Last paragraph with <strong>important details</strong>.</p>
 								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<a onmouseover="myFunction()" onfocus="myFunction()" href="#" class="image main"><img src="images/pic01.jpg" alt="descriptive text" /></a>
 								<ul class="actions special">
 									<li><a href="#" class="button large">Full Story</a></li>
 								</ul>
 							</article>
+							<iframe src="https://example.com" title="Example website 5"></iframe>
 
 						<!-- Posts -->
 							<section class="posts">
@@ -75,7 +91,7 @@
 										<h2><a href="#">Sed magna<br />
 										ipsum faucibus</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<a onmouseover="myFunction()" onfocus="myFunction()" href="#" class="image fit"><img src="images/pic02.jpg" alt="descriptive text" /></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
@@ -87,7 +103,7 @@
 										<h2><a href="#">Primis eget<br />
 										imperdiet lorem</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="descriptive text" /></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
@@ -99,7 +115,7 @@
 										<h2><a href="#">Ante mattis<br />
 										interdum dolor</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="descriptive text" /></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
@@ -111,12 +127,13 @@
 										<h2><a href="#">Tempus sed<br />
 										nulla imperdiet</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="descriptive text" /></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
+								<iframe src="https://example.com" title="Example website"></iframe>
 								<article>
 									<header>
 										<span class="date">April 11, 2017</span>
@@ -130,12 +147,13 @@
 									</ul>
 								</article>
 								<article>
+									<iframe src="https://example.com" title="Example website 2"></iframe>
 									<header>
 										<span class="date">April 7, 2017</span>
 										<h2><a href="#">Augue lorem<br />
 										primis vestibulum</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="descriptive text" /></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
@@ -146,8 +164,9 @@
 						<!-- Footer -->
 							<footer>
 								<div class="pagination">
+									<iframe src="https://example.com" title="Example website 3"></iframe>
 									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
+									<a onmouseout="myFunction()" onblur="myFunction()" href="#" class="page active">1</a>
 									<a href="#" class="page">2</a>
 									<a href="#" class="page">3</a>
 									<span class="extra">&hellip;</span>
@@ -157,7 +176,7 @@
 									<a href="#" class="next">Next</a>
 								</div>
 							</footer>
-
+							<iframe src="https://example.com" title="Example website 4"></iframe>
 					</div>
 
 				<!-- Footer -->
@@ -167,16 +186,119 @@
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input onmouseover="myFunction()" onfocus="myFunction()" type="text" name="name" id="name" />
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input onmouseout="myFunction()" onblur="myFunction()" type="text" name="email" id="email" />
 									</div>
+									<div class="field">
+										<label for="password">Password:</label>
+										<input type="password" id="password" name="password" required>
+									</div>
+									<div class="field">
+										<label for="dob">Date of Birth:</label>
+										<input type="date" id="dob" name="dob">
+									</div>
+									<div class="field">
+										<label for="phone">Phone:</label>
+										<input type="tel" id="phone" name="phone">
+									</div>
+									<div class="field">
+										<label for="animal">Favorite Animal:</label>
+										<input type="text" id="animal" name="animal">
+									</div>
+									<div class="field">
+										<label for="file">Upload File:</label>
+										<input onmousedown="myFunction()" onkeydown="myFunction()" type="file" id="file" name="file">
+									</div>
+									<div class="field">
+										<label for="number">Lucky Number:</label>
+										<input onmouseover="myFunction()" onfocus="myFunction()" type="number" id="number" name="number">
+									</div>
+									<div class="field">								
+										<label for="url">Website:</label>
+										<input type="url" id="url" name="url">
+									</div>
+									<div class="field">
+										<label for="search">Search:</label>
+										<input type="search" id="search" name="search">	
+									</div>									
 									<div class="field">
 										<label for="message">Message</label>
 										<textarea name="message" id="message" rows="3"></textarea>
 									</div>
+									<!--Select elements-->
+									<label for="options">Choose an option:</label>
+									<select onmouseover="myFunction()" onfocus="myFunction()" id="options" name="options">
+										<option value="opt1">Option 1</option>
+										<option value="opt2">Option 2</option>
+										<option value="opt3">Option 3</option>
+									</select>
+
+									<label for="gender">Gender:</label>
+									<select onmouseout="myFunction()" onblur="myFunction()" id="gender" name="gender">
+										<option value="male">Male</option>
+										<option value="female">Female</option>
+										<option value="other">Other</option>
+									</select>
+
+									<label for="country">Country:</label>
+									<select id="country" name="country">
+										<option value="usa">USA</option>
+										<option value="uk">UK</option>
+										<option value="canada">Canada</option>
+									</select>
+
+									<label for="state">State:</label>
+									<select id="state" name="state">
+										<option value="california">California</option>
+										<option value="texas">Texas</option>
+										<option value="florida">Florida</option>
+									</select>
+
+									<label for="city">City:</label>
+									<select id="city" name="city">
+										<option value="nyc">New York</option>
+										<option value="la">Los Angeles</option>
+										<option value="chicago">Chicago</option>
+									</select>
+
+									<!--Select element missing label-->
+									<label for="choices">Choices</label>
+									<select id="choices" name="choices">
+										<option value="opt1">Choices 1</option>
+										<option value="opt2">Choices 2</option>
+										<option value="opt3">Choices 3</option>
+									</select>
+
+									<label for="colors">Colors:</label>
+									<select onmousedown="myFunction()" onkeydown="myFunction()" id="colors" name="colors">
+										<option value="blue">Blue</option>
+										<option value="red">Red</option>
+										<option value="green">Green</option>
+									</select>
+
+									<label for="lucky">Lucky Number</label>
+									<select id="lucky" name="lucky number">
+										<option value="1">1</option>
+										<option value="5">5</option>
+										<option value="7">7</option>
+									</select>
+
+									<label for="drink">Drink</label>
+									<select id="drink" name="drink">
+										<option value="coke">Coke</option>
+										<option value="dr pepper">Dr. Pepper</option>
+										<option value="root beer">Root Beer</option>
+									</select>
+
+									<label for="team">Sports Team</label>
+									<select id="team" name="Sports Team">
+										<option value="rangers">Texas Rangers</option>
+										<option value="astros">Houston Astros</option>
+										<option value="as">Oakland A's</option>
+									</select>
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
