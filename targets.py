@@ -8,6 +8,7 @@ from bs4.element import NavigableString
 
 def insert_font(soup, html_file):
     changes = []
+    category = []
     num_to_inject = 4
     i = 0
 
@@ -21,7 +22,7 @@ def insert_font(soup, html_file):
         after = str(p)  # Store modified tag
 
         # Log the change
-        changes.append({
+        category.append({
             "guideline": "font element used",
             "violation": "1.4.4.1",  # Example guideline code
             "before": before,
@@ -30,11 +31,12 @@ def insert_font(soup, html_file):
         })
         
         i += 1
-    
+    changes.append(category)
     return changes
 
 def insert_bold(soup, html_file):
     changes = []
+    category = []
     num_to_inject = 4
     i = 0
 
@@ -48,7 +50,7 @@ def insert_bold(soup, html_file):
         after = str(strong)  # Store modified tag
 
         # Log the change
-        changes.append({
+        category.append({
             "guideline": "b (bold) element used",
             "violation": "1.4.4.3",  # Example guideline code
             "before": before,
@@ -57,11 +59,12 @@ def insert_bold(soup, html_file):
         })
         
         i += 1
-    
+    changes.append(category)
     return changes
 
 def insert_ital(soup, html_file):
     changes = []
+    category = []
     num_to_inject = 4
     i = 0
 
@@ -75,7 +78,7 @@ def insert_ital(soup, html_file):
         after = str(ital)  # Store modified tag
 
         # Log the change
-        changes.append({
+        category.append({
             "guideline": "i (italic) element used",
             "violation": "1.4.4.2",  # Example guideline code
             "before": before,
@@ -85,11 +88,13 @@ def insert_ital(soup, html_file):
         
         i += 1
     
+    changes.append(category)
     return changes
 
 def update_title(soup, html_file):
     odds = random.random()
     changes = []
+    category = []
     for title in soup.find_all('title'):
         line_number = title.sourceline
         before = str(title)  # Store original tag
@@ -106,7 +111,7 @@ def update_title(soup, html_file):
             title.string = Comment("Text for title element removed")
             after = str(title)
 
-        changes.append({
+        category.append({
             "guideline": "title element is empty or document is missing title element",
             "violation": "2.4.2.1",
             "before": before,
@@ -114,11 +119,12 @@ def update_title(soup, html_file):
             "linenumber": line_number
         })
     
+    changes.append(category)
     return changes
 
 def remove_img_alt(soup, html_file):
     changes = []
-
+    category = []
     num_to_inject = 4
     i = 0
 
@@ -132,7 +138,7 @@ def remove_img_alt(soup, html_file):
             after = str(img)  # Store modified tag
 
             # Log the change
-            changes.append({
+            category.append({
                 "guideline": "img element missing alt attribute",
                 "violation": "1.1.1.2",  # Example guideline code
                 "before": before,
@@ -142,11 +148,12 @@ def remove_img_alt(soup, html_file):
         
             i += 1
     
+    changes.append(category)
     return changes
 
 def remove_a_text(soup, html_file):
     changes = []
-
+    category = []
     num_to_inject = 4
     i = 0
 
@@ -161,7 +168,7 @@ def remove_a_text(soup, html_file):
 
             after = str(a)
 
-            changes.append({
+            category.append({
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",  # Example guideline code
                 "before": before,
@@ -171,11 +178,12 @@ def remove_a_text(soup, html_file):
 
             i += 1
     
+    changes.append(category)
     return changes
 
 def remove_iframe_alt(soup, html_file):
     changes = []
-
+    category = []
     num_to_inject = 4
     i = 0
 
@@ -190,7 +198,7 @@ def remove_iframe_alt(soup, html_file):
 
             guideline = "iframe element missing alt attribute"
             # Log the change
-            changes.append({
+            category.append({
                 "guideline": "iframe element missing alt attribute",
                 "violation": "1.1.1.1",
                 "before": before,
@@ -199,11 +207,14 @@ def remove_iframe_alt(soup, html_file):
             })
 
             i += 1
-    
+
+    changes.append(category)
     return changes
 
 def update_label_input(soup, html_file):
     changes = []
+    first = []
+    second = []
     count = 0
     for input in soup.find_all('input'):
         if count > 9:
@@ -218,7 +229,7 @@ def update_label_input(soup, html_file):
                 associated_label.string = Comment("Text removed from input element \"{id}\" label")
                 after = str(associated_label)
 
-                changes.append({
+                first.append({
                     "guideline": "input element has no text in label",
                     "violation": "1.3.1.1",
                     "before": before,
@@ -238,7 +249,7 @@ def update_label_input(soup, html_file):
                 associated_label.decompose()
                 after = f"<!--Label for input element \"{id}\" removed -->"
 
-                changes.append({
+                second.append({
                     "guideline": "input element is missing a label",
                     "violation": "1.3.1.2",
                     "before": before,
@@ -247,11 +258,14 @@ def update_label_input(soup, html_file):
                 })
             count += 1
         
-        
+    changes.append(first)
+    changes.append(second)    
     return changes
 
 def update_label_select(soup, html_file):
     changes = []
+    first = []
+    second = []
     count = 0
     for select in soup.find_all('select'):
         if count > 9:
@@ -266,7 +280,7 @@ def update_label_select(soup, html_file):
                 associated_label.string = Comment(f"Text removed from select element \"{id}\" label")
                 after = str(associated_label)
 
-                changes.append({
+                first.append({
                     "guideline": "select element has no text in label",
                     "violation": "1.3.1.3",
                     "before": before,
@@ -286,20 +300,22 @@ def update_label_select(soup, html_file):
                 associated_label.decompose()
                 after = f"<!--Label for select element \"{id}\" removed -->"
 
-                changes.append({
+                second.append({
                     "guideline": "select element is missing a label",
-                    "violation": "1.3.1.3",
+                    "violation": "1.3.1.4",
                     "before": before,
                     "after": after,
                     "linenumber": line_number
                 })
             count += 1
-        
-        
+
+    changes.append(first)
+    changes.append(second)   
     return changes
 
 def update_label_button(soup, html_file):
     changes = []
+    category = []
     count = 0
     for button in soup.find_all('button'):
         if count > 4:
@@ -310,7 +326,7 @@ def update_label_button(soup, html_file):
         button.string = Comment(f"Text removed from button element")
         after = str(button)
 
-        changes.append({
+        category.append({
             "guideline": "button element has no text in label",
             "violation": "1.3.1.5",
             "before": before,
@@ -320,11 +336,14 @@ def update_label_button(soup, html_file):
         
         count += 1
         
-        
+    changes.append(category)
     return changes
 
 def update_mouse_attr(soup, html_file):
     changes = []
+    first = []
+    second = []
+    third = []
     i = 0
     j = 0
     k = 0
@@ -340,7 +359,7 @@ def update_mouse_attr(soup, html_file):
             del(mouse['onfocus'])
             after = str(mouse)
 
-            changes.append({
+            first.append({
             "guideline": "onmouseover event handler missing onfocus event",
             "violation": "2.1.1.1",
             "before": before,
@@ -356,7 +375,7 @@ def update_mouse_attr(soup, html_file):
             del(mouse['onblur'])
             after = str(mouse)
 
-            changes.append({
+            second.append({
             "guideline": "onmouseout event handler missing onblur event",
             "violation": "2.1.1.2",
             "before": before,
@@ -372,7 +391,7 @@ def update_mouse_attr(soup, html_file):
             del(mouse['onkeydown'])
             after = str(mouse)
 
-            changes.append({
+            third.append({
             "guideline": "onmousedown event handler missing onkeydown event",
             "violation": "2.1.1.3",
             "before": before,
@@ -380,13 +399,15 @@ def update_mouse_attr(soup, html_file):
             "linenumber": line_number
             })
         
-
-
+    changes.append(first)
+    changes.append(second)
+    changes.append(third)
     return changes
 
 
 def insert_marquee(soup, html_file):
     changes = []
+    category = []
     num_to_inject = 4
     i = 0
 
@@ -402,7 +423,7 @@ def insert_marquee(soup, html_file):
         after = str(p)  # Store modified tag
 
         # Log the change
-        changes.append({
+        category.append({
             "guideline": "marquee element used",
             "violation": "2.2.2.1",
             "before": before,
@@ -412,10 +433,12 @@ def insert_marquee(soup, html_file):
         
         i += 1
     
+    changes.append(category)
     return changes
 
 def update_html_lang(soup, html_file):
     changes = []
+    category = []
     html = soup.find('html')
     odds = random.random()
     if html.has_attr('lang'):
@@ -426,7 +449,7 @@ def update_html_lang(soup, html_file):
             after = str(html).split('>', 1)[0] + '>'  # Store modified tag
 
             # Log the change
-            changes.append({
+            category.append({
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": before,
@@ -437,7 +460,7 @@ def update_html_lang(soup, html_file):
             html['lang'] = 'xyz'
             after = str(html).split('>', 1)[0] + '>'
 
-            changes.append({
+            category.append({
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": before,
@@ -445,4 +468,5 @@ def update_html_lang(soup, html_file):
                 "linenumber": line_number
             })
 
+    changes.append(category)
     return changes

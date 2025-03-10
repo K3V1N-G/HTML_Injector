@@ -84,7 +84,7 @@
     <label for="search">
      Search:
     </label>
-    <input id="search" name="search" type="search"/>
+    <input id="search" name="search" onfocus="myFocus()" onmouseover="myFunction()" type="search"/>
     <p>
      Adding
      <strong>
@@ -126,12 +126,12 @@
      <label for="name">
       Name:
      </label>
-     <input id="name" name="name" required="" type="text"/>
+     <input id="name" name="name" onblur="myFunction()" onmouseout="myFunction()" required="" type="text"/>
      <img alt="A city skyline at sunset" src="image4.jpg"/>
      <label for="options">
       Options:
      </label>
-     <select id="options" name="options">
+     <select id="options" name="options" onkeydown="myFunction()" onmousedown="myFunction()">
       <option value="opt1">
        Option 1
       </option>
@@ -147,15 +147,15 @@
      <label for="email">
       Email:
      </label>
-     <input id="email" name="email" required="" type="email"/>
+     <input id="email" name="email" onblur="myFunction()" onmouseout="myFunction()" required="" type="email"/>
      <label for="password">
       Password:
      </label>
-     <input id="password" name="password" required="" type="password"/>
+     <input id="password" name="password" onblur="myFunction()" onmouseout="myFunction()" required="" type="password"/>
      <label for="gender">
       Gender:
      </label>
-     <select id="gender" name="gender">
+     <select id="gender" name="gender" onkeydown="myFunction()" onmousedown="myFunction()">
       <option value="male">
        Male
       </option>
@@ -169,11 +169,11 @@
      <label for="dob">
       Date of Birth:
      </label>
-     <input id="dob" name="dob" type="date"/>
+     <input id="dob" name="dob" onblur="myFunction()" onmouseout="myFunction()" type="date"/>
      <label for="country">
       Country:
      </label>
-     <select id="country" name="country">
+     <select id="country" name="country" onkeydown="myFunction()" onmousedown="myFunction()">
       <option value="usa">
        USA
       </option>
@@ -187,14 +187,14 @@
      <label for="color">
       Favorite Color:
      </label>
-     <input id="color" name="color" type="color"/>
+     <input id="color" name="color" onblur="myFunction()" onmouseout="myFunction()" type="color"/>
      <button type="submit">
       Submit
      </button>
      <label for="state">
       State:
      </label>
-     <select id="state" name="state">
+     <select id="state" name="state" onkeydown="myFunction()" onmousedown="myFunction()">
       <option value="california">
        California
       </option>
@@ -213,7 +213,7 @@
      <label for="city">
       City:
      </label>
-     <select id="city" name="city">
+     <select id="city" name="city" onkeydown="myFunction()" onmousedown="myFunction()">
       <option value="nyc">
        New York
       </option>
@@ -250,7 +250,7 @@
      <label for="colors">
       Colors:
      </label>
-     <select id="colors" name="colors">
+     <select id="colors" name="colors" onfocus="myFocus()" onmouseover="myFunction()">
       <option value="blue">
        Blue
       </option>
@@ -264,7 +264,7 @@
      <label for="lucky">
       Lucky Number
      </label>
-     <select id="lucky" name="lucky number">
+     <select id="lucky" name="lucky number" onfocus="myFocus()" onmouseover="myFunction()">
       <option value="1">
        1
       </option>
@@ -316,8 +316,8 @@
      <label for="file">
       Upload File:
      </label>
-     <input id="file" name="file" type="file"/>
-     <button type="button">
+     <input id="file" name="file" onfocus="myFocus()" onmouseover="myFunction()" type="file"/>
+     <button onfocus="myFocus()" onmouseover="myFunction()" type="button">
       Help
      </button>
     </form>

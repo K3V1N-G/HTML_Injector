@@ -11,6 +11,7 @@ prettify.run_prettify()
 
 def update_html(projects, json_log):
     changes = {}
+    line_nums=[]
 
     # Load existing JSON if it exists
     if os.path.exists(json_log):
@@ -54,6 +55,18 @@ def update_html(projects, json_log):
         # Save changes to a JSON file
         with open(json_log, 'w', encoding='utf-8') as json_file:
             json.dump(changes, json_file, indent=4)
+
+        for key, nested_lists in changes.items():  # Loop through dictionary values
+            for inner_list in nested_lists:  # Extract first-level lists
+                for entry in inner_list:  # Extract dictionaries inside the list
+                    if "linenumber" in entry:
+                        line_nums.append(entry['linenumber'])
+        
+        nums_file = "line_numbers.txt"
+
+        with open(nums_file, "w") as file:
+            file.write("\n".join(map(str, line_nums)))  # Convert numbers to strings and save
+
 
 projects = ['project_1_pretty.html', 'project_2_pretty.html', 'project_3_pretty.html', 'project_4_pretty.html', 'project_5_pretty.html', 'project_6_pretty.html', 'project_7_pretty.html', 'project_8_pretty.html', 'project_9_pretty.html', 'project_10_pretty.html', 'project_11_pretty.html', 'project_12_pretty.html', 'project_13_pretty.html', 'project_14_pretty.html', 'project_15_pretty.html']
 

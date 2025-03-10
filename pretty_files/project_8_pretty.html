@@ -39,7 +39,7 @@
    <nav id="menu">
     <ul class="links">
      <li>
-      <a href="index.html">
+      <a href="index.html" onfocus="myFunction()" onmouseover="myFunction()">
        Home
       </a>
      </li>
@@ -54,7 +54,7 @@
       </a>
      </li>
      <li>
-      <a href="elements.html">
+      <a href="elements.html" onkeydown="myFunction()" onmousedown="myFunction()">
        Elements
       </a>
      </li>
@@ -233,6 +233,21 @@
             Felis feugiat viverra.
            </li>
           </ul>
+          <button onfocus="myFunction()" onmouseover="myFunction()" type="submit">
+           Submit
+          </button>
+          <button type="reset">
+           Reset
+          </button>
+          <button type="button">
+           Click Me
+          </button>
+          <button onblur="myFunction()" onmouseout="myFunction()" type="button">
+           More Info
+          </button>
+          <button onkeydown="myFunction()" onmousedown="myFunction()" type="button">
+           Help
+          </button>
          </div>
          <div class="col-6 col-12-small">
           <h4>
@@ -263,7 +278,7 @@
           </h4>
           <ul class="icons">
            <li>
-            <a class="icon brands fa-twitter" href="#">
+            <a class="icon brands fa-twitter" href="#" onfocus="myFunction()" onmouseover="myFunction()">
              <span class="label">
               Twitter
              </span>
@@ -284,14 +299,14 @@
             </a>
            </li>
            <li>
-            <a class="icon brands fa-github" href="#">
+            <a class="icon brands fa-github" href="#" onkeydown="myFunction()" onmousedown="myFunction()">
              <span class="label">
               Github
              </span>
             </a>
            </li>
            <li>
-            <a class="icon brands fa-dribbble" href="#">
+            <a class="icon brands fa-dribbble" href="#" onblur="myFunction()" onmouseout="myFunction()">
              <span class="label">
               Dribbble
              </span>
@@ -358,13 +373,83 @@
            Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.
           </p>
          </dd>
+         <p>
+          This is a paragraph with
+          <em>
+           emphasized text
+          </em>
+          and
+          <strong>
+           strong text
+          </strong>
+          .
+         </p>
+         <p>
+          Another paragraph here.
+         </p>
+         <p>
+          Yet
+          <em>
+           another
+          </em>
+          paragraph.
+         </p>
+         <p>
+          More content follows.
+         </p>
+         <p>
+          Final paragraph in this section.
+         </p>
+         <p>
+          Another
+          <strong>
+           paragraph
+          </strong>
+          with
+          <em>
+           italic text
+          </em>
+          and
+          <strong>
+           bold text
+          </strong>
+          .
+         </p>
+         <p>
+          Adding more
+          <em>
+           paragraphs
+          </em>
+          to meet requirements.
+         </p>
+         <p>
+          This paragraph contains
+          <em>
+           highlighted
+          </em>
+          information.
+         </p>
+         <p>
+          One
+          <strong>
+           more
+          </strong>
+          paragraph.
+         </p>
+         <p>
+          Last paragraph with
+          <strong>
+           important details
+          </strong>
+          .
+         </p>
         </dl>
         <h4>
          Actions
         </h4>
         <ul class="actions">
          <li>
-          <a class="button primary" href="#">
+          <a class="button primary" href="#" onblur="myFunction()" onmouseout="myFunction()">
            Default
           </a>
          </li>
@@ -591,6 +676,8 @@
           </tfoot>
          </table>
         </div>
+        <iframe src="https://example.com" title="Example website">
+        </iframe>
         <h4>
          Alternate
         </h4>
@@ -677,6 +764,8 @@
           </tfoot>
          </table>
         </div>
+        <iframe src="https://example.com" title="Example website 2">
+        </iframe>
        </div>
        <div class="col-6 col-12-medium">
         <!-- Buttons -->
@@ -714,6 +803,8 @@
             </a>
            </li>
           </ul>
+          <iframe src="https://example.com" title="Example website 3">
+          </iframe>
          </div>
          <div class="col-6 col-12-xsmall">
           <ul class="actions stacked">
@@ -735,6 +826,8 @@
           </ul>
          </div>
         </div>
+        <iframe src="https://example.com" title="Example website 4">
+        </iframe>
         <ul class="actions fit">
          <li>
           <a class="button primary fit" href="#">
@@ -761,7 +854,7 @@
         </ul>
         <ul class="actions">
          <li>
-          <a class="button primary icon solid fa-search" href="#">
+          <a class="button primary icon solid fa-search" href="#" onkeydown="myFunction()" onmousedown="myFunction()">
            Icon
           </a>
          </li>
@@ -790,14 +883,14 @@
         <form action="#" method="post">
          <div class="row gtr-uniform">
           <div class="col-6 col-12-xsmall">
-           <input id="demo-name" name="demo-name" placeholder="Name" type="text" value=""/>
+           <input id="demo-name" name="demo-name" onblur="myFunction()" onmouseout="myFunction()" placeholder="Name" type="text" value=""/>
           </div>
           <div class="col-6 col-12-xsmall">
-           <input id="demo-email" name="demo-email" placeholder="Email" type="email" value=""/>
+           <input id="demo-email" name="demo-email" onkeydown="myFunction()" onmousedown="myFunction()" placeholder="Email" type="email" value=""/>
           </div>
           <!-- Break -->
           <div class="col-12">
-           <select id="demo-category" name="demo-category">
+           <select id="demo-category" name="demo-category" onfocus="myFunction()" onmouseover="myFunction()">
             <option value="">
              - Category -
             </option>
@@ -835,8 +928,8 @@
            </label>
           </div>
           <!-- Break -->
-          <div class="col-6 col-12-small">
-           <input id="demo-copy" name="demo-copy" type="checkbox"/>
+          <div class="col-6 col-12-small" onblur="myFunction()" onmouseout="myFunction()">
+           <input id="demo-copy" name="demo-copy" onfocus="myFunction()" onmouseover="myFunction()" type="checkbox"/>
            <label for="demo-copy">
             Email me a copy
            </label>
@@ -864,6 +957,8 @@
           </div>
          </div>
         </form>
+        <iframe src="https://example.com" title="Example website 5">
+        </iframe>
         <!-- Image -->
         <h3>
          Image
@@ -872,55 +967,55 @@
          Fit
         </h4>
         <span class="image fit">
-         <img alt="" src="images/pic03.jpg"/>
+         <img alt="descriptive text" src="images/pic03.jpg"/>
         </span>
         <div class="box alt">
          <div class="row gtr-50 gtr-uniform">
           <div class="col-4">
            <span class="image fit">
-            <img alt="" src="images/pic08.jpg"/>
+            <img alt="descriptive text" src="images/pic08.jpg"/>
            </span>
           </div>
           <div class="col-4">
            <span class="image fit">
-            <img alt="" src="images/pic09.jpg"/>
+            <img alt="descriptive text" src="images/pic09.jpg"/>
            </span>
           </div>
           <div class="col-4">
            <span class="image fit">
-            <img alt="" src="images/pic10.jpg"/>
-           </span>
-          </div>
-          <!-- Break -->
-          <div class="col-4">
-           <span class="image fit">
-            <img alt="" src="images/pic10.jpg"/>
-           </span>
-          </div>
-          <div class="col-4">
-           <span class="image fit">
-            <img alt="" src="images/pic08.jpg"/>
-           </span>
-          </div>
-          <div class="col-4">
-           <span class="image fit">
-            <img alt="" src="images/pic09.jpg"/>
+            <img alt="descriptive text" src="images/pic10.jpg"/>
            </span>
           </div>
           <!-- Break -->
           <div class="col-4">
            <span class="image fit">
-            <img alt="" src="images/pic09.jpg"/>
+            <img alt="descriptive text" src="images/pic10.jpg"/>
            </span>
           </div>
           <div class="col-4">
            <span class="image fit">
-            <img alt="" src="images/pic10.jpg"/>
+            <img alt="descriptive text" src="images/pic08.jpg"/>
            </span>
           </div>
           <div class="col-4">
            <span class="image fit">
-            <img alt="" src="images/pic08.jpg"/>
+            <img alt="descriptive text" src="images/pic09.jpg"/>
+           </span>
+          </div>
+          <!-- Break -->
+          <div class="col-4">
+           <span class="image fit">
+            <img alt="descriptive text" src="images/pic09.jpg"/>
+           </span>
+          </div>
+          <div class="col-4">
+           <span class="image fit">
+            <img alt="descriptive text" src="images/pic10.jpg"/>
+           </span>
+          </div>
+          <div class="col-4">
+           <span class="image fit">
+            <img alt="descriptive text" src="images/pic08.jpg"/>
            </span>
           </div>
          </div>
@@ -930,13 +1025,13 @@
         </h4>
         <p>
          <span class="image left">
-          <img alt="" src="images/pic09.jpg"/>
+          <img alt="descriptive text" src="images/pic09.jpg"/>
          </span>
          Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.
         </p>
         <p>
          <span class="image right">
-          <img alt="" src="images/pic10.jpg"/>
+          <img alt="descriptive text" src="images/pic10.jpg"/>
          </span>
          Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.
         </p>
@@ -991,6 +1086,24 @@ print 'It took ' + i + ' iterations to sort the deck.';
           Message
          </label>
          <textarea id="message" name="message" rows="6"></textarea>
+        </div>
+        <div class="field">
+         <label for="number">
+          Lucky Number:
+         </label>
+         <input id="number" name="number" type="number"/>
+        </div>
+        <div class="field">
+         <label for="url">
+          Website:
+         </label>
+         <input id="url" name="url" type="url"/>
+        </div>
+        <div>
+         <label for="search">
+          Search:
+         </label>
+         <input id="search" name="search" type="search"/>
         </div>
        </div>
        <ul class="actions">
@@ -1100,6 +1213,148 @@ print 'It took ' + i + ' iterations to sort the deck.';
      </ul>
     </div>
    </footer>
+   <!--Select elements-->
+   <label for="options">
+    Choose an option:
+   </label>
+   <select id="options" name="options">
+    <option value="opt1">
+     Option 1
+    </option>
+    <option value="opt2">
+     Option 2
+    </option>
+    <option value="opt3">
+     Option 3
+    </option>
+   </select>
+   <label for="gender">
+    Gender:
+   </label>
+   <select id="gender" name="gender">
+    <option value="male">
+     Male
+    </option>
+    <option value="female">
+     Female
+    </option>
+    <option value="other">
+     Other
+    </option>
+   </select>
+   <label for="country">
+    Country:
+   </label>
+   <select id="country" name="country">
+    <option value="usa">
+     USA
+    </option>
+    <option value="uk">
+     UK
+    </option>
+    <option value="canada">
+     Canada
+    </option>
+   </select>
+   <label for="state">
+    State:
+   </label>
+   <select id="state" name="state">
+    <option value="california">
+     California
+    </option>
+    <option value="texas">
+     Texas
+    </option>
+    <option value="florida">
+     Florida
+    </option>
+   </select>
+   <label for="city">
+    City:
+   </label>
+   <select id="city" name="city">
+    <option value="nyc">
+     New York
+    </option>
+    <option value="la">
+     Los Angeles
+    </option>
+    <option value="chicago">
+     Chicago
+    </option>
+   </select>
+   <!--Select element missing label-->
+   <label for="choices">
+    Choices
+   </label>
+   <select id="choices" name="choices">
+    <option value="opt1">
+     Choices 1
+    </option>
+    <option value="opt2">
+     Choices 2
+    </option>
+    <option value="opt3">
+     Choices 3
+    </option>
+   </select>
+   <label for="colors">
+    Colors:
+   </label>
+   <select id="colors" name="colors">
+    <option value="blue">
+     Blue
+    </option>
+    <option value="red">
+     Red
+    </option>
+    <option value="green">
+     Green
+    </option>
+   </select>
+   <label for="lucky">
+    Lucky Number
+   </label>
+   <select id="lucky" name="lucky number">
+    <option value="1">
+     1
+    </option>
+    <option value="5">
+     5
+    </option>
+    <option value="7">
+     7
+    </option>
+   </select>
+   <label for="drink">
+    Drink
+   </label>
+   <select id="drink" name="drink">
+    <option value="coke">
+     Coke
+    </option>
+    <option value="dr pepper">
+     Dr. Pepper
+    </option>
+    <option value="root beer">
+     Root Beer
+    </option>
+   </select>
+   <label for="team">
+    Sports Team
+   </label>
+   <select id="team" name="Sports Team">
+    <option value="rangers">
+     Texas Rangers
+    </option>
+    <option value="astros">
+     Houston Astros
+    </option>
+    <option value="as">
+     Oakland A's
+    </option>
+   </select>
   </div>
   <!-- Scripts -->
   <script src="assets/js/jquery.min.js">

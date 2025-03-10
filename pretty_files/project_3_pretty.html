@@ -220,7 +220,7 @@
         </a>
        </div>
        <button onblur="myFunction()" onmouseout="myFunction()" type="button">
-        Click Me
+        Click me!
        </button>
       </div>
      </section>
@@ -944,6 +944,30 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
            </label>
            <textarea id="demo-message" name="demo-message" placeholder="Enter your message" rows="6"></textarea>
           </div>
+          <div class="field half">
+           <input checked="" id="demo-color-1" name="demo-color-1" onkeydown="myfunction()" onmousedown="myfunction()" type="radio"/>
+           <label for="demo-color-1">
+            Red
+           </label>
+          </div>
+          <div class="field half">
+           <input id="demo-color-2" name="demo-color-2" onkeydown="myfunction()" onmousedown="myfunction()" type="radio"/>
+           <label for="demo-color-2">
+            Blue
+           </label>
+          </div>
+          <div class="field half">
+           <input id="demo-show-color" name="demo-show-color" onkeydown="myfunction()" onmousedown="myfunction()" type="checkbox"/>
+           <label for="demo-show-color">
+            Display colors
+           </label>
+          </div>
+          <div class="field half">
+           <input checked="" id="demo-robot" name="demo-robot" onkeydown="myfunction()" onmousedown="myfunction()" type="radio"/>
+           <label for="demo-robot">
+            I am a robot
+           </label>
+          </div>
          </div>
         </div>
         <ul class="actions">
@@ -951,7 +975,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
           <input class="primary" onkeydown="myfunction()" onmousedown="myfunction()" type="submit" value="Send Message"/>
          </li>
          <li>
-          <input type="reset" value="Reset"/>
+          <input type="button" value="Reset"/>
          </li>
         </ul>
        </form>

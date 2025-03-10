@@ -944,14 +944,38 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
            </label>
            <textarea id="demo-message" name="demo-message" placeholder="Enter your message" rows="6"></textarea>
           </div>
+          <div class="field half">
+           <input checked="" id="demo-color-1" name="demo-color-1" onmousedown="myfunction()" type="radio"/>
+           <label for="demo-color-1">
+            <!--Text removed from input element "{id}" label-->
+           </label>
+          </div>
+          <div class="field half">
+           <input id="demo-color-2" name="demo-color-2" onkeydown="myfunction()" onmousedown="myfunction()" type="radio"/>
+           <!--
+                Label for input element "demo-color-2" removed 
+                -->
+          </div>
+          <div class="field half">
+           <input id="demo-show-color" name="demo-show-color" onkeydown="myfunction()" onmousedown="myfunction()" type="checkbox"/>
+           <label for="demo-show-color">
+            <!--Text removed from input element "{id}" label-->
+           </label>
+          </div>
+          <div class="field half">
+           <input checked="" id="demo-robot" name="demo-robot" onkeydown="myfunction()" onmousedown="myfunction()" type="radio"/>
+           <!--
+                Label for input element "demo-robot" removed 
+                -->
+          </div>
          </div>
         </div>
         <ul class="actions">
          <li>
-          <input class="primary" onmousedown="myfunction()" type="submit" value="Send Message"/>
+          <input class="primary" onkeydown="myfunction()" onmousedown="myfunction()" type="submit" value="Send Message"/>
          </li>
          <li>
-          <input type="reset" value="Reset"/>
+          <input type="button" value="Reset"/>
          </li>
         </ul>
        </form>

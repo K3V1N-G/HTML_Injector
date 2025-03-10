@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="xyz">
  <head>
   <!--
             Title element removed 
@@ -75,6 +75,8 @@
      </li>
     </ul>
    </nav>
+   <iframe src="https://example.com">
+   </iframe>
    <!-- Main -->
    <div id="main">
     <!-- Post -->
@@ -158,29 +160,61 @@
       </font>
      </header>
      <font>
-      Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.
+      Nunc lacinia ante nunc ac lobortis.
+      <i>
+       Interdum adipiscing gravida odio porttitor sem non mi
+      </i>
+      integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.
      </font>
      <header>
       <h3>
        Heading with a Subtitle
       </h3>
       <font>
-       Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+       Lorem ipsum
+       <i>
+        dolor
+       </i>
+       sit amet
+       <b>
+        nullam id egestas urna
+        <b>
+         aliquam
+        </b>
+       </b>
       </font>
      </header>
      <font>
-      Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.
+      Nunc lacinia ante
+      <i>
+       nunc
+      </i>
+      ac lobortis. Interdum adipiscing gravida odio
+      <b>
+       porttitor sem non mi integer
+      </b>
+      non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.
      </font>
      <header>
       <h4>
        Heading with a Subtitle
       </h4>
       <marquee behavior="scroll" direction="left">
-       Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+       <i>
+        Lorem ipsum dolor sit amet nullam id egestas urna aliquam
+       </i>
       </marquee>
      </header>
      <marquee behavior="scroll" direction="left">
-      Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.
+      Nunc lacinia ante nunc ac lobortis.
+      <b>
+       Interdum
+      </b>
+      adipiscing gravida odio porttitor sem
+      <strong>
+       non mi integer non faucibus ornare mi ut ante
+      </strong>
+      amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.
      </marquee>
      <hr/>
      <!-- Lists -->
@@ -250,35 +284,35 @@
        </h3>
        <ul class="icons">
         <li>
-         <a class="icon brands fa-twitter" href="#">
+         <a class="icon brands fa-twitter" href="#" onmouseover="myFunction()">
           <span class="label">
            Twitter
           </span>
          </a>
         </li>
         <li>
-         <a class="icon brands fa-facebook-f" href="#">
+         <a class="icon brands fa-facebook-f" href="#" onmouseover="myFunction()">
           <span class="label">
            Facebook
           </span>
          </a>
         </li>
         <li>
-         <a class="icon brands fa-instagram" href="#">
+         <a class="icon brands fa-instagram" href="#" onmouseover="myFunction()">
           <span class="label">
            Instagram
           </span>
          </a>
         </li>
         <li>
-         <a class="icon brands fa-github" href="#">
+         <a class="icon brands fa-github" href="#" onmouseover="myFunction()">
           <span class="label">
            Github
           </span>
          </a>
         </li>
         <li>
-         <a class="icon brands fa-dribbble" href="#">
+         <a class="icon brands fa-dribbble" href="#" onmouseover="myFunction()">
           <span class="label">
            Dribbble
           </span>
@@ -322,6 +356,8 @@
          </a>
         </li>
        </ul>
+       <iframe src="https://example.com">
+       </iframe>
       </div>
      </div>
      <h3>
@@ -353,6 +389,8 @@
        </marquee>
       </dd>
      </dl>
+     <iframe src="https://example.com">
+     </iframe>
      <h3>
       Actions
      </h3>
@@ -715,46 +753,176 @@
      <form action="#" method="post">
       <div class="row gtr-uniform">
        <div class="col-6 col-12-xsmall">
-        <input id="demo-name" name="demo-name" placeholder="Name" type="text" value=""/>
+        <label for="demo-name">
+         <!--Text removed from input element "{id}" label-->
+        </label>
+        <input id="demo-name" name="demo-name" onmouseout="myFunction()" placeholder="Name" type="text" value=""/>
        </div>
        <div class="col-6 col-12-xsmall">
-        <input id="demo-email" name="demo-email" placeholder="Email" type="email" value=""/>
+        <!--
+                Label for input element "demo-email" removed 
+                -->
+        <input id="demo-email" name="demo-email" onmouseout="myFunction()" placeholder="Email" type="text" value=""/>
        </div>
        <!-- Break -->
        <div class="col-12">
-        <select id="demo-category" name="demo-category">
-         <option value="">
-          - Category -
+        <label for="options">
+         <!--Text removed from select element "options" label-->
+        </label>
+        <select id="options" name="options">
+         <option value="opt1">
+          Option 1
          </option>
-         <option value="1">
-          Manufacturing
+         <option value="opt2">
+          Option 2
          </option>
-         <option value="1">
-          Shipping
+         <option value="opt3">
+          Option 3
          </option>
-         <option value="1">
-          Administration
+        </select>
+        <!--
+                Label for select element "gender" removed 
+                -->
+        <select id="gender" name="gender">
+         <option value="male">
+          Male
          </option>
+         <option value="female">
+          Female
+         </option>
+         <option value="other">
+          Other
+         </option>
+        </select>
+        <label for="country">
+         <!--Text removed from select element "country" label-->
+        </label>
+        <select id="country" name="country">
+         <option value="usa">
+          USA
+         </option>
+         <option value="uk">
+          UK
+         </option>
+         <option value="canada">
+          Canada
+         </option>
+        </select>
+        <!--
+                Label for select element "state" removed 
+                -->
+        <select id="state" name="state">
+         <option value="california">
+          California
+         </option>
+         <option value="texas">
+          Texas
+         </option>
+         <option value="florida">
+          Florida
+         </option>
+        </select>
+        <label for="city">
+         <!--Text removed from select element "city" label-->
+        </label>
+        <select id="city" name="city">
+         <option value="nyc">
+          New York
+         </option>
+         <option value="la">
+          Los Angeles
+         </option>
+         <option value="chicago">
+          Chicago
+         </option>
+        </select>
+        <!--Select element missing label-->
+        <!--
+                Label for select element "choices" removed 
+                -->
+        <select id="choices" name="choices">
+         <option value="opt1">
+          Choices 1
+         </option>
+         <option value="opt2">
+          Choices 2
+         </option>
+         <option value="opt3">
+          Choices 3
+         </option>
+        </select>
+        <label for="colors">
+         <!--Text removed from select element "colors" label-->
+        </label>
+        <select id="colors" name="colors">
+         <option value="blue">
+          Blue
+         </option>
+         <option value="red">
+          Red
+         </option>
+         <option value="green">
+          Green
+         </option>
+        </select>
+        <!--
+                Label for select element "lucky" removed 
+                -->
+        <select id="lucky" name="lucky number">
          <option value="1">
-          Human Resources
+          1
+         </option>
+         <option value="5">
+          5
+         </option>
+         <option value="7">
+          7
+         </option>
+        </select>
+        <label for="drink">
+         <!--Text removed from select element "drink" label-->
+        </label>
+        <select id="drink" name="drink">
+         <option value="coke">
+          Coke
+         </option>
+         <option value="dr pepper">
+          Dr. Pepper
+         </option>
+         <option value="root beer">
+          Root Beer
+         </option>
+        </select>
+        <!--
+                Label for select element "team" removed 
+                -->
+        <select id="team" name="Sports Team">
+         <option value="rangers">
+          Texas Rangers
+         </option>
+         <option value="astros">
+          Houston Astros
+         </option>
+         <option value="as">
+          Oakland A's
          </option>
         </select>
        </div>
        <!-- Break -->
        <div class="col-4 col-12-small">
-        <input checked="" id="demo-priority-low" name="demo-priority" type="radio"/>
+        <input checked="" id="demo-priority-low" name="demo-priority" onmouseout="myFunction()" type="radio"/>
         <label for="demo-priority-low">
          <!--Text removed from input element "{id}" label-->
         </label>
        </div>
        <div class="col-4 col-12-small">
-        <input id="demo-priority-normal" name="demo-priority" type="radio"/>
+        <input id="demo-priority-normal" name="demo-priority" onmouseout="myFunction()" type="radio"/>
         <!--
                 Label for input element "demo-priority-normal" removed 
                 -->
        </div>
        <div class="col-4 col-12-small">
-        <input id="demo-priority-high" name="demo-priority" type="radio"/>
+        <input id="demo-priority-high" name="demo-priority" onmouseout="myFunction()" type="radio"/>
         <label for="demo-priority-high">
          <!--Text removed from input element "{id}" label-->
         </label>
@@ -772,6 +940,8 @@
          <!--Text removed from input element "{id}" label-->
         </label>
        </div>
+       <iframe src="https://example.com">
+       </iframe>
        <!-- Break -->
        <div class="col-12">
         <textarea id="demo-message" name="demo-message" placeholder="Enter your message" rows="6"></textarea>
@@ -797,6 +967,8 @@
      <h3>
       Fit
      </h3>
+     <iframe src="https://example.com">
+     </iframe>
      <span class="image fit">
       <img src="images/pic01.jpg"/>
      </span>
@@ -825,28 +997,28 @@
        </div>
        <div class="col-4">
         <span class="image fit">
-         <img alt="" src="images/pic02.jpg"/>
+         <img alt="descriptive text" src="images/pic02.jpg"/>
         </span>
        </div>
        <div class="col-4">
         <span class="image fit">
-         <img alt="" src="images/pic03.jpg"/>
+         <img alt="descriptive text" src="images/pic03.jpg"/>
         </span>
        </div>
        <!-- Break -->
        <div class="col-4">
         <span class="image fit">
-         <img alt="" src="images/pic03.jpg"/>
+         <img alt="descriptive text" src="images/pic03.jpg"/>
         </span>
        </div>
        <div class="col-4">
         <span class="image fit">
-         <img alt="" src="images/pic04.jpg"/>
+         <img alt="descriptive text" src="images/pic04.jpg"/>
         </span>
        </div>
        <div class="col-4">
         <span class="image fit">
-         <img alt="" src="images/pic02.jpg"/>
+         <img alt="descriptive text" src="images/pic02.jpg"/>
         </span>
        </div>
       </div>
@@ -856,13 +1028,13 @@
      </h3>
      <p>
       <span class="image left">
-       <img alt="" src="images/pic08.jpg"/>
+       <img alt="descriptive text" src="images/pic08.jpg"/>
       </span>
       Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.
      </p>
      <p>
       <span class="image right">
-       <img alt="" src="images/pic09.jpg"/>
+       <img alt="descriptive text" src="images/pic09.jpg"/>
       </span>
       Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.
      </p>
@@ -915,6 +1087,12 @@ print 'It took ' + i + ' iterations to sort the deck.';
          Message
         </label>
         <textarea id="message" name="message" rows="3"></textarea>
+       </div>
+       <div class="field">
+        <!--
+                Label for input element "note" removed 
+                -->
+        <input id="note" name="note" rows="3"/>
        </div>
       </div>
       <ul class="actions">
@@ -987,6 +1165,33 @@ print 'It took ' + i + ' iterations to sort the deck.';
           GitHub
          </span>
         </a>
+       </li>
+      </ul>
+      <ul>
+       <li>
+        <button onmousedown="myFunction()" type="submit">
+         <!--Text removed from button element-->
+        </button>
+       </li>
+       <li>
+        <button onmousedown="myFunction()" type="reset">
+         <!--Text removed from button element-->
+        </button>
+       </li>
+       <li>
+        <button onmousedown="myFunction()" type="button">
+         <!--Text removed from button element-->
+        </button>
+       </li>
+       <li>
+        <button onmousedown="myFunction()" type="button">
+         <!--Text removed from button element-->
+        </button>
+       </li>
+       <li>
+        <button onmousedown="myFunction()" type="button">
+         <!--Text removed from button element-->
+        </button>
        </li>
       </ul>
      </section>
