@@ -543,7 +543,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Project 1\n  </title>",
-                "after": "<title>\n</title>",
+                "after": "<title></title>",
                 "linenumber": 6
             }
         ],
@@ -589,7 +589,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 2
             }
         ]
@@ -1184,7 +1184,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 2
             }
         ]
@@ -1779,7 +1779,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -2328,7 +2328,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Project 4\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -2374,7 +2374,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -2923,7 +2923,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Generic Page - Massively by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -3518,7 +3518,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Massively by HTML5 UP\n  </title>",
-                "after": "<title>\n</title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -4113,7 +4113,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Story by HTML5 UP\n  </title>",
-                "after": "<title>\n</title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 11
             }
         ],
@@ -4708,7 +4708,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Forty by HTML5 UP\n  </title>",
-                "after": "<title>\n</title>",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -4754,7 +4754,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -5303,7 +5303,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Fractal by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -5898,7 +5898,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Forty by HTML5 UP\n  </title>",
-                "after": "<title>\n</title>",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -6068,7 +6068,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Landing - Forty by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -6262,7 +6262,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Hyperspace by HTML5 UP\n  </title>",
-                "after": "<title>\n</title>",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -6504,7 +6504,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Solid State by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -6550,7 +6550,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -6720,7 +6720,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Stellar by HTML5 UP\n  </title>",
-                "after": "<title>\n</title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -6766,7 +6766,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -6903,7 +6903,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Hyperspace by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -6949,7 +6949,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]

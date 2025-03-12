@@ -108,7 +108,9 @@ def update_title(soup, html_file):
             title.decompose()
             after = f"<!--Title element removed -->"
         else:
-            title.string = "\n"
+            comment = Comment("Title text removed")
+            title.insert_before(comment)
+            title.string = ""
             after = str(title)
 
         category.append({
