@@ -166,7 +166,8 @@ def remove_a_text(soup, html_file):
             line_number = a.sourceline
             before = str(a)
 
-            a.string = Comment("Text for anchor element removed")
+            a.string = ""
+            a.insert_before(Comment("Text for anchor element removed"))
 
             after = str(a)
 
@@ -332,7 +333,8 @@ def update_label_button(soup, html_file):
 
         line_number = button.sourceline
         before = str(button)
-        button.string = Comment(f"Text removed from button element")
+        button.string = ""
+        button.insert_before(Comment(f"Text removed from button element"))
         after = str(button)
 
         category.append({

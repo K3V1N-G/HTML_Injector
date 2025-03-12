@@ -247,35 +247,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\">\n      Submit\n     </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 230
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\">\n      Reset\n     </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 233
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\">\n      Click Me\n     </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 236
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\">\n      More Info\n     </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 239
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\">\n      Help\n     </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 242
             }
         ],
@@ -468,36 +468,36 @@
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 230
             },
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 233
             },
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 236
             },
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 239
             },
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 242
             }
         ],
@@ -552,35 +552,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Go to home page\" href=\"#\" onmouseover=\"myFunction()\">\n      Home\n     </a>",
-                "after": "<a aria-label=\"Go to home page\" href=\"#\" onmouseover=\"myFunction()\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Go to home page\" href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 327
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Visit about us page\" href=\"#\" onmouseover=\"myFunction()\">\n      About\n     </a>",
-                "after": "<a aria-label=\"Visit about us page\" href=\"#\" onmouseover=\"myFunction()\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Visit about us page\" href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 330
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Read our blog\" href=\"#\" onmouseover=\"myFunction()\">\n      Blog\n     </a>",
-                "after": "<a aria-label=\"Read our blog\" href=\"#\" onmouseover=\"myFunction()\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Read our blog\" href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 333
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Contact us\" href=\"#\" onmouseover=\"myFunction()\">\n      Contact\n     </a>",
-                "after": "<a aria-label=\"Contact us\" href=\"#\" onmouseover=\"myFunction()\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Contact us\" href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 336
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Frequently asked questions\" href=\"#\" onmouseover=\"myFunction()\">\n      FAQ\n     </a>",
-                "after": "<a aria-label=\"Frequently asked questions\" href=\"#\" onmouseover=\"myFunction()\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Frequently asked questions\" href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 339
             }
         ],
@@ -589,7 +589,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 2
             }
         ]
@@ -842,35 +842,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"submit\">\n      Submit\n     </button>",
-                "after": "<button type=\"submit\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"submit\"></button>",
                 "linenumber": 191
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"reset\">\n      Reset\n     </button>",
-                "after": "<button type=\"reset\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"reset\"></button>",
                 "linenumber": 227
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n      Click Me\n     </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 306
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n      More Info\n     </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 313
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onfocus=\"myFocus()\" onmouseover=\"myFunction()\" type=\"button\">\n      Help\n     </button>",
-                "after": "<button onfocus=\"myFocus()\" onmouseover=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onfocus=\"myFocus()\" onmouseover=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 320
             }
         ],
@@ -1017,8 +1017,8 @@
             {
                 "guideline": "onmouseover event handler missing onfocus event",
                 "violation": "2.1.1.1",
-                "before": "<button onfocus=\"myFocus()\" onmouseover=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseover=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onfocus=\"myFocus()\" onmouseover=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmouseover=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 320
             }
         ],
@@ -1138,7 +1138,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Project 2\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 6
             }
         ],
@@ -1147,35 +1147,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Go to home page\" href=\"#\">\n      Home\n     </a>",
-                "after": "<a aria-label=\"Go to home page\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Go to home page\" href=\"#\"></a>",
                 "linenumber": 22
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Visit about us page\" href=\"#\">\n      About\n     </a>",
-                "after": "<a aria-label=\"Visit about us page\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Visit about us page\" href=\"#\"></a>",
                 "linenumber": 25
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Read our blog\" href=\"#\">\n      Blog\n     </a>",
-                "after": "<a aria-label=\"Read our blog\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Read our blog\" href=\"#\"></a>",
                 "linenumber": 28
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Contact us\" href=\"#\">\n      Contact\n     </a>",
-                "after": "<a aria-label=\"Contact us\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Contact us\" href=\"#\"></a>",
                 "linenumber": 31
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Frequently asked questions\" href=\"#\">\n      FAQ\n     </a>",
-                "after": "<a aria-label=\"Frequently asked questions\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a aria-label=\"Frequently asked questions\" href=\"#\"></a>",
                 "linenumber": 34
             }
         ],
@@ -1437,35 +1437,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\">\n        Click me!\n       </button>",
-                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 222
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\">\n        Click This\n       </button>",
-                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 332
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\">\n        Click now\n       </button>",
-                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 414
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\">\n        Do not click\n       </button>",
-                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 574
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\">\n          Close List\n         </button>",
-                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 684
             }
         ],
@@ -1621,36 +1621,36 @@
             {
                 "guideline": "onmouseout event handler missing onblur event",
                 "violation": "2.1.1.2",
-                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 222
             },
             {
                 "guideline": "onmouseout event handler missing onblur event",
                 "violation": "2.1.1.2",
-                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 332
             },
             {
                 "guideline": "onmouseout event handler missing onblur event",
                 "violation": "2.1.1.2",
-                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 414
             },
             {
                 "guideline": "onmouseout event handler missing onblur event",
                 "violation": "2.1.1.2",
-                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 574
             },
             {
                 "guideline": "onmouseout event handler missing onblur event",
                 "violation": "2.1.1.2",
-                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 684
             }
         ],
@@ -1742,35 +1742,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"https://twitter.com/ajlkn\">\n       @ajlkn\n      </a>",
-                "after": "<a href=\"https://twitter.com/ajlkn\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"https://twitter.com/ajlkn\"></a>",
                 "linenumber": 29
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"https://html5up.net\">\n       HTML5 UP\n      </a>",
-                "after": "<a href=\"https://html5up.net\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"https://html5up.net\"></a>",
                 "linenumber": 33
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button primary large\" href=\"#\">\n        Get Started\n       </a>",
-                "after": "<a class=\"button primary large\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button primary large\" href=\"#\"></a>",
                 "linenumber": 247
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button large\" href=\"#\">\n        Learn More\n       </a>",
-                "after": "<a class=\"button large\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button large\" href=\"#\"></a>",
                 "linenumber": 252
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#\">\n         this is a link\n        </a>",
-                "after": "<a href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 314
             }
         ],
@@ -1779,7 +1779,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -2032,35 +2032,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\">\n         Submit\n        </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 1172
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\">\n         Reset\n        </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 1177
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\">\n         Click Me\n        </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 1182
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\">\n         More Info\n        </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 1187
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\">\n         Help\n        </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 1192
             }
         ],
@@ -2253,36 +2253,36 @@
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 1172
             },
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 1177
             },
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 1182
             },
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 1187
             },
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 1192
             }
         ],
@@ -2328,7 +2328,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Project 4\n  </title>",
-                "after": "<title></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -2337,35 +2337,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"logo\" href=\"index.html\">\n     Massively\n    </a>",
-                "after": "<a class=\"logo\" href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"logo\" href=\"index.html\"></a>",
                 "linenumber": 24
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"index.html\">\n       This is Massively\n      </a>",
-                "after": "<a href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"index.html\"></a>",
                 "linenumber": 32
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"generic.html\">\n       Generic Page\n      </a>",
-                "after": "<a href=\"generic.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"generic.html\"></a>",
                 "linenumber": 37
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"elements.html\">\n       Elements Reference\n      </a>",
-                "after": "<a href=\"elements.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"elements.html\"></a>",
                 "linenumber": 42
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#\">\n       link\n      </a>",
-                "after": "<a href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 132
             }
         ],
@@ -2374,7 +2374,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -2627,35 +2627,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"submit\">\n      Submit\n     </button>",
-                "after": "<button type=\"submit\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"submit\"></button>",
                 "linenumber": 280
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"reset\">\n      Reset\n     </button>",
-                "after": "<button type=\"reset\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"reset\"></button>",
                 "linenumber": 293
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n       Click Me\n      </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 340
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n       More Info\n      </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 429
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n       Help\n      </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 474
             }
         ],
@@ -2923,7 +2923,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Generic Page - Massively by HTML5 UP\n  </title>",
-                "after": "<title></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -2932,35 +2932,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"logo\" href=\"index.html\">\n     Massively\n    </a>",
-                "after": "<a class=\"logo\" href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"logo\" href=\"index.html\"></a>",
                 "linenumber": 24
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"index.html\">\n       This is Massively\n      </a>",
-                "after": "<a href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"index.html\"></a>",
                 "linenumber": 33
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"generic.html\">\n       Generic Page\n      </a>",
-                "after": "<a href=\"generic.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"generic.html\"></a>",
                 "linenumber": 38
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"elements.html\">\n       Elements Reference\n      </a>",
-                "after": "<a href=\"elements.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"elements.html\"></a>",
                 "linenumber": 43
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#\">\n        (000) 000-0000\n       </a>",
-                "after": "<a href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 288
             }
         ],
@@ -3222,35 +3222,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"submit\">\n     Submit\n    </button>",
-                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 24
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\">\n     Reset\n    </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 27
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\">\n     Click Me\n    </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 30
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n     More Info\n    </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 33
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n     Help\n    </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 36
             }
         ],
@@ -3406,8 +3406,8 @@
             {
                 "guideline": "onmouseout event handler missing onblur event",
                 "violation": "2.1.1.2",
-                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseout=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"submit\"></button>",
+                "after": "<button onmouseout=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 24
             },
             {
@@ -3443,15 +3443,15 @@
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"reset\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 27
             },
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 30
             },
             {
@@ -3518,7 +3518,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Massively by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -3527,35 +3527,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"https://twitter.com/ajlkn\">\n      @ajlkn\n     </a>",
-                "after": "<a href=\"https://twitter.com/ajlkn\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"https://twitter.com/ajlkn\"></a>",
                 "linenumber": 46
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"https://html5up.net\">\n      HTML5 UP\n     </a>",
-                "after": "<a href=\"https://html5up.net\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"https://html5up.net\"></a>",
                 "linenumber": 50
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"https://html5up.net/license\">\n      Creative Commons license\n     </a>",
-                "after": "<a href=\"https://html5up.net/license\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"https://html5up.net/license\"></a>",
                 "linenumber": 55
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button icon solid solo fa-arrow-down scrolly\" href=\"#header\">\n       Continue\n      </a>",
-                "after": "<a class=\"button icon solid solo fa-arrow-down scrolly\" href=\"#header\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button icon solid solo fa-arrow-down scrolly\" href=\"#header\"></a>",
                 "linenumber": 62
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"logo\" href=\"index.html\">\n     Massively\n    </a>",
-                "after": "<a class=\"logo\" href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"logo\" href=\"index.html\"></a>",
                 "linenumber": 70
             }
         ],
@@ -3817,35 +3817,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\">\n    Submit\n   </button>",
-                "after": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "after": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 779
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\">\n    Reset\n   </button>",
-                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 782
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n    Click Me\n   </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 785
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n    More Info\n   </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 788
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n    Help\n   </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 791
             }
         ],
@@ -3992,8 +3992,8 @@
             {
                 "guideline": "onmouseover event handler missing onfocus event",
                 "violation": "2.1.1.1",
-                "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseover=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"></button>",
+                "after": "<button onmouseover=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 779
             }
         ],
@@ -4001,8 +4001,8 @@
             {
                 "guideline": "onmouseout event handler missing onblur event",
                 "violation": "2.1.1.2",
-                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseout=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\"></button>",
+                "after": "<button onmouseout=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 782
             },
             {
@@ -4122,35 +4122,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"https://html5up.net\">\n       HTML5 UP\n      </a>",
-                "after": "<a href=\"https://html5up.net\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"https://html5up.net\"></a>",
                 "linenumber": 32
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"https://html5up.net/license\">\n       Creative Commons\n      </a>",
-                "after": "<a href=\"https://html5up.net/license\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"https://html5up.net/license\"></a>",
                 "linenumber": 36
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#reference-banner\">\n       details\n      </a>",
-                "after": "<a href=\"#reference-banner\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#reference-banner\"></a>",
                 "linenumber": 59
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button large wide smooth-scroll-middle\" href=\"#first\">\n        Get Started\n       </a>",
-                "after": "<a class=\"button large wide smooth-scroll-middle\" href=\"#first\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button large wide smooth-scroll-middle\" href=\"#first\"></a>",
                 "linenumber": 66
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#reference-spotlight\">\n       details\n      </a>",
-                "after": "<a href=\"#reference-spotlight\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#reference-spotlight\"></a>",
                 "linenumber": 100
             }
         ],
@@ -4159,7 +4159,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 9
             }
         ]
@@ -4412,35 +4412,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\">\n           Submit\n          </button>",
-                "after": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "after": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 236
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"reset\">\n           Reset\n          </button>",
-                "after": "<button type=\"reset\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"reset\"></button>",
                 "linenumber": 239
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n           Click Me\n          </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 242
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\">\n           More Info\n          </button>",
-                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 245
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\">\n           Help\n          </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 248
             }
         ],
@@ -4566,8 +4566,8 @@
             {
                 "guideline": "onmouseover event handler missing onfocus event",
                 "violation": "2.1.1.1",
-                "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseover=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"></button>",
+                "after": "<button onmouseover=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 236
             },
             {
@@ -4596,8 +4596,8 @@
             {
                 "guideline": "onmouseout event handler missing onblur event",
                 "violation": "2.1.1.2",
-                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseout=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmouseout=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 245
             },
             {
@@ -4640,8 +4640,8 @@
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 248
             },
             {
@@ -4708,7 +4708,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Forty by HTML5 UP\n  </title>",
-                "after": "<title></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -4717,35 +4717,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#menu\">\n      Menu\n     </a>",
-                "after": "<a href=\"#menu\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#menu\"></a>",
                 "linenumber": 33
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"index.html\" onmouseover=\"myFunction()\">\n       Home\n      </a>",
-                "after": "<a href=\"index.html\" onmouseover=\"myFunction()\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"index.html\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 42
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"landing.html\">\n       Landing\n      </a>",
-                "after": "<a href=\"landing.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"landing.html\"></a>",
                 "linenumber": 47
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"generic.html\">\n       Generic\n      </a>",
-                "after": "<a href=\"generic.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"generic.html\"></a>",
                 "linenumber": 52
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"elements.html\" onmousedown=\"myFunction()\">\n       Elements\n      </a>",
-                "after": "<a href=\"elements.html\" onmousedown=\"myFunction()\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"elements.html\" onmousedown=\"myFunction()\"></a>",
                 "linenumber": 57
             }
         ],
@@ -4754,7 +4754,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -5007,35 +5007,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\">\n   Submit\n  </button>",
-                "after": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "after": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 88
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"reset\">\n   Reset\n  </button>",
-                "after": "<button type=\"reset\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"reset\"></button>",
                 "linenumber": 91
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n   Click Me\n  </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 94
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n   More Info\n  </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 97
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n   Help\n  </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 100
             }
         ],
@@ -5154,8 +5154,8 @@
             {
                 "guideline": "onmouseover event handler missing onfocus event",
                 "violation": "2.1.1.1",
-                "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseover=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"submit\"></button>",
+                "after": "<button onmouseover=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 88
             },
             {
@@ -5312,35 +5312,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#\">\n      Fractal\n     </a>",
-                "after": "<a href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 24
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"http://html5up.net\">\n      HTML5 UP\n     </a>",
-                "after": "<a href=\"http://html5up.net\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"http://html5up.net\"></a>",
                 "linenumber": 32
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button primary icon solid fa-download\" href=\"#\">\n       Download\n      </a>",
-                "after": "<a class=\"button primary icon solid fa-download\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button primary icon solid fa-download\" href=\"#\"></a>",
                 "linenumber": 38
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button icon solid fa-chevron-down scrolly\" href=\"#one\">\n       Learn More\n      </a>",
-                "after": "<a class=\"button icon solid fa-chevron-down scrolly\" href=\"#one\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button icon solid fa-chevron-down scrolly\" href=\"#one\"></a>",
                 "linenumber": 43
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button primary icon solid fa-download\" href=\"#\">\n      Download\n     </a>",
-                "after": "<a class=\"button primary icon solid fa-download\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button primary icon solid fa-download\" href=\"#\"></a>",
                 "linenumber": 411
             }
         ],
@@ -5602,35 +5602,35 @@
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\">\n     Submit\n    </button>",
-                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "after": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 115
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\">\n     Reset\n    </button>",
-                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "after": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 132
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n     Click Me\n    </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 149
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"button\">\n     More Info\n    </button>",
-                "after": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 166
             },
             {
                 "guideline": "button element has no text in label",
                 "violation": "1.3.1.5",
                 "before": "<button type=\"button\">\n     Help\n    </button>",
-                "after": "<button type=\"button\"><!--Text removed from button element--></button>",
+                "after": "<button type=\"button\"></button>",
                 "linenumber": 183
             }
         ],
@@ -5763,8 +5763,8 @@
             {
                 "guideline": "onmouseover event handler missing onfocus event",
                 "violation": "2.1.1.1",
-                "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseover=\"myFunction()\" type=\"button\"><!--Text removed from button element--></button>",
+                "before": "<button onfocus=\"myFunction()\" onmouseover=\"myFunction()\" type=\"button\"></button>",
+                "after": "<button onmouseover=\"myFunction()\" type=\"button\"></button>",
                 "linenumber": 166
             },
             {
@@ -5800,8 +5800,8 @@
             {
                 "guideline": "onmouseout event handler missing onblur event",
                 "violation": "2.1.1.2",
-                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
-                "after": "<button onmouseout=\"myFunction()\" type=\"reset\"><!--Text removed from button element--></button>",
+                "before": "<button onblur=\"myFunction()\" onmouseout=\"myFunction()\" type=\"reset\"></button>",
+                "after": "<button onmouseout=\"myFunction()\" type=\"reset\"></button>",
                 "linenumber": 132
             },
             {
@@ -5823,8 +5823,8 @@
             {
                 "guideline": "onmousedown event handler missing onkeydown event",
                 "violation": "2.1.1.3",
-                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
-                "after": "<button onmousedown=\"myFunction()\" type=\"submit\"><!--Text removed from button element--></button>",
+                "before": "<button onkeydown=\"myFunction()\" onmousedown=\"myFunction()\" type=\"submit\"></button>",
+                "after": "<button onmousedown=\"myFunction()\" type=\"submit\"></button>",
                 "linenumber": 115
             },
             {
@@ -5898,7 +5898,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Forty by HTML5 UP\n  </title>",
-                "after": "<title></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -5907,35 +5907,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#menu\" onmouseout=\"myFunction()\">\n      Menu\n     </a>",
-                "after": "<a href=\"#menu\" onmouseout=\"myFunction()\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#menu\" onmouseout=\"myFunction()\"></a>",
                 "linenumber": 33
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"index.html\">\n       Home\n      </a>",
-                "after": "<a href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"index.html\"></a>",
                 "linenumber": 42
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"landing.html\">\n       Landing\n      </a>",
-                "after": "<a href=\"landing.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"landing.html\"></a>",
                 "linenumber": 47
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"generic.html\">\n       Generic\n      </a>",
-                "after": "<a href=\"generic.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"generic.html\"></a>",
                 "linenumber": 52
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"elements.html\">\n       Elements\n      </a>",
-                "after": "<a href=\"elements.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"elements.html\"></a>",
                 "linenumber": 57
             }
         ],
@@ -5944,7 +5944,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -6077,35 +6077,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#menu\">\n      Menu\n     </a>",
-                "after": "<a href=\"#menu\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#menu\"></a>",
                 "linenumber": 34
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"index.html\">\n       Home\n      </a>",
-                "after": "<a href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"index.html\"></a>",
                 "linenumber": 43
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"landing.html\">\n       Landing\n      </a>",
-                "after": "<a href=\"landing.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"landing.html\"></a>",
                 "linenumber": 48
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"generic.html\">\n       Generic\n      </a>",
-                "after": "<a href=\"generic.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"generic.html\"></a>",
                 "linenumber": 53
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"elements.html\">\n       Elements\n      </a>",
-                "after": "<a href=\"elements.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"elements.html\"></a>",
                 "linenumber": 58
             }
         ],
@@ -6114,7 +6114,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -6271,35 +6271,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"title\" href=\"index.html\">\n    Hyperspace\n   </a>",
-                "after": "<a class=\"title\" href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"title\" href=\"index.html\"></a>",
                 "linenumber": 22
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"index.html\">\n       Home\n      </a>",
-                "after": "<a href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"index.html\"></a>",
                 "linenumber": 28
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"generic.html\">\n       Generic\n      </a>",
-                "after": "<a href=\"generic.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"generic.html\"></a>",
                 "linenumber": 33
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"active\" href=\"elements.html\">\n       Elements\n      </a>",
-                "after": "<a class=\"active\" href=\"elements.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"active\" href=\"elements.html\"></a>",
                 "linenumber": 38
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#\">\n        this is a link\n       </a>",
-                "after": "<a href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 94
             }
         ],
@@ -6308,7 +6308,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -6504,7 +6504,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Solid State by HTML5 UP\n  </title>",
-                "after": "<title></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -6513,35 +6513,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"index.html\">\n      Solid State\n     </a>",
-                "after": "<a href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"index.html\"></a>",
                 "linenumber": 25
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#menu\">\n      Menu\n     </a>",
-                "after": "<a href=\"#menu\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#menu\"></a>",
                 "linenumber": 30
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"index.html\">\n        Home\n       </a>",
-                "after": "<a href=\"index.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"index.html\"></a>",
                 "linenumber": 43
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"generic.html\">\n        Generic\n       </a>",
-                "after": "<a href=\"generic.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"generic.html\"></a>",
                 "linenumber": 48
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"elements.html\">\n        Elements\n       </a>",
-                "after": "<a href=\"elements.html\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"elements.html\"></a>",
                 "linenumber": 53
             }
         ],
@@ -6550,7 +6550,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -6729,35 +6729,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#\">\n        this is a link\n       </a>",
-                "after": "<a href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 76
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button primary\" href=\"#\">\n           Default\n          </a>",
-                "after": "<a class=\"button primary\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button primary\" href=\"#\"></a>",
                 "linenumber": 267
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button\" href=\"#\">\n           Default\n          </a>",
-                "after": "<a class=\"button\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button\" href=\"#\"></a>",
                 "linenumber": 272
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button primary small\" href=\"#\">\n           Small\n          </a>",
-                "after": "<a class=\"button primary small\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button primary small\" href=\"#\"></a>",
                 "linenumber": 279
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a class=\"button small\" href=\"#\">\n           Small\n          </a>",
-                "after": "<a class=\"button small\" href=\"#\"><!--Text for anchor element removed--></a>",
+                "after": "<a class=\"button small\" href=\"#\"></a>",
                 "linenumber": 284
             }
         ],
@@ -6903,7 +6903,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Hyperspace by HTML5 UP\n  </title>",
-                "after": "<title></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -6912,35 +6912,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#intro\">\n        Welcome\n       </a>",
-                "after": "<a href=\"#intro\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#intro\"></a>",
                 "linenumber": 26
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#one\">\n        Who we are\n       </a>",
-                "after": "<a href=\"#one\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#one\"></a>",
                 "linenumber": 31
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#two\">\n        What we do\n       </a>",
-                "after": "<a href=\"#two\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#two\"></a>",
                 "linenumber": 36
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"#three\">\n        Get in touch\n       </a>",
-                "after": "<a href=\"#three\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"#three\"></a>",
                 "linenumber": 41
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a href=\"http://html5up.net\">\n       HTML5 UP\n      </a>",
-                "after": "<a href=\"http://html5up.net\"><!--Text for anchor element removed--></a>",
+                "after": "<a href=\"http://html5up.net\"></a>",
                 "linenumber": 59
             }
         ],
