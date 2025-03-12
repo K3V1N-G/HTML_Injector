@@ -80,35 +80,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n      Name:\n     </label>",
                 "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 47
+                "linenumber": 50,
+                "label_line": 47
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"password\">\n      Password:\n     </label>",
                 "after": "<label for=\"password\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 55
+                "linenumber": 58,
+                "label_line": 55
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n      Phone:\n     </label>",
                 "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 63
+                "linenumber": 66,
+                "label_line": 63
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n      Upload File:\n     </label>",
                 "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 71
+                "linenumber": 74,
+                "label_line": 71
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n      Website:\n     </label>",
                 "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 79
+                "linenumber": 82,
+                "label_line": 79
             }
         ],
         [
@@ -117,35 +122,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"email\">\n      Email:\n     </label>",
                 "after": "<!--Label for input element \"email\" removed -->",
-                "linenumber": 51
+                "linenumber": 54,
+                "label_line": 51
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"dob\">\n      Date of Birth:\n     </label>",
                 "after": "<!--Label for input element \"dob\" removed -->",
-                "linenumber": 59
+                "linenumber": 62,
+                "label_line": 59
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"animal\">\n      Favorite Animal:\n     </label>",
                 "after": "<!--Label for input element \"animal\" removed -->",
-                "linenumber": 67
+                "linenumber": 70,
+                "label_line": 67
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"number\">\n      Lucky Number:\n     </label>",
                 "after": "<!--Label for input element \"number\" removed -->",
-                "linenumber": 75
+                "linenumber": 78,
+                "label_line": 75
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"search\">\n      Search:\n     </label>",
                 "after": "<!--Label for input element \"search\" removed -->",
-                "linenumber": 83
+                "linenumber": 86,
+                "label_line": 83
             }
         ],
         [
@@ -154,35 +164,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"options\">\n      Choose an option:\n     </label>",
                 "after": "<label for=\"options\"><!--Text removed from select element \"options\" label--></label>",
-                "linenumber": 88
+                "linenumber": 91,
+                "label_line": 88
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"country\">\n      Country:\n     </label>",
                 "after": "<label for=\"country\"><!--Text removed from select element \"country\" label--></label>",
-                "linenumber": 116
+                "linenumber": 119,
+                "label_line": 116
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"city\">\n      City:\n     </label>",
                 "after": "<label for=\"city\"><!--Text removed from select element \"city\" label--></label>",
-                "linenumber": 144
+                "linenumber": 147,
+                "label_line": 144
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"colors\">\n      Colors:\n     </label>",
                 "after": "<label for=\"colors\"><!--Text removed from select element \"colors\" label--></label>",
-                "linenumber": 173
+                "linenumber": 176,
+                "label_line": 173
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"drink\">\n      Drink\n     </label>",
                 "after": "<label for=\"drink\"><!--Text removed from select element \"drink\" label--></label>",
-                "linenumber": 201
+                "linenumber": 204,
+                "label_line": 201
             }
         ],
         [
@@ -191,35 +206,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"gender\">\n      Gender:\n     </label>",
                 "after": "<!--Label for select element \"gender\" removed -->",
-                "linenumber": 102
+                "linenumber": 105,
+                "label_line": 102
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"state\">\n      State:\n     </label>",
                 "after": "<!--Label for select element \"state\" removed -->",
-                "linenumber": 130
+                "linenumber": 133,
+                "label_line": 130
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"choices\">\n      Choices\n     </label>",
                 "after": "<!--Label for select element \"choices\" removed -->",
-                "linenumber": 159
+                "linenumber": 162,
+                "label_line": 159
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"lucky\">\n      Lucky Number\n     </label>",
                 "after": "<!--Label for select element \"lucky\" removed -->",
-                "linenumber": 187
+                "linenumber": 190,
+                "label_line": 187
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"team\">\n      Sports Team\n     </label>",
                 "after": "<!--Label for select element \"team\" removed -->",
-                "linenumber": 215
+                "linenumber": 218,
+                "label_line": 215
             }
         ],
         [
@@ -523,7 +543,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Project 1\n  </title>",
-                "after": "<title><!--Text for title element removed--></title>",
+                "after": "<title>\n</title>",
                 "linenumber": 6
             }
         ],
@@ -655,35 +675,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"search\">\n     Search:\n    </label>",
                 "after": "<label for=\"search\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 84
+                "linenumber": 87,
+                "label_line": 84
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"email\">\n      Email:\n     </label>",
                 "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 147
+                "linenumber": 150,
+                "label_line": 147
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"dob\">\n      Date of Birth:\n     </label>",
                 "after": "<label for=\"dob\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 169
+                "linenumber": 172,
+                "label_line": 169
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n      Phone:\n     </label>",
                 "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 209
+                "linenumber": 212,
+                "label_line": 209
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n      Website:\n     </label>",
                 "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 309
+                "linenumber": 312,
+                "label_line": 309
             }
         ],
         [
@@ -692,35 +717,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"name\">\n      Name:\n     </label>",
                 "after": "<!--Label for input element \"name\" removed -->",
-                "linenumber": 126
+                "linenumber": 129,
+                "label_line": 126
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"password\">\n      Password:\n     </label>",
                 "after": "<!--Label for input element \"password\" removed -->",
-                "linenumber": 151
+                "linenumber": 154,
+                "label_line": 151
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"color\">\n      Favorite Color:\n     </label>",
                 "after": "<!--Label for input element \"color\" removed -->",
-                "linenumber": 187
+                "linenumber": 190,
+                "label_line": 187
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"number\">\n      Lucky Number:\n     </label>",
                 "after": "<!--Label for input element \"number\" removed -->",
-                "linenumber": 232
+                "linenumber": 235,
+                "label_line": 232
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"file\">\n      Upload File:\n     </label>",
                 "after": "<!--Label for input element \"file\" removed -->",
-                "linenumber": 316
+                "linenumber": 319,
+                "label_line": 316
             }
         ],
         [
@@ -729,35 +759,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"options\">\n      Options:\n     </label>",
                 "after": "<label for=\"options\"><!--Text removed from select element \"options\" label--></label>",
-                "linenumber": 131
+                "linenumber": 134,
+                "label_line": 131
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"country\">\n      Country:\n     </label>",
                 "after": "<label for=\"country\"><!--Text removed from select element \"country\" label--></label>",
-                "linenumber": 173
+                "linenumber": 176,
+                "label_line": 173
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"city\">\n      City:\n     </label>",
                 "after": "<label for=\"city\"><!--Text removed from select element \"city\" label--></label>",
-                "linenumber": 213
+                "linenumber": 216,
+                "label_line": 213
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"colors\">\n      Colors:\n     </label>",
                 "after": "<label for=\"colors\"><!--Text removed from select element \"colors\" label--></label>",
-                "linenumber": 250
+                "linenumber": 253,
+                "label_line": 250
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"drink\">\n      Drink\n     </label>",
                 "after": "<label for=\"drink\"><!--Text removed from select element \"drink\" label--></label>",
-                "linenumber": 278
+                "linenumber": 281,
+                "label_line": 278
             }
         ],
         [
@@ -766,35 +801,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"gender\">\n      Gender:\n     </label>",
                 "after": "<!--Label for select element \"gender\" removed -->",
-                "linenumber": 155
+                "linenumber": 158,
+                "label_line": 155
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"state\">\n      State:\n     </label>",
                 "after": "<!--Label for select element \"state\" removed -->",
-                "linenumber": 194
+                "linenumber": 197,
+                "label_line": 194
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"choices\">\n      Choices\n     </label>",
                 "after": "<!--Label for select element \"choices\" removed -->",
-                "linenumber": 236
+                "linenumber": 239,
+                "label_line": 236
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"lucky\">\n      Lucky Number\n     </label>",
                 "after": "<!--Label for select element \"lucky\" removed -->",
-                "linenumber": 264
+                "linenumber": 267,
+                "label_line": 264
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"team\">\n      Sports Team\n     </label>",
                 "after": "<!--Label for select element \"team\" removed -->",
-                "linenumber": 292
+                "linenumber": 295,
+                "label_line": 292
             }
         ],
         [
@@ -1098,7 +1138,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Project 2\n  </title>",
-                "after": "<title><!--Text for title element removed--></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 6
             }
         ],
@@ -1144,7 +1184,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 2
             }
         ]
@@ -1230,35 +1270,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-name\">\n           Name\n          </label>",
                 "after": "<label for=\"demo-name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 744
+                "linenumber": 747,
+                "label_line": 744
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n            Low\n           </label>",
                 "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 919
+                "linenumber": 918,
+                "label_line": 919
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-copy\">\n            Email me a copy\n           </label>",
                 "after": "<label for=\"demo-copy\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 931
+                "linenumber": 930,
+                "label_line": 931
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-color-1\">\n            Red\n           </label>",
                 "after": "<label for=\"demo-color-1\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 949
+                "linenumber": 948,
+                "label_line": 949
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-show-color\">\n            Display colors\n           </label>",
                 "after": "<label for=\"demo-show-color\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 961
+                "linenumber": 960,
+                "label_line": 961
             }
         ],
         [
@@ -1267,35 +1312,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-email\">\n           Email\n          </label>",
                 "after": "<!--Label for input element \"demo-email\" removed -->",
-                "linenumber": 750
+                "linenumber": 753,
+                "label_line": 750
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-priority-high\">\n            High\n           </label>",
                 "after": "<!--Label for input element \"demo-priority-high\" removed -->",
-                "linenumber": 925
+                "linenumber": 924,
+                "label_line": 925
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-human\">\n            Not a robot\n           </label>",
                 "after": "<!--Label for input element \"demo-human\" removed -->",
-                "linenumber": 937
+                "linenumber": 936,
+                "label_line": 937
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-color-2\">\n            Blue\n           </label>",
                 "after": "<!--Label for input element \"demo-color-2\" removed -->",
-                "linenumber": 955
+                "linenumber": 954,
+                "label_line": 955
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-robot\">\n            I am a robot\n           </label>",
                 "after": "<!--Label for input element \"demo-robot\" removed -->",
-                "linenumber": 967
+                "linenumber": 966,
+                "label_line": 967
             }
         ],
         [
@@ -1304,35 +1354,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"demo-category\">\n           Category\n          </label>",
                 "after": "<label for=\"demo-category\"><!--Text removed from select element \"demo-category\" label--></label>",
-                "linenumber": 756
+                "linenumber": 759,
+                "label_line": 756
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"gender\">\n           Gender:\n          </label>",
                 "after": "<label for=\"gender\"><!--Text removed from select element \"gender\" label--></label>",
-                "linenumber": 790
+                "linenumber": 793,
+                "label_line": 790
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"state\">\n           State:\n          </label>",
                 "after": "<label for=\"state\"><!--Text removed from select element \"state\" label--></label>",
-                "linenumber": 818
+                "linenumber": 821,
+                "label_line": 818
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"choices\">\n           Choices\n          </label>",
                 "after": "<label for=\"choices\"><!--Text removed from select element \"choices\" label--></label>",
-                "linenumber": 847
+                "linenumber": 850,
+                "label_line": 847
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"lucky\">\n           Lucky Number\n          </label>",
                 "after": "<label for=\"lucky\"><!--Text removed from select element \"lucky\" label--></label>",
-                "linenumber": 875
+                "linenumber": 878,
+                "label_line": 875
             }
         ],
         [
@@ -1341,35 +1396,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"options\">\n           Choose an option:\n          </label>",
                 "after": "<!--Label for select element \"options\" removed -->",
-                "linenumber": 776
+                "linenumber": 779,
+                "label_line": 776
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"country\">\n           Country:\n          </label>",
                 "after": "<!--Label for select element \"country\" removed -->",
-                "linenumber": 804
+                "linenumber": 807,
+                "label_line": 804
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"city\">\n           City:\n          </label>",
                 "after": "<!--Label for select element \"city\" removed -->",
-                "linenumber": 832
+                "linenumber": 835,
+                "label_line": 832
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"colors\">\n           Colors:\n          </label>",
                 "after": "<!--Label for select element \"colors\" removed -->",
-                "linenumber": 861
+                "linenumber": 864,
+                "label_line": 861
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"drink\">\n           Drink\n          </label>",
                 "after": "<!--Label for select element \"drink\" removed -->",
-                "linenumber": 889
+                "linenumber": 892,
+                "label_line": 889
             }
         ],
         [
@@ -1719,7 +1779,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -1805,35 +1865,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-name\">\n         Demo Name\n        </label>",
                 "after": "<label for=\"demo-name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 756
+                "linenumber": 759,
+                "label_line": 756
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n         Low\n        </label>",
                 "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 914
+                "linenumber": 913,
+                "label_line": 914
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-high\">\n         High\n        </label>",
                 "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 926
+                "linenumber": 925,
+                "label_line": 926
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-human\">\n         I am a human\n        </label>",
                 "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 939
+                "linenumber": 938,
+                "label_line": 939
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"email\">\n         Email\n        </label>",
                 "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1080
+                "linenumber": 1083,
+                "label_line": 1080
             }
         ],
         [
@@ -1842,35 +1907,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-email\">\n         Demo Email\n        </label>",
                 "after": "<!--Label for input element \"demo-email\" removed -->",
-                "linenumber": 762
+                "linenumber": 765,
+                "label_line": 762
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-priority-normal\">\n         Normal\n        </label>",
                 "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
-                "linenumber": 920
+                "linenumber": 919,
+                "label_line": 920
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-copy\">\n         Email me a copy\n        </label>",
                 "after": "<!--Label for input element \"demo-copy\" removed -->",
-                "linenumber": 933
+                "linenumber": 932,
+                "label_line": 933
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"name\">\n         Name\n        </label>",
                 "after": "<!--Label for input element \"name\" removed -->",
-                "linenumber": 1074
+                "linenumber": 1077,
+                "label_line": 1074
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"note\">\n         Note\n        </label>",
                 "after": "<!--Label for input element \"note\" removed -->",
-                "linenumber": 1092
+                "linenumber": 1095,
+                "label_line": 1092
             }
         ],
         [
@@ -1879,35 +1949,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"options\">\n         Choose an option:\n        </label>",
                 "after": "<label for=\"options\"><!--Text removed from select element \"options\" label--></label>",
-                "linenumber": 769
+                "linenumber": 772,
+                "label_line": 769
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"country\">\n         Country:\n        </label>",
                 "after": "<label for=\"country\"><!--Text removed from select element \"country\" label--></label>",
-                "linenumber": 797
+                "linenumber": 800,
+                "label_line": 797
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"city\">\n         City:\n        </label>",
                 "after": "<label for=\"city\"><!--Text removed from select element \"city\" label--></label>",
-                "linenumber": 825
+                "linenumber": 828,
+                "label_line": 825
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"colors\">\n         Colors:\n        </label>",
                 "after": "<label for=\"colors\"><!--Text removed from select element \"colors\" label--></label>",
-                "linenumber": 854
+                "linenumber": 857,
+                "label_line": 854
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"drink\">\n         Drink\n        </label>",
                 "after": "<label for=\"drink\"><!--Text removed from select element \"drink\" label--></label>",
-                "linenumber": 882
+                "linenumber": 885,
+                "label_line": 882
             }
         ],
         [
@@ -1916,35 +1991,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"gender\">\n         Gender:\n        </label>",
                 "after": "<!--Label for select element \"gender\" removed -->",
-                "linenumber": 783
+                "linenumber": 786,
+                "label_line": 783
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"state\">\n         State:\n        </label>",
                 "after": "<!--Label for select element \"state\" removed -->",
-                "linenumber": 811
+                "linenumber": 814,
+                "label_line": 811
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"choices\">\n         Choices\n        </label>",
                 "after": "<!--Label for select element \"choices\" removed -->",
-                "linenumber": 840
+                "linenumber": 843,
+                "label_line": 840
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"lucky\">\n         Lucky Number\n        </label>",
                 "after": "<!--Label for select element \"lucky\" removed -->",
-                "linenumber": 868
+                "linenumber": 871,
+                "label_line": 868
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"team\">\n         Sports Team\n        </label>",
                 "after": "<!--Label for select element \"team\" removed -->",
-                "linenumber": 896
+                "linenumber": 899,
+                "label_line": 896
             }
         ],
         [
@@ -2294,7 +2374,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -2380,35 +2460,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n      Name:\n     </label>",
                 "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 125
+                "linenumber": 128,
+                "label_line": 125
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"password\">\n      Password:\n     </label>",
                 "after": "<label for=\"password\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 133
+                "linenumber": 136,
+                "label_line": 133
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n      Phone:\n     </label>",
                 "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 141
+                "linenumber": 144,
+                "label_line": 141
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n      Upload File:\n     </label>",
                 "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 149
+                "linenumber": 152,
+                "label_line": 149
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n      Website:\n     </label>",
                 "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 157
+                "linenumber": 160,
+                "label_line": 157
             }
         ],
         [
@@ -2417,35 +2502,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"email\">\n      Email:\n     </label>",
                 "after": "<!--Label for input element \"email\" removed -->",
-                "linenumber": 129
+                "linenumber": 132,
+                "label_line": 129
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"dob\">\n      Date of Birth:\n     </label>",
                 "after": "<!--Label for input element \"dob\" removed -->",
-                "linenumber": 137
+                "linenumber": 140,
+                "label_line": 137
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"animal\">\n      Favorite Animal:\n     </label>",
                 "after": "<!--Label for input element \"animal\" removed -->",
-                "linenumber": 145
+                "linenumber": 148,
+                "label_line": 145
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"number\">\n      Lucky Number:\n     </label>",
                 "after": "<!--Label for input element \"number\" removed -->",
-                "linenumber": 153
+                "linenumber": 156,
+                "label_line": 153
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"search\">\n      Search:\n     </label>",
                 "after": "<!--Label for input element \"search\" removed -->",
-                "linenumber": 161
+                "linenumber": 164,
+                "label_line": 161
             }
         ],
         [
@@ -2454,35 +2544,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"options\">\n       Choose an option:\n      </label>",
                 "after": "<label for=\"options\"><!--Text removed from select element \"options\" label--></label>",
-                "linenumber": 344
+                "linenumber": 347,
+                "label_line": 344
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"country\">\n       Country:\n      </label>",
                 "after": "<label for=\"country\"><!--Text removed from select element \"country\" label--></label>",
-                "linenumber": 372
+                "linenumber": 375,
+                "label_line": 372
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"city\">\n       City:\n      </label>",
                 "after": "<label for=\"city\"><!--Text removed from select element \"city\" label--></label>",
-                "linenumber": 400
+                "linenumber": 403,
+                "label_line": 400
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"colors\">\n       Colors:\n      </label>",
                 "after": "<label for=\"colors\"><!--Text removed from select element \"colors\" label--></label>",
-                "linenumber": 432
+                "linenumber": 435,
+                "label_line": 432
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"drink\">\n       Drink\n      </label>",
                 "after": "<label for=\"drink\"><!--Text removed from select element \"drink\" label--></label>",
-                "linenumber": 460
+                "linenumber": 463,
+                "label_line": 460
             }
         ],
         [
@@ -2491,35 +2586,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"gender\">\n       Gender:\n      </label>",
                 "after": "<!--Label for select element \"gender\" removed -->",
-                "linenumber": 358
+                "linenumber": 361,
+                "label_line": 358
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"state\">\n       State:\n      </label>",
                 "after": "<!--Label for select element \"state\" removed -->",
-                "linenumber": 386
+                "linenumber": 389,
+                "label_line": 386
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"choices\">\n       Choices\n      </label>",
                 "after": "<!--Label for select element \"choices\" removed -->",
-                "linenumber": 415
+                "linenumber": 418,
+                "label_line": 415
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"lucky\">\n       Lucky Number\n      </label>",
                 "after": "<!--Label for select element \"lucky\" removed -->",
-                "linenumber": 446
+                "linenumber": 449,
+                "label_line": 446
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"team\">\n       Sports Team\n      </label>",
                 "after": "<!--Label for select element \"team\" removed -->",
-                "linenumber": 477
+                "linenumber": 480,
+                "label_line": 477
             }
         ],
         [
@@ -2823,7 +2923,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Generic Page - Massively by HTML5 UP\n  </title>",
-                "after": "<title><!--Text for title element removed--></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -2955,35 +3055,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n         Name\n        </label>",
                 "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 440
+                "linenumber": 443,
+                "label_line": 440
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"password\">\n         Password:\n        </label>",
                 "after": "<label for=\"password\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 452
+                "linenumber": 455,
+                "label_line": 452
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n         Phone:\n        </label>",
                 "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 464
+                "linenumber": 467,
+                "label_line": 464
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n         Upload File:\n        </label>",
                 "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 476
+                "linenumber": 479,
+                "label_line": 476
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n         Website:\n        </label>",
                 "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 488
+                "linenumber": 491,
+                "label_line": 488
             }
         ],
         [
@@ -2992,35 +3097,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"email\">\n         Email\n        </label>",
                 "after": "<!--Label for input element \"email\" removed -->",
-                "linenumber": 446
+                "linenumber": 449,
+                "label_line": 446
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"dob\">\n         Date of Birth:\n        </label>",
                 "after": "<!--Label for input element \"dob\" removed -->",
-                "linenumber": 458
+                "linenumber": 461,
+                "label_line": 458
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"animal\">\n         Favorite Animal:\n        </label>",
                 "after": "<!--Label for input element \"animal\" removed -->",
-                "linenumber": 470
+                "linenumber": 473,
+                "label_line": 470
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"number\">\n         Lucky Number:\n        </label>",
                 "after": "<!--Label for input element \"number\" removed -->",
-                "linenumber": 482
+                "linenumber": 485,
+                "label_line": 482
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"search\">\n         Search:\n        </label>",
                 "after": "<!--Label for input element \"search\" removed -->",
-                "linenumber": 494
+                "linenumber": 497,
+                "label_line": 494
             }
         ],
         [
@@ -3029,35 +3139,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"options\">\n        Choose an option:\n       </label>",
                 "after": "<label for=\"options\"><!--Text removed from select element \"options\" label--></label>",
-                "linenumber": 506
+                "linenumber": 509,
+                "label_line": 506
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"country\">\n        Country:\n       </label>",
                 "after": "<label for=\"country\"><!--Text removed from select element \"country\" label--></label>",
-                "linenumber": 534
+                "linenumber": 537,
+                "label_line": 534
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"city\">\n        City:\n       </label>",
                 "after": "<label for=\"city\"><!--Text removed from select element \"city\" label--></label>",
-                "linenumber": 562
+                "linenumber": 565,
+                "label_line": 562
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"colors\">\n        Colors:\n       </label>",
                 "after": "<label for=\"colors\"><!--Text removed from select element \"colors\" label--></label>",
-                "linenumber": 591
+                "linenumber": 594,
+                "label_line": 591
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"drink\">\n        Drink\n       </label>",
                 "after": "<label for=\"drink\"><!--Text removed from select element \"drink\" label--></label>",
-                "linenumber": 619
+                "linenumber": 622,
+                "label_line": 619
             }
         ],
         [
@@ -3066,35 +3181,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"gender\">\n        Gender:\n       </label>",
                 "after": "<!--Label for select element \"gender\" removed -->",
-                "linenumber": 520
+                "linenumber": 523,
+                "label_line": 520
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"state\">\n        State:\n       </label>",
                 "after": "<!--Label for select element \"state\" removed -->",
-                "linenumber": 548
+                "linenumber": 551,
+                "label_line": 548
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"choices\">\n        Choices\n       </label>",
                 "after": "<!--Label for select element \"choices\" removed -->",
-                "linenumber": 577
+                "linenumber": 580,
+                "label_line": 577
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"lucky\">\n        Lucky Number\n       </label>",
                 "after": "<!--Label for select element \"lucky\" removed -->",
-                "linenumber": 605
+                "linenumber": 608,
+                "label_line": 605
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"team\">\n        Sports Team\n       </label>",
                 "after": "<!--Label for select element \"team\" removed -->",
-                "linenumber": 633
+                "linenumber": 636,
+                "label_line": 633
             }
         ],
         [
@@ -3398,7 +3518,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Massively by HTML5 UP\n  </title>",
-                "after": "<title><!--Text for title element removed--></title>",
+                "after": "<title>\n</title>",
                 "linenumber": 9
             }
         ],
@@ -3444,7 +3564,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -3530,35 +3650,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"number\">\n      Lucky Number:\n     </label>",
                 "after": "<label for=\"number\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 305
+                "linenumber": 308,
+                "label_line": 305
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"search\">\n      Search:\n     </label>",
                 "after": "<label for=\"search\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 313
+                "linenumber": 316,
+                "label_line": 313
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"email\">\n            Email\n           </label>",
                 "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1367
+                "linenumber": 1370,
+                "label_line": 1367
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"priority-normal\">\n            Normal Priority\n           </label>",
                 "after": "<label for=\"priority-normal\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1402
+                "linenumber": 1401,
+                "label_line": 1402
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"copy\">\n            Email me a copy of this message\n           </label>",
                 "after": "<label for=\"copy\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1420
+                "linenumber": 1419,
+                "label_line": 1420
             }
         ],
         [
@@ -3567,35 +3692,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"url\">\n      Website:\n     </label>",
                 "after": "<!--Label for input element \"url\" removed -->",
-                "linenumber": 309
+                "linenumber": 312,
+                "label_line": 309
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"name\">\n            Name\n           </label>",
                 "after": "<!--Label for input element \"name\" removed -->",
-                "linenumber": 1361
+                "linenumber": 1364,
+                "label_line": 1361
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"priority-low\">\n            Low Priority\n           </label>",
                 "after": "<!--Label for input element \"priority-low\" removed -->",
-                "linenumber": 1396
+                "linenumber": 1395,
+                "label_line": 1396
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"priority-high\">\n            High Priority\n           </label>",
                 "after": "<!--Label for input element \"priority-high\" removed -->",
-                "linenumber": 1408
+                "linenumber": 1407,
+                "label_line": 1408
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"human\">\n            I am a human and not a robot\n           </label>",
                 "after": "<!--Label for input element \"human\" removed -->",
-                "linenumber": 1426
+                "linenumber": 1425,
+                "label_line": 1426
             }
         ],
         [
@@ -3604,35 +3734,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"gender\">\n     Gender:\n    </label>",
                 "after": "<label for=\"gender\"><!--Text removed from select element \"gender\" label--></label>",
-                "linenumber": 498
+                "linenumber": 501,
+                "label_line": 498
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"state\">\n     State:\n    </label>",
                 "after": "<label for=\"state\"><!--Text removed from select element \"state\" label--></label>",
-                "linenumber": 526
+                "linenumber": 529,
+                "label_line": 526
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"choices\">\n     Choices\n    </label>",
                 "after": "<label for=\"choices\"><!--Text removed from select element \"choices\" label--></label>",
-                "linenumber": 555
+                "linenumber": 558,
+                "label_line": 555
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"lucky\">\n     Lucky Number\n    </label>",
                 "after": "<label for=\"lucky\"><!--Text removed from select element \"lucky\" label--></label>",
-                "linenumber": 583
+                "linenumber": 586,
+                "label_line": 583
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"team\">\n     Sports Team\n    </label>",
                 "after": "<label for=\"team\"><!--Text removed from select element \"team\" label--></label>",
-                "linenumber": 611
+                "linenumber": 614,
+                "label_line": 611
             }
         ],
         [
@@ -3641,35 +3776,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"country\">\n     Country:\n    </label>",
                 "after": "<!--Label for select element \"country\" removed -->",
-                "linenumber": 512
+                "linenumber": 515,
+                "label_line": 512
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"city\">\n     City:\n    </label>",
                 "after": "<!--Label for select element \"city\" removed -->",
-                "linenumber": 540
+                "linenumber": 543,
+                "label_line": 540
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"colors\">\n     Colors:\n    </label>",
                 "after": "<!--Label for select element \"colors\" removed -->",
-                "linenumber": 569
+                "linenumber": 572,
+                "label_line": 569
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"drink\">\n     Drink\n    </label>",
                 "after": "<!--Label for select element \"drink\" removed -->",
-                "linenumber": 597
+                "linenumber": 600,
+                "label_line": 597
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"department\">\n            Department\n           </label>",
                 "after": "<!--Label for select element \"department\" removed -->",
-                "linenumber": 1373
+                "linenumber": 1376,
+                "label_line": 1373
             }
         ],
         [
@@ -3973,7 +4113,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Story by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title>\n</title>",
                 "linenumber": 11
             }
         ],
@@ -4019,7 +4159,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 9
             }
         ]
@@ -4105,35 +4245,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n            Low\n           </label>",
                 "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 914
+                "linenumber": 913,
+                "label_line": 914
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-high\">\n            High\n           </label>",
                 "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 926
+                "linenumber": 925,
+                "label_line": 926
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-human\">\n            I am a human\n           </label>",
                 "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 939
+                "linenumber": 938,
+                "label_line": 939
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"email\">\n          Email\n         </label>",
                 "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1079
+                "linenumber": 1082,
+                "label_line": 1079
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n          Website:\n         </label>",
                 "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1097
+                "linenumber": 1100,
+                "label_line": 1097
             }
         ],
         [
@@ -4142,35 +4287,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-priority-normal\">\n            Normal\n           </label>",
                 "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
-                "linenumber": 920
+                "linenumber": 919,
+                "label_line": 920
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-copy\">\n            Email me a copy\n           </label>",
                 "after": "<!--Label for input element \"demo-copy\" removed -->",
-                "linenumber": 933
+                "linenumber": 932,
+                "label_line": 933
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"name\">\n          Name\n         </label>",
                 "after": "<!--Label for input element \"name\" removed -->",
-                "linenumber": 1073
+                "linenumber": 1076,
+                "label_line": 1073
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"number\">\n          Lucky Number:\n         </label>",
                 "after": "<!--Label for input element \"number\" removed -->",
-                "linenumber": 1091
+                "linenumber": 1094,
+                "label_line": 1091
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"search\">\n          Search:\n         </label>",
                 "after": "<!--Label for input element \"search\" removed -->",
-                "linenumber": 1103
+                "linenumber": 1106,
+                "label_line": 1103
             }
         ],
         [
@@ -4179,35 +4329,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"options\">\n    Choose an option:\n   </label>",
                 "after": "<label for=\"options\"><!--Text removed from select element \"options\" label--></label>",
-                "linenumber": 1217
+                "linenumber": 1220,
+                "label_line": 1217
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"country\">\n    Country:\n   </label>",
                 "after": "<label for=\"country\"><!--Text removed from select element \"country\" label--></label>",
-                "linenumber": 1245
+                "linenumber": 1248,
+                "label_line": 1245
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"city\">\n    City:\n   </label>",
                 "after": "<label for=\"city\"><!--Text removed from select element \"city\" label--></label>",
-                "linenumber": 1273
+                "linenumber": 1276,
+                "label_line": 1273
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"colors\">\n    Colors:\n   </label>",
                 "after": "<label for=\"colors\"><!--Text removed from select element \"colors\" label--></label>",
-                "linenumber": 1302
+                "linenumber": 1305,
+                "label_line": 1302
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"drink\">\n    Drink\n   </label>",
                 "after": "<label for=\"drink\"><!--Text removed from select element \"drink\" label--></label>",
-                "linenumber": 1330
+                "linenumber": 1333,
+                "label_line": 1330
             }
         ],
         [
@@ -4216,35 +4371,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"gender\">\n    Gender:\n   </label>",
                 "after": "<!--Label for select element \"gender\" removed -->",
-                "linenumber": 1231
+                "linenumber": 1234,
+                "label_line": 1231
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"state\">\n    State:\n   </label>",
                 "after": "<!--Label for select element \"state\" removed -->",
-                "linenumber": 1259
+                "linenumber": 1262,
+                "label_line": 1259
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"choices\">\n    Choices\n   </label>",
                 "after": "<!--Label for select element \"choices\" removed -->",
-                "linenumber": 1288
+                "linenumber": 1291,
+                "label_line": 1288
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"lucky\">\n    Lucky Number\n   </label>",
                 "after": "<!--Label for select element \"lucky\" removed -->",
-                "linenumber": 1316
+                "linenumber": 1319,
+                "label_line": 1316
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"team\">\n    Sports Team\n   </label>",
                 "after": "<!--Label for select element \"team\" removed -->",
-                "linenumber": 1344
+                "linenumber": 1347,
+                "label_line": 1344
             }
         ],
         [
@@ -4548,7 +4708,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Forty by HTML5 UP\n  </title>",
-                "after": "<title><!--Text for title element removed--></title>",
+                "after": "<title>\n</title>",
                 "linenumber": 9
             }
         ],
@@ -4594,7 +4754,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -4680,35 +4840,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n         Low\n        </label>",
                 "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1012
+                "linenumber": 1011,
+                "label_line": 1012
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-high\">\n         High\n        </label>",
                 "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1024
+                "linenumber": 1023,
+                "label_line": 1024
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-human\">\n         Not a robot\n        </label>",
                 "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1036
+                "linenumber": 1035,
+                "label_line": 1036
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n        Upload File:\n       </label>",
                 "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1047
+                "linenumber": 1050,
+                "label_line": 1047
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n        Website:\n       </label>",
                 "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 1055
+                "linenumber": 1058,
+                "label_line": 1055
             }
         ],
         [
@@ -4717,35 +4882,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-priority-normal\">\n         Normal\n        </label>",
                 "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
-                "linenumber": 1018
+                "linenumber": 1017,
+                "label_line": 1018
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-copy\">\n         Email me a copy\n        </label>",
                 "after": "<!--Label for input element \"demo-copy\" removed -->",
-                "linenumber": 1030
+                "linenumber": 1029,
+                "label_line": 1030
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"animal\">\n        Favorite Animal:\n       </label>",
                 "after": "<!--Label for input element \"animal\" removed -->",
-                "linenumber": 1043
+                "linenumber": 1046,
+                "label_line": 1043
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"number\">\n        Lucky Number:\n       </label>",
                 "after": "<!--Label for input element \"number\" removed -->",
-                "linenumber": 1051
+                "linenumber": 1054,
+                "label_line": 1051
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"search\">\n        Search:\n       </label>",
                 "after": "<!--Label for input element \"search\" removed -->",
-                "linenumber": 1059
+                "linenumber": 1062,
+                "label_line": 1059
             }
         ],
         [
@@ -4754,35 +4924,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"options\">\n   Choose an option:\n  </label>",
                 "after": "<label for=\"options\"><!--Text removed from select element \"options\" label--></label>",
-                "linenumber": 256
+                "linenumber": 259,
+                "label_line": 256
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"country\">\n   Country:\n  </label>",
                 "after": "<label for=\"country\"><!--Text removed from select element \"country\" label--></label>",
-                "linenumber": 284
+                "linenumber": 287,
+                "label_line": 284
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"city\">\n   City:\n  </label>",
                 "after": "<label for=\"city\"><!--Text removed from select element \"city\" label--></label>",
-                "linenumber": 312
+                "linenumber": 315,
+                "label_line": 312
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"colors\">\n   Colors:\n  </label>",
                 "after": "<label for=\"colors\"><!--Text removed from select element \"colors\" label--></label>",
-                "linenumber": 341
+                "linenumber": 344,
+                "label_line": 341
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"drink\">\n   Drink\n  </label>",
                 "after": "<label for=\"drink\"><!--Text removed from select element \"drink\" label--></label>",
-                "linenumber": 369
+                "linenumber": 372,
+                "label_line": 369
             }
         ],
         [
@@ -4791,35 +4966,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"gender\">\n   Gender:\n  </label>",
                 "after": "<!--Label for select element \"gender\" removed -->",
-                "linenumber": 270
+                "linenumber": 273,
+                "label_line": 270
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"state\">\n   State:\n  </label>",
                 "after": "<!--Label for select element \"state\" removed -->",
-                "linenumber": 298
+                "linenumber": 301,
+                "label_line": 298
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"choices\">\n   Choices\n  </label>",
                 "after": "<!--Label for select element \"choices\" removed -->",
-                "linenumber": 327
+                "linenumber": 330,
+                "label_line": 327
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"lucky\">\n   Lucky Number\n  </label>",
                 "after": "<!--Label for select element \"lucky\" removed -->",
-                "linenumber": 355
+                "linenumber": 358,
+                "label_line": 355
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"team\">\n   Sports Team\n  </label>",
                 "after": "<!--Label for select element \"team\" removed -->",
-                "linenumber": 383
+                "linenumber": 386,
+                "label_line": 383
             }
         ],
         [
@@ -5123,7 +5303,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Fractal by HTML5 UP\n  </title>",
-                "after": "<title><!--Text for title element removed--></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -5255,35 +5435,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n          Name\n         </label>",
                 "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 458
+                "linenumber": 461,
+                "label_line": 458
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"password\">\n         Password:\n        </label>",
                 "after": "<label for=\"password\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 475
+                "linenumber": 478,
+                "label_line": 475
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n         Phone:\n        </label>",
                 "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 483
+                "linenumber": 486,
+                "label_line": 483
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n         Upload File:\n        </label>",
                 "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 491
+                "linenumber": 494,
+                "label_line": 491
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n         Website:\n        </label>",
                 "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 499
+                "linenumber": 502,
+                "label_line": 499
             }
         ],
         [
@@ -5292,35 +5477,40 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"email\">\n          Email\n         </label>",
                 "after": "<!--Label for input element \"email\" removed -->",
-                "linenumber": 464
+                "linenumber": 467,
+                "label_line": 464
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"dob\">\n         Date of Birth:\n        </label>",
                 "after": "<!--Label for input element \"dob\" removed -->",
-                "linenumber": 479
+                "linenumber": 482,
+                "label_line": 479
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"animal\">\n         Favorite Animal:\n        </label>",
                 "after": "<!--Label for input element \"animal\" removed -->",
-                "linenumber": 487
+                "linenumber": 490,
+                "label_line": 487
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"number\">\n         Lucky Number:\n        </label>",
                 "after": "<!--Label for input element \"number\" removed -->",
-                "linenumber": 495
+                "linenumber": 498,
+                "label_line": 495
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"search\">\n         Search:\n        </label>",
                 "after": "<!--Label for input element \"search\" removed -->",
-                "linenumber": 503
+                "linenumber": 506,
+                "label_line": 503
             }
         ],
         [
@@ -5329,35 +5519,40 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"options\">\n     Choose an option:\n    </label>",
                 "after": "<label for=\"options\"><!--Text removed from select element \"options\" label--></label>",
-                "linenumber": 101
+                "linenumber": 104,
+                "label_line": 101
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"country\">\n     Country:\n    </label>",
                 "after": "<label for=\"country\"><!--Text removed from select element \"country\" label--></label>",
-                "linenumber": 135
+                "linenumber": 138,
+                "label_line": 135
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"city\">\n     City:\n    </label>",
                 "after": "<label for=\"city\"><!--Text removed from select element \"city\" label--></label>",
-                "linenumber": 169
+                "linenumber": 172,
+                "label_line": 169
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"colors\">\n     Colors:\n    </label>",
                 "after": "<label for=\"colors\"><!--Text removed from select element \"colors\" label--></label>",
-                "linenumber": 201
+                "linenumber": 204,
+                "label_line": 201
             },
             {
                 "guideline": "select element has no text in label",
                 "violation": "1.3.1.3",
                 "before": "<label for=\"drink\">\n     Drink\n    </label>",
                 "after": "<label for=\"drink\"><!--Text removed from select element \"drink\" label--></label>",
-                "linenumber": 229
+                "linenumber": 232,
+                "label_line": 229
             }
         ],
         [
@@ -5366,35 +5561,40 @@
                 "violation": "1.3.1.4",
                 "before": "<label for=\"gender\">\n     Gender:\n    </label>",
                 "after": "<!--Label for select element \"gender\" removed -->",
-                "linenumber": 118
+                "linenumber": 121,
+                "label_line": 118
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"state\">\n     State:\n    </label>",
                 "after": "<!--Label for select element \"state\" removed -->",
-                "linenumber": 152
+                "linenumber": 155,
+                "label_line": 152
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"choices\">\n     Choices\n    </label>",
                 "after": "<!--Label for select element \"choices\" removed -->",
-                "linenumber": 187
+                "linenumber": 190,
+                "label_line": 187
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"lucky\">\n     Lucky Number\n    </label>",
                 "after": "<!--Label for select element \"lucky\" removed -->",
-                "linenumber": 215
+                "linenumber": 218,
+                "label_line": 215
             },
             {
                 "guideline": "select element is missing a label",
                 "violation": "1.3.1.4",
                 "before": "<label for=\"team\">\n     Sports Team\n    </label>",
                 "after": "<!--Label for select element \"team\" removed -->",
-                "linenumber": 243
+                "linenumber": 246,
+                "label_line": 243
             }
         ],
         [
@@ -5698,7 +5898,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Forty by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title>\n</title>",
                 "linenumber": 9
             }
         ],
@@ -5787,7 +5987,8 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n          Name\n         </label>",
                 "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 215
+                "linenumber": 218,
+                "label_line": 215
             }
         ],
         [
@@ -5796,7 +5997,8 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"email\">\n          Email\n         </label>",
                 "after": "<!--Label for input element \"email\" removed -->",
-                "linenumber": 221
+                "linenumber": 224,
+                "label_line": 221
             }
         ],
         [],
@@ -5866,7 +6068,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Landing - Forty by HTML5 UP\n  </title>",
-                "after": "<title><!--Text for title element removed--></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -5912,7 +6114,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -5962,21 +6164,24 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n          Low\n         </label>",
                 "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 620
+                "linenumber": 619,
+                "label_line": 620
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-high\">\n          High\n         </label>",
                 "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 632
+                "linenumber": 631,
+                "label_line": 632
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-human\">\n          Not a robot\n         </label>",
                 "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 644
+                "linenumber": 643,
+                "label_line": 644
             }
         ],
         [
@@ -5985,14 +6190,16 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-priority-normal\">\n          Normal\n         </label>",
                 "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
-                "linenumber": 626
+                "linenumber": 625,
+                "label_line": 626
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-copy\">\n          Email me a copy\n         </label>",
                 "after": "<!--Label for input element \"demo-copy\" removed -->",
-                "linenumber": 638
+                "linenumber": 637,
+                "label_line": 638
             }
         ],
         [],
@@ -6055,7 +6262,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Hyperspace by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title>\n</title>",
                 "linenumber": 9
             }
         ],
@@ -6101,7 +6308,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -6151,35 +6358,40 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-name\">\n           Name\n          </label>",
                 "after": "<label for=\"demo-name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 649
+                "linenumber": 652,
+                "label_line": 649
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n           Low Priority\n          </label>",
                 "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 684
+                "linenumber": 683,
+                "label_line": 684
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-high\">\n           High Priority\n          </label>",
                 "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 696
+                "linenumber": 695,
+                "label_line": 696
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-human\">\n           Not a robot\n          </label>",
                 "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 708
+                "linenumber": 707,
+                "label_line": 708
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"email\">\n         Email\n        </label>",
                 "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 829
+                "linenumber": 832,
+                "label_line": 829
             }
         ],
         [
@@ -6188,28 +6400,32 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-email\">\n           Email\n          </label>",
                 "after": "<!--Label for input element \"demo-email\" removed -->",
-                "linenumber": 655
+                "linenumber": 658,
+                "label_line": 655
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-priority-normal\">\n           Normal Priority\n          </label>",
                 "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
-                "linenumber": 690
+                "linenumber": 689,
+                "label_line": 690
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-copy\">\n           Email me a copy\n          </label>",
                 "after": "<!--Label for input element \"demo-copy\" removed -->",
-                "linenumber": 702
+                "linenumber": 701,
+                "label_line": 702
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"name\">\n         Name\n        </label>",
                 "after": "<!--Label for input element \"name\" removed -->",
-                "linenumber": 823
+                "linenumber": 826,
+                "label_line": 823
             }
         ],
         [
@@ -6218,7 +6434,8 @@
                 "violation": "1.3.1.3",
                 "before": "<label for=\"demo-category\">\n           Category\n          </label>",
                 "after": "<label for=\"demo-category\"><!--Text removed from select element \"demo-category\" label--></label>",
-                "linenumber": 661
+                "linenumber": 664,
+                "label_line": 661
             }
         ],
         [],
@@ -6287,7 +6504,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Solid State by HTML5 UP\n  </title>",
-                "after": "<title><!--Text for title element removed--></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -6383,21 +6600,24 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n          Low\n         </label>",
                 "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 652
+                "linenumber": 651,
+                "label_line": 652
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-high\">\n          High\n         </label>",
                 "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 664
+                "linenumber": 663,
+                "label_line": 664
             },
             {
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-human\">\n          Not a robot\n         </label>",
                 "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 676
+                "linenumber": 675,
+                "label_line": 676
             }
         ],
         [
@@ -6406,14 +6626,16 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-priority-normal\">\n          Normal\n         </label>",
                 "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
-                "linenumber": 658
+                "linenumber": 657,
+                "label_line": 658
             },
             {
                 "guideline": "input element is missing a label",
                 "violation": "1.3.1.2",
                 "before": "<label for=\"demo-copy\">\n          Email me a copy\n         </label>",
                 "after": "<!--Label for input element \"demo-copy\" removed -->",
-                "linenumber": 670
+                "linenumber": 669,
+                "label_line": 670
             }
         ],
         [],
@@ -6498,7 +6720,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Stellar by HTML5 UP\n  </title>",
-                "after": "<title><!--Text for title element removed--></title>",
+                "after": "<title>\n</title>",
                 "linenumber": 9
             }
         ],
@@ -6544,7 +6766,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -6580,7 +6802,8 @@
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n           Name\n          </label>",
                 "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 241
+                "linenumber": 244,
+                "label_line": 241
             }
         ],
         [
@@ -6589,7 +6812,8 @@
                 "violation": "1.3.1.2",
                 "before": "<label for=\"email\">\n           Email\n          </label>",
                 "after": "<!--Label for input element \"email\" removed -->",
-                "linenumber": 247
+                "linenumber": 250,
+                "label_line": 247
             }
         ],
         [],
@@ -6725,7 +6949,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]

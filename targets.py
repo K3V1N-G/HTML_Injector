@@ -108,7 +108,7 @@ def update_title(soup, html_file):
             title.decompose()
             after = f"<!--Title element removed -->"
         else:
-            title.string = Comment("Text for title element removed")
+            title.string = "\n"
             after = str(title)
 
         category.append({
@@ -223,7 +223,8 @@ def update_label_input(soup, html_file):
 
         if associated_label:
             if count % 2 == 0:
-                line_number = associated_label.sourceline
+                line_number = input.sourceline
+                label_line = associated_label.sourceline
                 before = str(associated_label)
                 id = input['id']
                 associated_label.string = Comment("Text removed from input element \"{id}\" label")
@@ -234,10 +235,12 @@ def update_label_input(soup, html_file):
                     "violation": "1.3.1.1",
                     "before": before,
                     "after": after,
-                    "linenumber": line_number
+                    "linenumber": line_number,
+                    "label_line": label_line
                 })
             else:
-                line_number = associated_label.sourceline
+                line_number = input.sourceline
+                label_line = associated_label.sourceline
                 before = str(associated_label)
                 id = input['id']
 
@@ -254,7 +257,8 @@ def update_label_input(soup, html_file):
                     "violation": "1.3.1.2",
                     "before": before,
                     "after": after,
-                    "linenumber": line_number
+                    "linenumber": line_number,
+                    "label_line": label_line
                 })
             count += 1
         
@@ -273,8 +277,10 @@ def update_label_select(soup, html_file):
         associated_label = soup.find('label', {'for': select.get('id')})
 
         if associated_label:
+            line_number = select.sourceline
+            label_line = associated_label.sourceline
             if count % 2 == 0:
-                line_number = associated_label.sourceline
+                
                 before = str(associated_label)
                 id = select['id']
                 associated_label.string = Comment(f"Text removed from select element \"{id}\" label")
@@ -285,10 +291,10 @@ def update_label_select(soup, html_file):
                     "violation": "1.3.1.3",
                     "before": before,
                     "after": after,
-                    "linenumber": line_number
+                    "linenumber": line_number,
+                    "label_line": label_line
                 })
             else:
-                line_number = associated_label.sourceline
                 before = str(associated_label)
                 id = select['id']
 
@@ -305,7 +311,8 @@ def update_label_select(soup, html_file):
                     "violation": "1.3.1.4",
                     "before": before,
                     "after": after,
-                    "linenumber": line_number
+                    "linenumber": line_number,
+                    "label_line": label_line
                 })
             count += 1
 

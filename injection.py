@@ -60,7 +60,10 @@ def update_html(projects, json_log):
             for inner_list in nested_lists:  # Extract first-level lists
                 for entry in inner_list:  # Extract dictionaries inside the list
                     if "linenumber" in entry:
-                        line_nums.append(entry['linenumber'])
+                        if "label_line" in entry:
+                            line_nums.append([entry['linenumber'], entry['label_line']])
+                        else:
+                            line_nums.append(entry['linenumber'])
         
         nums_file = "line_numbers.txt"
 
