@@ -4,8 +4,7 @@ import os
 projects = [
     "project_1.html", "project_2.html", "project_3.html", "project_4.html", 
     "project_5.html", "project_6.html", "project_7.html", "project_8.html", 
-    "project_9.html", "project_10.html", "project_11.html", "project_12.html", 
-    "project_13.html", "project_14.html", "project_15.html"
+    "project_9.html", "project_10.html"
 ]
 
 def run_prettify():

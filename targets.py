@@ -230,7 +230,7 @@ def update_label_input(soup, html_file):
                 label_line = associated_label.sourceline
                 before = str(associated_label)
                 id = input['id']
-                associated_label.string = Comment("Text removed from input element \"{id}\" label")
+                associated_label.string = Comment(f"""Text removed from input element \"{id}\" label""")
                 after = str(associated_label)
 
                 first.append({

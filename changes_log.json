@@ -79,7 +79,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n      Name:\n     </label>",
-                "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"name\"><!--Text removed from input element \"name\" label--></label>",
                 "linenumber": 50,
                 "label_line": 47
             },
@@ -87,7 +87,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"password\">\n      Password:\n     </label>",
-                "after": "<label for=\"password\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"password\"><!--Text removed from input element \"password\" label--></label>",
                 "linenumber": 58,
                 "label_line": 55
             },
@@ -95,7 +95,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n      Phone:\n     </label>",
-                "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"phone\"><!--Text removed from input element \"phone\" label--></label>",
                 "linenumber": 66,
                 "label_line": 63
             },
@@ -103,7 +103,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n      Upload File:\n     </label>",
-                "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"file\"><!--Text removed from input element \"file\" label--></label>",
                 "linenumber": 74,
                 "label_line": 71
             },
@@ -111,7 +111,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n      Website:\n     </label>",
-                "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"url\"><!--Text removed from input element \"url\" label--></label>",
                 "linenumber": 82,
                 "label_line": 79
             }
@@ -674,7 +674,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"search\">\n     Search:\n    </label>",
-                "after": "<label for=\"search\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"search\"><!--Text removed from input element \"search\" label--></label>",
                 "linenumber": 87,
                 "label_line": 84
             },
@@ -682,7 +682,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"email\">\n      Email:\n     </label>",
-                "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"email\"><!--Text removed from input element \"email\" label--></label>",
                 "linenumber": 150,
                 "label_line": 147
             },
@@ -690,7 +690,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"dob\">\n      Date of Birth:\n     </label>",
-                "after": "<label for=\"dob\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"dob\"><!--Text removed from input element \"dob\" label--></label>",
                 "linenumber": 172,
                 "label_line": 169
             },
@@ -698,7 +698,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n      Phone:\n     </label>",
-                "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"phone\"><!--Text removed from input element \"phone\" label--></label>",
                 "linenumber": 212,
                 "label_line": 209
             },
@@ -706,7 +706,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n      Website:\n     </label>",
-                "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"url\"><!--Text removed from input element \"url\" label--></label>",
                 "linenumber": 312,
                 "label_line": 309
             }
@@ -1269,7 +1269,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-name\">\n           Name\n          </label>",
-                "after": "<label for=\"demo-name\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-name\"><!--Text removed from input element \"demo-name\" label--></label>",
                 "linenumber": 747,
                 "label_line": 744
             },
@@ -1277,7 +1277,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n            Low\n           </label>",
-                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"demo-priority-low\" label--></label>",
                 "linenumber": 918,
                 "label_line": 919
             },
@@ -1285,7 +1285,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-copy\">\n            Email me a copy\n           </label>",
-                "after": "<label for=\"demo-copy\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-copy\"><!--Text removed from input element \"demo-copy\" label--></label>",
                 "linenumber": 930,
                 "label_line": 931
             },
@@ -1293,7 +1293,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-color-1\">\n            Red\n           </label>",
-                "after": "<label for=\"demo-color-1\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-color-1\"><!--Text removed from input element \"demo-color-1\" label--></label>",
                 "linenumber": 948,
                 "label_line": 949
             },
@@ -1301,7 +1301,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-show-color\">\n            Display colors\n           </label>",
-                "after": "<label for=\"demo-show-color\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-show-color\"><!--Text removed from input element \"demo-show-color\" label--></label>",
                 "linenumber": 960,
                 "label_line": 961
             }
@@ -1779,7 +1779,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -1864,7 +1864,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-name\">\n         Demo Name\n        </label>",
-                "after": "<label for=\"demo-name\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-name\"><!--Text removed from input element \"demo-name\" label--></label>",
                 "linenumber": 759,
                 "label_line": 756
             },
@@ -1872,7 +1872,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n         Low\n        </label>",
-                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"demo-priority-low\" label--></label>",
                 "linenumber": 913,
                 "label_line": 914
             },
@@ -1880,7 +1880,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-high\">\n         High\n        </label>",
-                "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"demo-priority-high\" label--></label>",
                 "linenumber": 925,
                 "label_line": 926
             },
@@ -1888,7 +1888,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-human\">\n         I am a human\n        </label>",
-                "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-human\"><!--Text removed from input element \"demo-human\" label--></label>",
                 "linenumber": 938,
                 "label_line": 939
             },
@@ -1896,7 +1896,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"email\">\n         Email\n        </label>",
-                "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"email\"><!--Text removed from input element \"email\" label--></label>",
                 "linenumber": 1083,
                 "label_line": 1080
             }
@@ -2459,7 +2459,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n      Name:\n     </label>",
-                "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"name\"><!--Text removed from input element \"name\" label--></label>",
                 "linenumber": 128,
                 "label_line": 125
             },
@@ -2467,7 +2467,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"password\">\n      Password:\n     </label>",
-                "after": "<label for=\"password\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"password\"><!--Text removed from input element \"password\" label--></label>",
                 "linenumber": 136,
                 "label_line": 133
             },
@@ -2475,7 +2475,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n      Phone:\n     </label>",
-                "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"phone\"><!--Text removed from input element \"phone\" label--></label>",
                 "linenumber": 144,
                 "label_line": 141
             },
@@ -2483,7 +2483,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n      Upload File:\n     </label>",
-                "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"file\"><!--Text removed from input element \"file\" label--></label>",
                 "linenumber": 152,
                 "label_line": 149
             },
@@ -2491,7 +2491,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n      Website:\n     </label>",
-                "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"url\"><!--Text removed from input element \"url\" label--></label>",
                 "linenumber": 160,
                 "label_line": 157
             }
@@ -2969,7 +2969,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -3054,7 +3054,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n         Name\n        </label>",
-                "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"name\"><!--Text removed from input element \"name\" label--></label>",
                 "linenumber": 443,
                 "label_line": 440
             },
@@ -3062,7 +3062,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"password\">\n         Password:\n        </label>",
-                "after": "<label for=\"password\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"password\"><!--Text removed from input element \"password\" label--></label>",
                 "linenumber": 455,
                 "label_line": 452
             },
@@ -3070,7 +3070,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n         Phone:\n        </label>",
-                "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"phone\"><!--Text removed from input element \"phone\" label--></label>",
                 "linenumber": 467,
                 "label_line": 464
             },
@@ -3078,7 +3078,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n         Upload File:\n        </label>",
-                "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"file\"><!--Text removed from input element \"file\" label--></label>",
                 "linenumber": 479,
                 "label_line": 476
             },
@@ -3086,7 +3086,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n         Website:\n        </label>",
-                "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"url\"><!--Text removed from input element \"url\" label--></label>",
                 "linenumber": 491,
                 "label_line": 488
             }
@@ -3649,7 +3649,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"number\">\n      Lucky Number:\n     </label>",
-                "after": "<label for=\"number\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"number\"><!--Text removed from input element \"number\" label--></label>",
                 "linenumber": 308,
                 "label_line": 305
             },
@@ -3657,7 +3657,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"search\">\n      Search:\n     </label>",
-                "after": "<label for=\"search\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"search\"><!--Text removed from input element \"search\" label--></label>",
                 "linenumber": 316,
                 "label_line": 313
             },
@@ -3665,7 +3665,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"email\">\n            Email\n           </label>",
-                "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"email\"><!--Text removed from input element \"email\" label--></label>",
                 "linenumber": 1370,
                 "label_line": 1367
             },
@@ -3673,7 +3673,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"priority-normal\">\n            Normal Priority\n           </label>",
-                "after": "<label for=\"priority-normal\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"priority-normal\"><!--Text removed from input element \"priority-normal\" label--></label>",
                 "linenumber": 1401,
                 "label_line": 1402
             },
@@ -3681,7 +3681,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"copy\">\n            Email me a copy of this message\n           </label>",
-                "after": "<label for=\"copy\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"copy\"><!--Text removed from input element \"copy\" label--></label>",
                 "linenumber": 1419,
                 "label_line": 1420
             }
@@ -4244,7 +4244,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n            Low\n           </label>",
-                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"demo-priority-low\" label--></label>",
                 "linenumber": 913,
                 "label_line": 914
             },
@@ -4252,7 +4252,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-high\">\n            High\n           </label>",
-                "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"demo-priority-high\" label--></label>",
                 "linenumber": 925,
                 "label_line": 926
             },
@@ -4260,7 +4260,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-human\">\n            I am a human\n           </label>",
-                "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-human\"><!--Text removed from input element \"demo-human\" label--></label>",
                 "linenumber": 938,
                 "label_line": 939
             },
@@ -4268,7 +4268,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"email\">\n          Email\n         </label>",
-                "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"email\"><!--Text removed from input element \"email\" label--></label>",
                 "linenumber": 1082,
                 "label_line": 1079
             },
@@ -4276,7 +4276,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n          Website:\n         </label>",
-                "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"url\"><!--Text removed from input element \"url\" label--></label>",
                 "linenumber": 1100,
                 "label_line": 1097
             }
@@ -4708,7 +4708,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Elements - Forty by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -4839,7 +4839,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-low\">\n         Low\n        </label>",
-                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"demo-priority-low\" label--></label>",
                 "linenumber": 1011,
                 "label_line": 1012
             },
@@ -4847,7 +4847,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-priority-high\">\n         High\n        </label>",
-                "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"demo-priority-high\" label--></label>",
                 "linenumber": 1023,
                 "label_line": 1024
             },
@@ -4855,7 +4855,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"demo-human\">\n         Not a robot\n        </label>",
-                "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"demo-human\"><!--Text removed from input element \"demo-human\" label--></label>",
                 "linenumber": 1035,
                 "label_line": 1036
             },
@@ -4863,7 +4863,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n        Upload File:\n       </label>",
-                "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"file\"><!--Text removed from input element \"file\" label--></label>",
                 "linenumber": 1050,
                 "label_line": 1047
             },
@@ -4871,7 +4871,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n        Website:\n       </label>",
-                "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"url\"><!--Text removed from input element \"url\" label--></label>",
                 "linenumber": 1058,
                 "label_line": 1055
             }
@@ -5303,7 +5303,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Fractal by HTML5 UP\n  </title>",
-                "after": "<title></title>",
+                "after": "<!--Title element removed -->",
                 "linenumber": 9
             }
         ],
@@ -5349,7 +5349,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
+                "after": "<html>",
                 "linenumber": 7
             }
         ]
@@ -5434,7 +5434,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"name\">\n          Name\n         </label>",
-                "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"name\"><!--Text removed from input element \"name\" label--></label>",
                 "linenumber": 461,
                 "label_line": 458
             },
@@ -5442,7 +5442,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"password\">\n         Password:\n        </label>",
-                "after": "<label for=\"password\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"password\"><!--Text removed from input element \"password\" label--></label>",
                 "linenumber": 478,
                 "label_line": 475
             },
@@ -5450,7 +5450,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"phone\">\n         Phone:\n        </label>",
-                "after": "<label for=\"phone\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"phone\"><!--Text removed from input element \"phone\" label--></label>",
                 "linenumber": 486,
                 "label_line": 483
             },
@@ -5458,7 +5458,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"file\">\n         Upload File:\n        </label>",
-                "after": "<label for=\"file\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"file\"><!--Text removed from input element \"file\" label--></label>",
                 "linenumber": 494,
                 "label_line": 491
             },
@@ -5466,7 +5466,7 @@
                 "guideline": "input element has no text in label",
                 "violation": "1.3.1.1",
                 "before": "<label for=\"url\">\n         Website:\n        </label>",
-                "after": "<label for=\"url\"><!--Text removed from input element \"{id}\" label--></label>",
+                "after": "<label for=\"url\"><!--Text removed from input element \"url\" label--></label>",
                 "linenumber": 502,
                 "label_line": 499
             }
@@ -5945,1011 +5945,6 @@
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
                 "after": "<html lang=\"xyz\">",
-                "linenumber": 7
-            }
-        ]
-    ],
-    "pretty_files/project_11_pretty.html": [
-        [],
-        [
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic07.jpg\"/>",
-                "after": "<img src=\"images/pic07.jpg\"/>",
-                "linenumber": 81
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" data-position=\"center center\" src=\"images/pic08.jpg\"/>",
-                "after": "<img data-position=\"center center\" src=\"images/pic08.jpg\"/>",
-                "linenumber": 116
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" data-position=\"top center\" src=\"images/pic09.jpg\"/>",
-                "after": "<img data-position=\"top center\" src=\"images/pic09.jpg\"/>",
-                "linenumber": 140
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" data-position=\"25% 25%\" src=\"images/pic10.jpg\"/>",
-                "after": "<img data-position=\"25% 25%\" src=\"images/pic10.jpg\"/>",
-                "linenumber": 164
-            }
-        ],
-        [
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"name\">\n          Name\n         </label>",
-                "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 218,
-                "label_line": 215
-            }
-        ],
-        [
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"email\">\n          Email\n         </label>",
-                "after": "<!--Label for input element \"email\" removed -->",
-                "linenumber": 224,
-                "label_line": 221
-            }
-        ],
-        [],
-        [],
-        [],
-        [
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n       Lorem ipsum dolor sit amet nullam consequat\n       <br/>\n       sed veroeros. tempus adipiscing nulla.\n      </p>",
-                "after": "<font>\n       Lorem ipsum dolor sit amet nullam consequat\n       <br/>\n       sed veroeros. tempus adipiscing nulla.\n      </font>",
-                "linenumber": 89
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n       Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.\n      </p>",
-                "after": "<font>\n       Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.\n      </font>",
-                "linenumber": 107
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n         Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.\n        </p>",
-                "after": "<font>\n         Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.\n        </font>",
-                "linenumber": 125
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n         Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.\n        </p>",
-                "after": "<font>\n         Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.\n        </font>",
-                "linenumber": 149
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n         Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.\n        </p>",
-                "after": "<font>\n         Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.\n        </font>",
-                "linenumber": 173
-            }
-        ],
-        [],
-        [
-            {
-                "guideline": "b (bold) element used",
-                "violation": "1.4.4.3",
-                "before": "<strong>\n      Forty\n     </strong>",
-                "after": "<b>\n      Forty\n     </b>",
-                "linenumber": 26
-            }
-        ],
-        [],
-        [],
-        [],
-        [
-            {
-                "guideline": "marquee element used",
-                "violation": "2.2.2.1",
-                "before": "<p>\n       Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.\n      </p>",
-                "after": "<marquee behavior=\"scroll\" direction=\"left\">\n       Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.\n      </marquee>",
-                "linenumber": 195
-            }
-        ],
-        [
-            {
-                "guideline": "title element is empty or document is missing title element",
-                "violation": "2.4.2.1",
-                "before": "<title>\n   Landing - Forty by HTML5 UP\n  </title>",
-                "after": "<title></title>",
-                "linenumber": 9
-            }
-        ],
-        [
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"#menu\">\n      Menu\n     </a>",
-                "after": "<a href=\"#menu\"></a>",
-                "linenumber": 34
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"index.html\">\n       Home\n      </a>",
-                "after": "<a href=\"index.html\"></a>",
-                "linenumber": 43
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"landing.html\">\n       Landing\n      </a>",
-                "after": "<a href=\"landing.html\"></a>",
-                "linenumber": 48
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"generic.html\">\n       Generic\n      </a>",
-                "after": "<a href=\"generic.html\"></a>",
-                "linenumber": 53
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"elements.html\">\n       Elements\n      </a>",
-                "after": "<a href=\"elements.html\"></a>",
-                "linenumber": 58
-            }
-        ],
-        [
-            {
-                "guideline": "Document language not identified or is invalid",
-                "violation": "3.1.1.1",
-                "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
-                "linenumber": 7
-            }
-        ]
-    ],
-    "pretty_files/project_12_pretty.html": [
-        [],
-        [
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic04.jpg\"/>",
-                "after": "<img src=\"images/pic04.jpg\"/>",
-                "linenumber": 676
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic01.jpg\"/>",
-                "after": "<img src=\"images/pic01.jpg\"/>",
-                "linenumber": 681
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic02.jpg\"/>",
-                "after": "<img src=\"images/pic02.jpg\"/>",
-                "linenumber": 686
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic03.jpg\"/>",
-                "after": "<img src=\"images/pic03.jpg\"/>",
-                "linenumber": 691
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic03.jpg\"/>",
-                "after": "<img src=\"images/pic03.jpg\"/>",
-                "linenumber": 696
-            }
-        ],
-        [
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-priority-low\">\n          Low\n         </label>",
-                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 619,
-                "label_line": 620
-            },
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-priority-high\">\n          High\n         </label>",
-                "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 631,
-                "label_line": 632
-            },
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-human\">\n          Not a robot\n         </label>",
-                "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 643,
-                "label_line": 644
-            }
-        ],
-        [
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"demo-priority-normal\">\n          Normal\n         </label>",
-                "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
-                "linenumber": 625,
-                "label_line": 626
-            },
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"demo-copy\">\n          Email me a copy\n         </label>",
-                "after": "<!--Label for input element \"demo-copy\" removed -->",
-                "linenumber": 637,
-                "label_line": 638
-            }
-        ],
-        [],
-        [],
-        [],
-        [
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n       This is\n       <b>\n        bold\n       </b>\n       and this is\n       <strong>\n        strong\n       </strong>\n       . This is\n       <i>\n        italic\n       </i>\n       and this is\n       <em>\n        emphasized\n       </em>\n       .\n\t\t\t\t\t\t\t\t\tThis is\n       <sup>\n        superscript\n       </sup>\n       text and this is\n       <sub>\n        subscript\n       </sub>\n       text.\n\t\t\t\t\t\t\t\t\tThis is\n       <u>\n        underlined\n       </u>\n       and this is code:\n       <code>\n        for (;;) { ... }\n       </code>\n       . Finally,\n       <a href=\"#\">\n        this is a link\n       </a>\n       .\n      </p>",
-                "after": "<font>\n       This is\n       <b>\n        bold\n       </b>\n       and this is\n       <strong>\n        strong\n       </strong>\n       . This is\n       <i>\n        italic\n       </i>\n       and this is\n       <em>\n        emphasized\n       </em>\n       .\n\t\t\t\t\t\t\t\t\tThis is\n       <sup>\n        superscript\n       </sup>\n       text and this is\n       <sub>\n        subscript\n       </sub>\n       text.\n\t\t\t\t\t\t\t\t\tThis is\n       <u>\n        underlined\n       </u>\n       and this is code:\n       <code>\n        for (;;) { ... }\n       </code>\n       . Finally,\n       <a href=\"#\">\n        this is a link\n       </a>\n       .\n      </font>",
-                "linenumber": 58
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n       Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.\n      </p>",
-                "after": "<font>\n       Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.\n      </font>",
-                "linenumber": 100
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n<span class=\"image left\">\n<img alt=\"\" src=\"images/pic05.jpg\"/>\n</span>\n       Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.\n      </p>",
-                "after": "<font>\n<span class=\"image left\">\n<img alt=\"\" src=\"images/pic05.jpg\"/>\n</span>\n       Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.\n      </font>",
-                "linenumber": 729
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n<span class=\"image right\">\n<img alt=\"\" src=\"images/pic06.jpg\"/>\n</span>\n       Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.\n      </p>",
-                "after": "<font>\n<span class=\"image right\">\n<img alt=\"\" src=\"images/pic06.jpg\"/>\n</span>\n       Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.\n      </font>",
-                "linenumber": 735
-            }
-        ],
-        [
-            {
-                "guideline": "i (italic) element used",
-                "violation": "1.4.4.2",
-                "before": "<em>\n        emphasized\n       </em>",
-                "after": "<i>\n        emphasized\n       </i>",
-                "linenumber": 72
-            }
-        ],
-        [
-            {
-                "guideline": "b (bold) element used",
-                "violation": "1.4.4.3",
-                "before": "<strong>\n        strong\n       </strong>",
-                "after": "<b>\n        strong\n       </b>",
-                "linenumber": 64
-            }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [
-            {
-                "guideline": "title element is empty or document is missing title element",
-                "violation": "2.4.2.1",
-                "before": "<title>\n   Elements - Hyperspace by HTML5 UP\n  </title>",
-                "after": "<title></title>",
-                "linenumber": 9
-            }
-        ],
-        [
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a class=\"title\" href=\"index.html\">\n    Hyperspace\n   </a>",
-                "after": "<a class=\"title\" href=\"index.html\"></a>",
-                "linenumber": 22
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"index.html\">\n       Home\n      </a>",
-                "after": "<a href=\"index.html\"></a>",
-                "linenumber": 28
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"generic.html\">\n       Generic\n      </a>",
-                "after": "<a href=\"generic.html\"></a>",
-                "linenumber": 33
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a class=\"active\" href=\"elements.html\">\n       Elements\n      </a>",
-                "after": "<a class=\"active\" href=\"elements.html\"></a>",
-                "linenumber": 38
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"#\">\n        this is a link\n       </a>",
-                "after": "<a href=\"#\"></a>",
-                "linenumber": 94
-            }
-        ],
-        [
-            {
-                "guideline": "Document language not identified or is invalid",
-                "violation": "3.1.1.1",
-                "before": "<html lang=\"en\">",
-                "after": "<html lang=\"xyz\">",
-                "linenumber": 7
-            }
-        ]
-    ],
-    "pretty_files/project_13_pretty.html": [
-        [],
-        [
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic08.jpg\"/>",
-                "after": "<img src=\"images/pic08.jpg\"/>",
-                "linenumber": 742
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic05.jpg\"/>",
-                "after": "<img src=\"images/pic05.jpg\"/>",
-                "linenumber": 747
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic06.jpg\"/>",
-                "after": "<img src=\"images/pic06.jpg\"/>",
-                "linenumber": 752
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic07.jpg\"/>",
-                "after": "<img src=\"images/pic07.jpg\"/>",
-                "linenumber": 757
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic07.jpg\"/>",
-                "after": "<img src=\"images/pic07.jpg\"/>",
-                "linenumber": 762
-            }
-        ],
-        [
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-name\">\n           Name\n          </label>",
-                "after": "<label for=\"demo-name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 652,
-                "label_line": 649
-            },
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-priority-low\">\n           Low Priority\n          </label>",
-                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 683,
-                "label_line": 684
-            },
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-priority-high\">\n           High Priority\n          </label>",
-                "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 695,
-                "label_line": 696
-            },
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-human\">\n           Not a robot\n          </label>",
-                "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 707,
-                "label_line": 708
-            },
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"email\">\n         Email\n        </label>",
-                "after": "<label for=\"email\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 832,
-                "label_line": 829
-            }
-        ],
-        [
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"demo-email\">\n           Email\n          </label>",
-                "after": "<!--Label for input element \"demo-email\" removed -->",
-                "linenumber": 658,
-                "label_line": 655
-            },
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"demo-priority-normal\">\n           Normal Priority\n          </label>",
-                "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
-                "linenumber": 689,
-                "label_line": 690
-            },
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"demo-copy\">\n           Email me a copy\n          </label>",
-                "after": "<!--Label for input element \"demo-copy\" removed -->",
-                "linenumber": 701,
-                "label_line": 702
-            },
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"name\">\n         Name\n        </label>",
-                "after": "<!--Label for input element \"name\" removed -->",
-                "linenumber": 826,
-                "label_line": 823
-            }
-        ],
-        [
-            {
-                "guideline": "select element has no text in label",
-                "violation": "1.3.1.3",
-                "before": "<label for=\"demo-category\">\n           Category\n          </label>",
-                "after": "<label for=\"demo-category\"><!--Text removed from select element \"demo-category\" label--></label>",
-                "linenumber": 664,
-                "label_line": 661
-            }
-        ],
-        [],
-        [],
-        [
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n       Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.\n      </p>",
-                "after": "<font>\n       Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.\n      </font>",
-                "linenumber": 80
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n        This is\n        <b>\n         bold\n        </b>\n        and this is\n        <strong>\n         strong\n        </strong>\n        . This is\n        <i>\n         italic\n        </i>\n        and this is\n        <em>\n         emphasized\n        </em>\n        .\n\t\t\t\t\t\t\t\t\t\tThis is\n        <sup>\n         superscript\n        </sup>\n        text and this is\n        <sub>\n         subscript\n        </sub>\n        text.\n\t\t\t\t\t\t\t\t\t\tThis is\n        <u>\n         underlined\n        </u>\n        and this is code:\n        <code>\n         for (;;) { ... }\n        </code>\n        . Finally,\n        <a href=\"#\">\n         this is a link\n        </a>\n        .\n       </p>",
-                "after": "<font>\n        This is\n        <b>\n         bold\n        </b>\n        and this is\n        <strong>\n         strong\n        </strong>\n        . This is\n        <i>\n         italic\n        </i>\n        and this is\n        <em>\n         emphasized\n        </em>\n        .\n\t\t\t\t\t\t\t\t\t\tThis is\n        <sup>\n         superscript\n        </sup>\n        text and this is\n        <sub>\n         subscript\n        </sub>\n        text.\n\t\t\t\t\t\t\t\t\t\tThis is\n        <u>\n         underlined\n        </u>\n        and this is code:\n        <code>\n         for (;;) { ... }\n        </code>\n        . Finally,\n        <a href=\"#\">\n         this is a link\n        </a>\n        .\n       </font>",
-                "linenumber": 92
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n<span class=\"image left\">\n<img alt=\"\" src=\"images/pic01.jpg\"/>\n</span>\n        Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.\n       </p>",
-                "after": "<font>\n<span class=\"image left\">\n<img alt=\"\" src=\"images/pic01.jpg\"/>\n</span>\n        Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.\n       </font>",
-                "linenumber": 795
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n<span class=\"image right\">\n<img alt=\"\" src=\"images/pic02.jpg\"/>\n</span>\n        Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.\n       </p>",
-                "after": "<font>\n<span class=\"image right\">\n<img alt=\"\" src=\"images/pic02.jpg\"/>\n</span>\n        Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.\n       </font>",
-                "linenumber": 801
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n      Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.\n     </p>",
-                "after": "<font>\n      Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.\n     </font>",
-                "linenumber": 817
-            }
-        ],
-        [
-            {
-                "guideline": "i (italic) element used",
-                "violation": "1.4.4.2",
-                "before": "<em>\n         emphasized\n        </em>",
-                "after": "<i>\n         emphasized\n        </i>",
-                "linenumber": 106
-            }
-        ],
-        [
-            {
-                "guideline": "b (bold) element used",
-                "violation": "1.4.4.3",
-                "before": "<strong>\n         strong\n        </strong>",
-                "after": "<b>\n         strong\n        </b>",
-                "linenumber": 98
-            }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [
-            {
-                "guideline": "title element is empty or document is missing title element",
-                "violation": "2.4.2.1",
-                "before": "<title>\n   Elements - Solid State by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
-                "linenumber": 9
-            }
-        ],
-        [
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"index.html\">\n      Solid State\n     </a>",
-                "after": "<a href=\"index.html\"></a>",
-                "linenumber": 25
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"#menu\">\n      Menu\n     </a>",
-                "after": "<a href=\"#menu\"></a>",
-                "linenumber": 30
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"index.html\">\n        Home\n       </a>",
-                "after": "<a href=\"index.html\"></a>",
-                "linenumber": 43
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"generic.html\">\n        Generic\n       </a>",
-                "after": "<a href=\"generic.html\"></a>",
-                "linenumber": 48
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"elements.html\">\n        Elements\n       </a>",
-                "after": "<a href=\"elements.html\"></a>",
-                "linenumber": 53
-            }
-        ],
-        [
-            {
-                "guideline": "Document language not identified or is invalid",
-                "violation": "3.1.1.1",
-                "before": "<html lang=\"en\">",
-                "after": "<html>",
-                "linenumber": 7
-            }
-        ]
-    ],
-    "pretty_files/project_14_pretty.html": [
-        [],
-        [
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic04.jpg\"/>",
-                "after": "<img src=\"images/pic04.jpg\"/>",
-                "linenumber": 708
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic01.jpg\"/>",
-                "after": "<img src=\"images/pic01.jpg\"/>",
-                "linenumber": 713
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic02.jpg\"/>",
-                "after": "<img src=\"images/pic02.jpg\"/>",
-                "linenumber": 718
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic03.jpg\"/>",
-                "after": "<img src=\"images/pic03.jpg\"/>",
-                "linenumber": 723
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" src=\"images/pic03.jpg\"/>",
-                "after": "<img src=\"images/pic03.jpg\"/>",
-                "linenumber": 728
-            }
-        ],
-        [
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-priority-low\">\n          Low\n         </label>",
-                "after": "<label for=\"demo-priority-low\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 651,
-                "label_line": 652
-            },
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-priority-high\">\n          High\n         </label>",
-                "after": "<label for=\"demo-priority-high\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 663,
-                "label_line": 664
-            },
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"demo-human\">\n          Not a robot\n         </label>",
-                "after": "<label for=\"demo-human\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 675,
-                "label_line": 676
-            }
-        ],
-        [
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"demo-priority-normal\">\n          Normal\n         </label>",
-                "after": "<!--Label for input element \"demo-priority-normal\" removed -->",
-                "linenumber": 657,
-                "label_line": 658
-            },
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"demo-copy\">\n          Email me a copy\n         </label>",
-                "after": "<!--Label for input element \"demo-copy\" removed -->",
-                "linenumber": 669,
-                "label_line": 670
-            }
-        ],
-        [],
-        [],
-        [],
-        [
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n     Ipsum dolor sit amet nullam\n    </p>",
-                "after": "<font>\n     Ipsum dolor sit amet nullam\n    </font>",
-                "linenumber": 27
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n       This is\n       <b>\n        bold\n       </b>\n       and this is\n       <strong>\n        strong\n       </strong>\n       . This is\n       <i>\n        italic\n       </i>\n       and this is\n       <em>\n        emphasized\n       </em>\n       .\n\t\t\t\t\t\t\t\t\t\tThis is\n       <sup>\n        superscript\n       </sup>\n       text and this is\n       <sub>\n        subscript\n       </sub>\n       text.\n\t\t\t\t\t\t\t\t\t\tThis is\n       <u>\n        underlined\n       </u>\n       and this is code:\n       <code>\n        for (;;) { ... }\n       </code>\n       . Finally,\n       <a href=\"#\">\n        this is a link\n       </a>\n       .\n      </p>",
-                "after": "<font>\n       This is\n       <b>\n        bold\n       </b>\n       and this is\n       <strong>\n        strong\n       </strong>\n       . This is\n       <i>\n        italic\n       </i>\n       and this is\n       <em>\n        emphasized\n       </em>\n       .\n\t\t\t\t\t\t\t\t\t\tThis is\n       <sup>\n        superscript\n       </sup>\n       text and this is\n       <sub>\n        subscript\n       </sub>\n       text.\n\t\t\t\t\t\t\t\t\t\tThis is\n       <u>\n        underlined\n       </u>\n       and this is code:\n       <code>\n        for (;;) { ... }\n       </code>\n       . Finally,\n       <a href=\"#\">\n        this is a link\n       </a>\n       .\n      </font>",
-                "linenumber": 40
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n       Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.\n      </p>",
-                "after": "<font>\n       Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.\n      </font>",
-                "linenumber": 82
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n<span class=\"image left\">\n<img alt=\"\" src=\"images/pic05.jpg\"/>\n</span>\n       Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent lorem ipsum dolor sit amet veroeros consequat. Etiam tempus lorem ipsum.\n      </p>",
-                "after": "<font>\n<span class=\"image left\">\n<img alt=\"\" src=\"images/pic05.jpg\"/>\n</span>\n       Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent lorem ipsum dolor sit amet veroeros consequat. Etiam tempus lorem ipsum.\n      </font>",
-                "linenumber": 761
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n<span class=\"image right\">\n<img alt=\"\" src=\"images/pic06.jpg\"/>\n</span>\n       Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus..\n      </p>",
-                "after": "<font>\n<span class=\"image right\">\n<img alt=\"\" src=\"images/pic06.jpg\"/>\n</span>\n       Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus..\n      </font>",
-                "linenumber": 767
-            }
-        ],
-        [
-            {
-                "guideline": "i (italic) element used",
-                "violation": "1.4.4.2",
-                "before": "<em>\n        emphasized\n       </em>",
-                "after": "<i>\n        emphasized\n       </i>",
-                "linenumber": 54
-            }
-        ],
-        [
-            {
-                "guideline": "b (bold) element used",
-                "violation": "1.4.4.3",
-                "before": "<strong>\n        strong\n       </strong>",
-                "after": "<b>\n        strong\n       </b>",
-                "linenumber": 46
-            }
-        ],
-        [],
-        [],
-        [],
-        [
-            {
-                "guideline": "marquee element used",
-                "violation": "2.2.2.1",
-                "before": "<p>\n      Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.\n     </p>",
-                "after": "<marquee behavior=\"scroll\" direction=\"left\">\n      Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.\n     </marquee>",
-                "linenumber": 782
-            },
-            {
-                "guideline": "marquee element used",
-                "violation": "2.2.2.1",
-                "before": "<p class=\"copyright\">\n     \u00a9 Untitled. Design:\n     <a href=\"https://html5up.net\">\n      HTML5 UP\n     </a>\n     .\n    </p>",
-                "after": "<marquee behavior=\"scroll\" class=\"copyright\" direction=\"left\">\n     \u00a9 Untitled. Design:\n     <a href=\"https://html5up.net\">\n      HTML5 UP\n     </a>\n     .\n    </marquee>",
-                "linenumber": 857
-            }
-        ],
-        [
-            {
-                "guideline": "title element is empty or document is missing title element",
-                "violation": "2.4.2.1",
-                "before": "<title>\n   Elements - Stellar by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
-                "linenumber": 9
-            }
-        ],
-        [
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"#\">\n        this is a link\n       </a>",
-                "after": "<a href=\"#\"></a>",
-                "linenumber": 76
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a class=\"button primary\" href=\"#\">\n           Default\n          </a>",
-                "after": "<a class=\"button primary\" href=\"#\"></a>",
-                "linenumber": 267
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a class=\"button\" href=\"#\">\n           Default\n          </a>",
-                "after": "<a class=\"button\" href=\"#\"></a>",
-                "linenumber": 272
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a class=\"button primary small\" href=\"#\">\n           Small\n          </a>",
-                "after": "<a class=\"button primary small\" href=\"#\"></a>",
-                "linenumber": 279
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a class=\"button small\" href=\"#\">\n           Small\n          </a>",
-                "after": "<a class=\"button small\" href=\"#\"></a>",
-                "linenumber": 284
-            }
-        ],
-        [
-            {
-                "guideline": "Document language not identified or is invalid",
-                "violation": "3.1.1.1",
-                "before": "<html lang=\"en\">",
-                "after": "<html>",
-                "linenumber": 7
-            }
-        ]
-    ],
-    "pretty_files/project_15_pretty.html": [
-        [],
-        [
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" data-position=\"center center\" src=\"images/pic01.jpg\"/>",
-                "after": "<img data-position=\"center center\" src=\"images/pic01.jpg\"/>",
-                "linenumber": 82
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" data-position=\"top center\" src=\"images/pic02.jpg\"/>",
-                "after": "<img data-position=\"top center\" src=\"images/pic02.jpg\"/>",
-                "linenumber": 104
-            },
-            {
-                "guideline": "img element missing alt attribute",
-                "violation": "1.1.1.2",
-                "before": "<img alt=\"\" data-position=\"25% 25%\" src=\"images/pic03.jpg\"/>",
-                "after": "<img data-position=\"25% 25%\" src=\"images/pic03.jpg\"/>",
-                "linenumber": 126
-            }
-        ],
-        [
-            {
-                "guideline": "input element has no text in label",
-                "violation": "1.3.1.1",
-                "before": "<label for=\"name\">\n           Name\n          </label>",
-                "after": "<label for=\"name\"><!--Text removed from input element \"{id}\" label--></label>",
-                "linenumber": 244,
-                "label_line": 241
-            }
-        ],
-        [
-            {
-                "guideline": "input element is missing a label",
-                "violation": "1.3.1.2",
-                "before": "<label for=\"email\">\n           Email\n          </label>",
-                "after": "<!--Label for input element \"email\" removed -->",
-                "linenumber": 250,
-                "label_line": 247
-            }
-        ],
-        [],
-        [],
-        [],
-        [
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n      Just another fine responsive site template designed by\n      <a href=\"http://html5up.net\">\n       HTML5 UP\n      </a>\n<br/>\n      and released for free under the\n      <a href=\"http://html5up.net/license\">\n       Creative Commons\n      </a>\n      .\n     </p>",
-                "after": "<font>\n      Just another fine responsive site template designed by\n      <a href=\"http://html5up.net\">\n       HTML5 UP\n      </a>\n<br/>\n      and released for free under the\n      <a href=\"http://html5up.net/license\">\n       Creative Commons\n      </a>\n      .\n     </font>",
-                "linenumber": 57
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.\n       </p>",
-                "after": "<font>\n        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.\n       </font>",
-                "linenumber": 89
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.\n       </p>",
-                "after": "<font>\n        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.\n       </font>",
-                "linenumber": 111
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.\n       </p>",
-                "after": "<font>\n        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.\n       </font>",
-                "linenumber": 133
-            },
-            {
-                "guideline": "font element used",
-                "violation": "1.4.4.1",
-                "before": "<p>\n      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.\n     </p>",
-                "after": "<font>\n      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.\n     </font>",
-                "linenumber": 153
-            }
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-            {
-                "guideline": "marquee element used",
-                "violation": "2.2.2.1",
-                "before": "<p>\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </p>",
-                "after": "<marquee behavior=\"scroll\" direction=\"left\">\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </marquee>",
-                "linenumber": 163
-            },
-            {
-                "guideline": "marquee element used",
-                "violation": "2.2.2.1",
-                "before": "<p>\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </p>",
-                "after": "<marquee behavior=\"scroll\" direction=\"left\">\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </marquee>",
-                "linenumber": 173
-            },
-            {
-                "guideline": "marquee element used",
-                "violation": "2.2.2.1",
-                "before": "<p>\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </p>",
-                "after": "<marquee behavior=\"scroll\" direction=\"left\">\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </marquee>",
-                "linenumber": 183
-            },
-            {
-                "guideline": "marquee element used",
-                "violation": "2.2.2.1",
-                "before": "<p>\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </p>",
-                "after": "<marquee behavior=\"scroll\" direction=\"left\">\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </marquee>",
-                "linenumber": 193
-            },
-            {
-                "guideline": "marquee element used",
-                "violation": "2.2.2.1",
-                "before": "<p>\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </p>",
-                "after": "<marquee behavior=\"scroll\" direction=\"left\">\n        Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.\n       </marquee>",
-                "linenumber": 203
-            }
-        ],
-        [
-            {
-                "guideline": "title element is empty or document is missing title element",
-                "violation": "2.4.2.1",
-                "before": "<title>\n   Hyperspace by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
-                "linenumber": 9
-            }
-        ],
-        [
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"#intro\">\n        Welcome\n       </a>",
-                "after": "<a href=\"#intro\"></a>",
-                "linenumber": 26
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"#one\">\n        Who we are\n       </a>",
-                "after": "<a href=\"#one\"></a>",
-                "linenumber": 31
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"#two\">\n        What we do\n       </a>",
-                "after": "<a href=\"#two\"></a>",
-                "linenumber": 36
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"#three\">\n        Get in touch\n       </a>",
-                "after": "<a href=\"#three\"></a>",
-                "linenumber": 41
-            },
-            {
-                "guideline": "anchor contains no text",
-                "violation": "2.4.4.1",
-                "before": "<a href=\"http://html5up.net\">\n       HTML5 UP\n      </a>",
-                "after": "<a href=\"http://html5up.net\"></a>",
-                "linenumber": 59
-            }
-        ],
-        [
-            {
-                "guideline": "Document language not identified or is invalid",
-                "violation": "3.1.1.1",
-                "before": "<html lang=\"en\">",
-                "after": "<html>",
                 "linenumber": 7
             }
         ]
