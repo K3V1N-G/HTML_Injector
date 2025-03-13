@@ -552,35 +552,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Go to home page\" href=\"#\" onmouseover=\"myFunction()\">\n      Home\n     </a>",
-                "after": "<a aria-label=\"Go to home page\" href=\"#\" onmouseover=\"myFunction()\"></a>",
+                "after": "<a href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 327
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Visit about us page\" href=\"#\" onmouseover=\"myFunction()\">\n      About\n     </a>",
-                "after": "<a aria-label=\"Visit about us page\" href=\"#\" onmouseover=\"myFunction()\"></a>",
+                "after": "<a href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 330
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Read our blog\" href=\"#\" onmouseover=\"myFunction()\">\n      Blog\n     </a>",
-                "after": "<a aria-label=\"Read our blog\" href=\"#\" onmouseover=\"myFunction()\"></a>",
+                "after": "<a href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 333
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Contact us\" href=\"#\" onmouseover=\"myFunction()\">\n      Contact\n     </a>",
-                "after": "<a aria-label=\"Contact us\" href=\"#\" onmouseover=\"myFunction()\"></a>",
+                "after": "<a href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 336
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Frequently asked questions\" href=\"#\" onmouseover=\"myFunction()\">\n      FAQ\n     </a>",
-                "after": "<a aria-label=\"Frequently asked questions\" href=\"#\" onmouseover=\"myFunction()\"></a>",
+                "after": "<a href=\"#\" onmouseover=\"myFunction()\"></a>",
                 "linenumber": 339
             }
         ],
@@ -1147,35 +1147,35 @@
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Go to home page\" href=\"#\">\n      Home\n     </a>",
-                "after": "<a aria-label=\"Go to home page\" href=\"#\"></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 22
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Visit about us page\" href=\"#\">\n      About\n     </a>",
-                "after": "<a aria-label=\"Visit about us page\" href=\"#\"></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 25
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Read our blog\" href=\"#\">\n      Blog\n     </a>",
-                "after": "<a aria-label=\"Read our blog\" href=\"#\"></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 28
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Contact us\" href=\"#\">\n      Contact\n     </a>",
-                "after": "<a aria-label=\"Contact us\" href=\"#\"></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 31
             },
             {
                 "guideline": "anchor contains no text",
                 "violation": "2.4.4.1",
                 "before": "<a aria-label=\"Frequently asked questions\" href=\"#\">\n      FAQ\n     </a>",
-                "after": "<a aria-label=\"Frequently asked questions\" href=\"#\"></a>",
+                "after": "<a href=\"#\"></a>",
                 "linenumber": 34
             }
         ],
@@ -2374,7 +2374,7 @@
                 "guideline": "Document language not identified or is invalid",
                 "violation": "3.1.1.1",
                 "before": "<html lang=\"en\">",
-                "after": "<html>",
+                "after": "<html lang=\"xyz\">",
                 "linenumber": 7
             }
         ]
@@ -2923,7 +2923,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Generic Page - Massively by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 9
             }
         ],
@@ -4113,7 +4113,7 @@
                 "guideline": "title element is empty or document is missing title element",
                 "violation": "2.4.2.1",
                 "before": "<title>\n   Story by HTML5 UP\n  </title>",
-                "after": "<!--Title element removed -->",
+                "after": "<title></title>",
                 "linenumber": 11
             }
         ],

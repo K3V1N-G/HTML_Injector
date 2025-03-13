@@ -167,6 +167,11 @@ def remove_a_text(soup, html_file):
             before = str(a)
 
             a.string = ""
+            if a.has_attr('aria-label'):
+                del a['aria-label']
+            if a.has_attr('aria-labelledby'):
+                del a['aria-labelledby']
+
             a.insert_before(Comment("Text for anchor element removed"))
 
             after = str(a)
